@@ -1,0 +1,26 @@
+name: daily-data
+on:
+  schedule:
+    - cron: "23 7 * * *"   # daily, after the GPU day (US Central) and the token day (UTC) are final
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  csv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download the published indices and write the CSV files
+        run: python .github/scripts/to_csv.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && exit 0
+          git commit -m "data: $(date -u +%F)"
+          git push

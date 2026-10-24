@@ -26,13 +26,15 @@ How every price is collected, filtered and combined: [methodology](https://compu
 | --- | --- |
 | Website | [computescreener.com](https://computescreener.com) |
 | Claude, ChatGPT and other AI apps (MCP) | Add the connector `https://computescreener.com/mcp`. No account or API key. Setup: [computescreener.com/connect](https://computescreener.com/connect) |
+| Daily CSV (this repo) | [data/](data): every GPU's and company's daily index, provider averages and model prices, updated every day |
 | Data files (JSON) | [index.json](https://computescreener.com/data/index.json) (latest GPU prices) · [series.json](https://computescreener.com/data/series.json) (GPU history) · [tokens.json](https://computescreener.com/data/tokens.json) · [token_series.json](https://computescreener.com/data/token_series.json) |
 
 The connector is listed in Claude's connector directory and in the official MCP Registry as `com.computescreener/compute-screener`.
 
 ## This repository
 
-`dist/` holds a minified build of the website's pages, for reference. The price pipeline and the connector are not published.
+`data/` holds the daily CSV copies (see [data/README.md](data/README.md)), refreshed by a scheduled workflow. `dist/`
+holds a minified build of the website's pages, for reference. The price pipeline and the connector are not published.
 
 ## Licence
 
