@@ -28,7 +28,7 @@ How every price is collected, filtered and combined: [methodology](https://compu
 | Website | [computescreener.com](https://computescreener.com) |
 | Claude, ChatGPT and other AI apps (MCP) | Add the connector `https://computescreener.com/mcp`. No account or API key. Setup: [computescreener.com/connect](https://computescreener.com/connect) |
 | Daily CSV (this repo) | [data/](data): every GPU's and company's daily index, provider averages, and each model's daily input and output prices, updated every day |
-| Data files (JSON) | [index.json](https://computescreener.com/data/index.json) (latest GPU prices) · [series.json](https://computescreener.com/data/series.json) (GPU history) · [tokens.json](https://computescreener.com/data/tokens.json) · [token_series.json](https://computescreener.com/data/token_series.json) · [models.json](https://computescreener.com/data/models.json) (model prices and history) |
+| Free API (JSON, no key) | Docs: [computescreener.com/api](https://computescreener.com/api) · [index.json](https://computescreener.com/data/index.json) (latest GPU prices) · [series.json](https://computescreener.com/data/series.json) (GPU history) · [tokens.json](https://computescreener.com/data/tokens.json) · [token_series.json](https://computescreener.com/data/token_series.json) · [models.json](https://computescreener.com/data/models.json) (model prices and history) |
 
 The connector is listed in Claude's connector directory and in the official MCP Registry as `com.computescreener/compute-screener`.
 
