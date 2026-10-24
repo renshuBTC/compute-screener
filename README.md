@@ -17,6 +17,7 @@
 
 - **GPU rental prices:** a daily index in USD per GPU-hour for **H100, H200, A100, B200, B300 and RTX PRO 6000**. It is built from the posted on-demand prices of 20 sources (cloud rate cards and GPU marketplaces), standardized to one benchmark contract (on-demand, 8-GPU node, US), and updated every 2 to 3 hours. With 1-day, 1-week and 1-month changes, each provider's average price, and the prices of GPU rental contracts on the exchanges that list them.
 - **AI token prices:** a daily index in USD per 1M tokens (3 input : 1 output) for **Anthropic, OpenAI, Google, xAI, Meta, Moonshot AI, Alibaba, DeepSeek, Z.ai and Xiaomi**, with each company's models and their posted prices.
+- **AI model API prices:** a page per model in the token index (Claude, GPT, Gemini, Grok, Kimi, Qwen, DeepSeek, GLM, MiMo and more) with its posted input and output price per 1M tokens and its daily price history, for example [Kimi K3](https://computescreener.com/models/kimi-k3) or [Claude Opus 5.5](https://computescreener.com/models/claude-opus-5-5).
 
 How every price is collected, filtered and combined: [methodology](https://computescreener.com/methodology).
 
@@ -26,8 +27,8 @@ How every price is collected, filtered and combined: [methodology](https://compu
 | --- | --- |
 | Website | [computescreener.com](https://computescreener.com) |
 | Claude, ChatGPT and other AI apps (MCP) | Add the connector `https://computescreener.com/mcp`. No account or API key. Setup: [computescreener.com/connect](https://computescreener.com/connect) |
-| Daily CSV (this repo) | [data/](data): every GPU's and company's daily index, provider averages and model prices, updated every day |
-| Data files (JSON) | [index.json](https://computescreener.com/data/index.json) (latest GPU prices) · [series.json](https://computescreener.com/data/series.json) (GPU history) · [tokens.json](https://computescreener.com/data/tokens.json) · [token_series.json](https://computescreener.com/data/token_series.json) |
+| Daily CSV (this repo) | [data/](data): every GPU's and company's daily index, provider averages, and each model's daily input and output prices, updated every day |
+| Data files (JSON) | [index.json](https://computescreener.com/data/index.json) (latest GPU prices) · [series.json](https://computescreener.com/data/series.json) (GPU history) · [tokens.json](https://computescreener.com/data/tokens.json) · [token_series.json](https://computescreener.com/data/token_series.json) · [models.json](https://computescreener.com/data/models.json) (model prices and history) |
 
 The connector is listed in Claude's connector directory and in the official MCP Registry as `com.computescreener/compute-screener`.
 

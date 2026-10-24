@@ -9,7 +9,8 @@ automatically every day. Licence: [CC BY 4.0](https://creativecommons.org/licens
 | [gpu_index_daily.csv](gpu_index_daily.csv) | GPU and day | `date` (US Central day), `gpu`, `usd_per_gpu_hour`, `final` (false for today's provisional value), `weekly_history` (weekly values before the daily index began), `restated` |
 | [gpu_providers_latest.csv](gpu_providers_latest.csv) | GPU and provider, latest | `gpu`, `provider`, `average_usd_per_gpu_hour` (standardized to the GPU's benchmark contract), `prices`, `status`, `read_at` |
 | [token_index_daily.csv](token_index_daily.csv) | AI company and day | `date` (UTC day), `company`, `usd_per_1m_tokens` (3 input : 1 output blend, usage-weighted across the company's models), `final`, `rebuilt_history` (values rebuilt from earlier posted prices) |
-| [token_models_latest.csv](token_models_latest.csv) | Model, latest day | `date`, `company`, `model`, `usd_per_1m_input`, `usd_per_1m_output`, `usd_per_1m_blended`, `share_of_company_tokens` |
+| [token_models_latest.csv](token_models_latest.csv) | Model, latest day | `date`, `company`, `model`, `model_id`, `usd_per_1m_input`, `usd_per_1m_output`, `usd_per_1m_blended`, `share_of_company_tokens`, `url` (the model's page) |
+| [token_models_daily.csv](token_models_daily.csv) | Model and day | the same price columns for every day of each model in today's index (UTC days), from the rebuilt history and the daily index |
 
 `updated.txt` gives the time of the data each copy was taken from.
 
