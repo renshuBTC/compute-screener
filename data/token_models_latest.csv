@@ -1,31 +1,29 @@
 date,company,model,model_id,usd_per_1m_input,usd_per_1m_output,usd_per_1m_blended,share_of_company_tokens,url
-2026-10-23,Anthropic,Claude Opus 5.5,anthropic/claude-opus-5.5,4.0,20.0,8.0,0.582458,https://computescreener.com/models/claude-opus-5-5
-2026-10-23,Anthropic,Claude Haiku 5.5,anthropic/claude-haiku-5.5,0.1,0.5,0.2,0.179878,https://computescreener.com/models/claude-haiku-5-5
-2026-10-23,Anthropic,Claude Sonnet 5.5,anthropic/claude-sonnet-5.5,2.0,10.0,4.0,0.134741,https://computescreener.com/models/claude-sonnet-5-5
-2026-10-23,Anthropic,Claude Sonnet 5,anthropic/claude-sonnet-5,2.0,10.0,4.0,0.03664,https://computescreener.com/models/claude-sonnet-5
-2026-10-23,Anthropic,Claude Opus 5,anthropic/claude-opus-5,5.0,25.0,10.0,0.033194,https://computescreener.com/models/claude-opus-5
-2026-10-23,Anthropic,Claude Fable 5.1,anthropic/claude-fable-5.1,10.0,50.0,20.0,0.033089,https://computescreener.com/models/claude-fable-5-1
-2026-10-23,OpenAI,GPT-6 Luna,openai/gpt-6-luna,0.1,0.5,0.2,0.604576,https://computescreener.com/models/gpt-6-luna
-2026-10-23,OpenAI,GPT-6.1 Sol,openai/gpt-6.1-sol,2.0,10.0,4.0,0.209563,https://computescreener.com/models/gpt-6-1-sol
-2026-10-23,OpenAI,GPT-5.6 Luna,openai/gpt-5.6-luna,0.2,1.2,0.45,0.103907,https://computescreener.com/models/gpt-5-6-luna
-2026-10-23,OpenAI,GPT-6 Astra,openai/gpt-6-astra,10.0,50.0,20.0,0.030853,https://computescreener.com/models/gpt-6-astra
-2026-10-23,OpenAI,GPT-5.6 Sol,openai/gpt-5.6-sol,4.0,20.0,8.0,0.026424,https://computescreener.com/models/gpt-5-6-sol
-2026-10-23,OpenAI,GPT-6 Luna Pro,openai/gpt-6-luna-pro,0.1,0.5,0.2,0.024678,https://computescreener.com/models/gpt-6-luna-pro
-2026-10-23,Google,Gemini 3.8 Flash,google/gemini-3.8-flash,0.75,3.75,1.5,0.38302,https://computescreener.com/models/gemini-3-8-flash
-2026-10-23,Google,Gemini 4 Argon,google/gemini-4-argon,2.0,10.0,4.0,0.302797,https://computescreener.com/models/gemini-4-argon
-2026-10-23,Google,Gemini 3 Flash Preview,google/gemini-3-flash-preview,0.5,3.0,1.125,0.170164,https://computescreener.com/models/gemini-3-flash-preview
-2026-10-23,Google,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,0.25,1.5,0.5625,0.14402,https://computescreener.com/models/gemini-3-1-flash-lite
-2026-10-23,xAI,Grok 4.7,x-ai/grok-4.7,2.0,6.0,3.0,1.0,https://computescreener.com/models/grok-4-7
-2026-10-23,Meta,Muse Spark 1.3 Contributor,meta/muse-spark-1.3-contributor,0.1,0.2,0.125,1.0,https://computescreener.com/models/muse-spark-1-3-contributor
-2026-10-23,Moonshot AI,Kimi K3,moonshotai/kimi-k3,3.0,15.0,6.0,0.806077,https://computescreener.com/models/kimi-k3
-2026-10-23,Moonshot AI,Kimi K3.1 Pro,moonshotai/kimi-k3.1-pro,2.0,10.0,4.0,0.193923,https://computescreener.com/models/kimi-k3-1-pro
-2026-10-23,Alibaba,Qwen3.8 Flash,qwen/qwen3.8-flash,0.15,0.47,0.23,0.421848,https://computescreener.com/models/qwen3-8-flash
-2026-10-23,Alibaba,Qwen3.8 27B,qwen/qwen3.8-27b,0.425,2.55,0.95625,0.348965,https://computescreener.com/models/qwen3-8-27b
-2026-10-23,Alibaba,Qwen3.7 Flash,qwen/qwen3.7-flash,0.03,0.13,0.055,0.229188,https://computescreener.com/models/qwen3-7-flash
-2026-10-23,DeepSeek,DeepSeek V4.1 Flash 1017,deepseek/deepseek-v4.1-flash-1017,0.15,0.6,0.2625,0.976353,https://computescreener.com/models/deepseek-v4-1-flash-1017
-2026-10-23,DeepSeek,DeepSeek V4 Pro 0813,deepseek/deepseek-v4-pro-0813,0.66,1.98,0.99,0.023647,https://computescreener.com/models/deepseek-v4-pro-0813
-2026-10-23,Z.ai,GLM 5.3 Flash,z-ai/glm-5.3-flash,0.15,0.5,0.2375,0.695577,https://computescreener.com/models/glm-5-3-flash
-2026-10-23,Z.ai,GLM 5.3,z-ai/glm-5.3,1.4,4.4,2.15,0.260741,https://computescreener.com/models/glm-5-3
-2026-10-23,Z.ai,GLM 5.2,z-ai/glm-5.2,1.4,4.4,2.15,0.043683,https://computescreener.com/models/glm-5-2
-2026-10-23,Xiaomi,MiMo-V2.6-Flash,xiaomi/mimo-v2.6-flash,0.14,0.28,0.175,0.784666,https://computescreener.com/models/mimo-v2-6-flash
-2026-10-23,Xiaomi,MiMo-V2.6-Pro,xiaomi/mimo-v2.6-pro,0.435,0.87,0.54375,0.215334,https://computescreener.com/models/mimo-v2-6-pro
+2026-10-24,Anthropic,Claude Opus 5.5,anthropic/claude-opus-5.5,4.0,20.0,8.0,0.658176,https://computescreener.com/models/claude-opus-5-5
+2026-10-24,Anthropic,Claude Haiku 5.5,anthropic/claude-haiku-5.5,0.1,0.5,0.2,0.157056,https://computescreener.com/models/claude-haiku-5-5
+2026-10-24,Anthropic,Claude Sonnet 5.5,anthropic/claude-sonnet-5.5,2.0,10.0,4.0,0.155375,https://computescreener.com/models/claude-sonnet-5-5
+2026-10-24,Anthropic,Claude Sonnet 5,anthropic/claude-sonnet-5,2.0,10.0,4.0,0.029393,https://computescreener.com/models/claude-sonnet-5
+2026-10-24,OpenAI,GPT-6 Luna,openai/gpt-6-luna,0.1,0.5,0.2,0.643635,https://computescreener.com/models/gpt-6-luna
+2026-10-24,OpenAI,GPT-6.1 Sol,openai/gpt-6.1-sol,2.0,10.0,4.0,0.214828,https://computescreener.com/models/gpt-6-1-sol
+2026-10-24,OpenAI,GPT-5.6 Luna,openai/gpt-5.6-luna,0.2,1.2,0.45,0.094213,https://computescreener.com/models/gpt-5-6-luna
+2026-10-24,OpenAI,GPT-6 Astra,openai/gpt-6-astra,10.0,50.0,20.0,0.027172,https://computescreener.com/models/gpt-6-astra
+2026-10-24,OpenAI,GPT-6 Luna Pro,openai/gpt-6-luna-pro,0.1,0.5,0.2,0.020152,https://computescreener.com/models/gpt-6-luna-pro
+2026-10-24,Google,Gemini 3.8 Flash,google/gemini-3.8-flash,0.75,3.75,1.5,0.334085,https://computescreener.com/models/gemini-3-8-flash
+2026-10-24,Google,Gemini 4 Argon,google/gemini-4-argon,2.0,10.0,4.0,0.238164,https://computescreener.com/models/gemini-4-argon
+2026-10-24,Google,Gemini 3 Flash Preview,google/gemini-3-flash-preview,0.5,3.0,1.125,0.198566,https://computescreener.com/models/gemini-3-flash-preview
+2026-10-24,Google,Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,0.25,1.5,0.5625,0.120547,https://computescreener.com/models/gemini-3-1-flash-lite
+2026-10-24,Google,Gemini 3.7 Flash,google/gemini-3.7-flash,0.75,3.75,1.5,0.108638,https://computescreener.com/models/gemini-3-7-flash
+2026-10-24,xAI,Grok 4.7,x-ai/grok-4.7,2.0,6.0,3.0,1.0,https://computescreener.com/models/grok-4-7
+2026-10-24,Meta,Muse Spark 1.3 Contributor,meta/muse-spark-1.3-contributor,0.1,0.2,0.125,1.0,https://computescreener.com/models/muse-spark-1-3-contributor
+2026-10-24,Moonshot AI,Kimi K3.1 Pro,moonshotai/kimi-k3.1-pro,2.0,10.0,4.0,0.607807,https://computescreener.com/models/kimi-k3-1-pro
+2026-10-24,Moonshot AI,Kimi K3,moonshotai/kimi-k3,3.0,15.0,6.0,0.392193,https://computescreener.com/models/kimi-k3
+2026-10-24,Alibaba,Qwen3.8 Flash,qwen/qwen3.8-flash,0.15,0.47,0.23,0.467286,https://computescreener.com/models/qwen3-8-flash
+2026-10-24,Alibaba,Qwen3.7 Flash,qwen/qwen3.7-flash,0.03,0.13,0.055,0.293845,https://computescreener.com/models/qwen3-7-flash
+2026-10-24,Alibaba,Qwen3.8 27B,qwen/qwen3.8-27b,0.425,2.55,0.95625,0.238869,https://computescreener.com/models/qwen3-8-27b
+2026-10-24,DeepSeek,DeepSeek V4.1 Flash 1017,deepseek/deepseek-v4.1-flash-1017,0.15,0.6,0.2625,0.977123,https://computescreener.com/models/deepseek-v4-1-flash-1017
+2026-10-24,DeepSeek,DeepSeek V4 Pro 0813,deepseek/deepseek-v4-pro-0813,0.66,1.98,0.99,0.022877,https://computescreener.com/models/deepseek-v4-pro-0813
+2026-10-24,Z.ai,GLM 5.3 Flash,z-ai/glm-5.3-flash,0.15,0.5,0.2375,0.752293,https://computescreener.com/models/glm-5-3-flash
+2026-10-24,Z.ai,GLM 5.3,z-ai/glm-5.3,1.4,4.4,2.15,0.207523,https://computescreener.com/models/glm-5-3
+2026-10-24,Z.ai,GLM 5.2,z-ai/glm-5.2,1.4,4.4,2.15,0.040184,https://computescreener.com/models/glm-5-2
+2026-10-24,Xiaomi,MiMo-V2.6-Flash,xiaomi/mimo-v2.6-flash,0.14,0.28,0.175,0.741623,https://computescreener.com/models/mimo-v2-6-flash
+2026-10-24,Xiaomi,MiMo-V2.6-Pro,xiaomi/mimo-v2.6-pro,0.435,0.87,0.54375,0.258377,https://computescreener.com/models/mimo-v2-6-pro
