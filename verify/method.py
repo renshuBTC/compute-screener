@@ -535,10 +535,14 @@ def aggregate(std_records, lookback, chain=None, first_seen=None, day=None, shad
         for r in rs:
             byp.setdefault(r["provider"], []).append(r["adj_usd"])
         provs = {p: {"avg": mean(v), "records": len(v), "carried": False} for p, v in byp.items()}
+        seen = {p: v["avg"] for p, v in provs.items()}   # observed today: only these measure the change since then
         for p, (d, last, others) in (lookback.get(g) or {}).items():
             if p in provs:
                 continue
-            ratio = gmean([provs[q]["avg"] / a for q, a in others.items() if q in provs and a]) or 1.0
+            # "the geometric-mean change, since that day, of the providers observed on both days": a provider imputed
+            # a moment earlier in this loop is not observed and does not count (it did before 2026-10-27, so with
+            # two providers carried from the same day the result depended on their order)
+            ratio = gmean([seen[q] / a for q, a in others.items() if q in seen and a]) or 1.0
             provs[p] = {"avg": last * ratio, "records": 0, "carried": True, "from": d, "last": last, "ratio": ratio}
         observed = [p for p, v in provs.items() if not v["carried"]]
         res = {"value": None, "cross": None, "providers": provs, "records": len(rs), "clip": None, "chain": None,
