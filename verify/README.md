@@ -9,6 +9,7 @@ python verify.py --date 2026-10-25 --gpu H100     # one GPU's final value on one
 python verify.py --date 2026-10-25                # every GPU and AI company that day
 python verify.py --all                            # every day with a manifest
 python verify.py --all --data ./data              # from a local copy of computescreener.com/data
+python verify.py --date 2026-10-28 --readings     # rebuild a day's records from its price readings (any day)
 ```
 
 Exit status: 0 if every value checked matches, 1 if a value or file does not match, 2 if a file could not be read.
@@ -27,7 +28,8 @@ Once a day is final, the index writes a manifest for it:
 
 A GPU day's manifest names every file the day was computed from, each with its SHA-256:
 
-- the day's records: every price collected that day;
+- from 2026-10-28, the day's price readings: every reading at every collection, with its time;
+- the day's records: each offer's readings summed (how many with and without capacity, and their prices);
 - the stored state of the 28 earlier days the calculation looks back on;
 - the trace: what was used or left out, and why;
 - the day's own stored state, which the next days build on.
@@ -44,13 +46,20 @@ final day. See the [methodology](https://computescreener.com/methodology).
 For each GPU index day:
 
 1. It downloads every file the manifest names and checks each SHA-256.
-2. It recomputes each GPU's value with `method.py` from:
+2. From 2026-10-28, it sums the day's price readings again into each offer's counts and sums, which must equal the
+   day's records: the records are checked against what was read, not taken on trust.
+3. It recomputes each GPU's value with `method.py` from:
    - the day's records,
    - the factors in force,
    - the stored state of the earlier days.
-3. It compares each recomputed value with the published final value, to the published 4 decimals.
-4. It checks that the day's own recomputed state equals the stored one. Verifying every day in turn therefore
-   checks the whole chain back to the records.
+4. It compares each recomputed value with the published final value, to the published 4 decimals.
+5. It checks that the day's own recomputed state equals the stored one. Verifying every day in turn therefore
+   checks the whole chain back to the readings.
+
+The readings (`data/readings/<day>.json.gz`) list, per offer, each reading's collection (`t`: the first as an index
+into `runs`, then the gaps) and its value (`v`: `[count, price per GPU-hour as posted, 1 with capacity / 0 without]`,
+consecutive equal readings counted once). `expand()` in `verify.py` turns them into one row per reading. The code
+that reads the providers' prices is not published; the readings show what it read and when.
 
 For each token index day, it recomputes each company's value from the day's trace and compares it with the
 published value. The trace lists each model's tokens and posted prices, and the value is the token-weighted mean

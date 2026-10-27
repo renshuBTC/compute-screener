@@ -5,13 +5,18 @@
     python verify.py --date 2026-10-25                every GPU and company that day
     python verify.py --all                            every day with a manifest
     python verify.py --all --data ./data              from a local copy instead of https://computescreener.com/data
+    python verify.py --date 2026-10-28 --readings     rebuild a day's records from its price readings (any day,
+                                                      final or not)
 
 For a GPU index day the verifier reads the day's manifest (data/manifests/gpu/<day>.json), downloads every file it
 names and checks each SHA-256, then runs the published calculation (method.py) on the day's records with the factors
 in force and the stored state of the previous days, and compares:
   - each GPU's value with the published final value (to the published 4 decimals);
   - the day's own state (what the next days build on) with the stored one, so verifying every day in turn checks the
-    whole chain from the records.
+    whole chain from the records;
+  - from 2026-10-28, the records themselves: every price reading of the day (data/readings/<day>.json.gz: each
+    offer's unit price as posted and whether it had capacity, at each collection) is summed again into each offer's
+    counts and sums, which must equal the day's records.
 For a token index day it recomputes each company's value from the day's trace: the token-weighted mean of its models'
 posted prices, blended 3 input : 1 output.
 
@@ -115,6 +120,86 @@ def check_manifest(src, m, problems):
                 problems.append("%s: SHA-256 %s, manifest %s" % (rel, got, h))
 
 
+def expand(o):
+    """One offer's readings as [(collection, unit price, available)], from their compact form: t, the collection of
+    each reading (the first as an index into runs, each next as the gap from the one before); v, the values in the
+    same order with consecutive equal ones counted once ([count, unit price in USD per GPU-hour as posted, 1 with
+    capacity / 0 without])."""
+    idx, at = [], 0
+    for j, gap in enumerate(o["t"]):
+        at = gap if j == 0 else at + gap
+        idx.append(at)
+    vals = [(u, a) for c, u, a in o["v"] for _ in range(c)]
+    if len(idx) != len(vals):
+        raise ValueError("%d collections but %d values" % (len(idx), len(vals)))
+    return [(i, u, a) for i, (u, a) in zip(idx, vals)]
+
+
+def rebuild(readings):
+    """Each offer's counts and sums as the day's records hold them, summed again from its readings in the order they
+    were taken: obs and unit_sum over the readings with capacity and a price, unavail_obs over those without capacity,
+    posted_n and posted_sum over those of them with a price; first_t, last_t and unit_last from the first and last."""
+    runs, out = readings["runs"], {}
+    for k, o in readings["offers"].items():
+        r = {"obs": 0, "unit_sum": 0.0, "unavail_obs": 0, "posted_n": 0, "posted_sum": 0.0}
+        for i, u, a in expand(o):
+            r.setdefault("first_t", runs[i])
+            r["last_t"], r["unit_last"] = runs[i], u
+            if a == 0:
+                r["unavail_obs"] += 1
+                if u:
+                    r["posted_n"] += 1
+                    r["posted_sum"] += u
+            elif u:
+                r["obs"] += 1
+                r["unit_sum"] += u
+        out[k] = r
+    return out
+
+
+def check_readings(readings, store):
+    """([problems], number of readings): the day's records (store) against the records rebuilt from its readings."""
+    problems = []
+    if sorted(readings.get("runs") or []) != sorted(store.get("runs") or []):
+        problems.append("the readings were taken at %d collections, the records name %d" % (
+            len(readings.get("runs") or []), len(store.get("runs") or [])))
+    try:
+        mine = rebuild(readings)
+    except (ValueError, IndexError, KeyError, TypeError) as e:
+        return ["the readings cannot be read: %s" % e], 0
+    recs = store.get("records") or {}
+    for k in sorted(set(recs) | set(mine)):
+        a, b = mine.get(k), recs.get(k)
+        if a is None or b is None:
+            problems.append("%s: %s" % (k, "a record without readings" if a is None else "readings without a record"))
+            continue
+        for f in ("obs", "unavail_obs", "posted_n", "first_t", "last_t", "unit_sum", "posted_sum", "unit_last"):
+            x, y = a.get(f), b.get(f, 0 if f in ("unavail_obs", "posted_n", "posted_sum") else None)
+            if isinstance(x, float) and isinstance(y, (int, float)):
+                same = abs(x - y) <= 1e-9 * max(1.0, abs(y))
+            else:
+                same = x == y
+            if not same:
+                problems.append("%s: %s %s from the readings, %s in the records" % (k, f, x, y))
+    return problems, sum(len(o.get("t") or []) for o in readings["offers"].values())
+
+
+def verify_readings(src, ds):
+    """[(line, ok)]: day ds's records rebuilt from its price readings."""
+    reads = src.json("data/readings/%s.json.gz" % ds)
+    store = src.json("data/records/%s.json.gz" % ds)
+    if not reads.get("complete"):
+        return [("%s  the readings began at %s, after the day's first collection, so they cannot rebuild its records "
+                 "(complete days from 2026-10-28)" % (ds, (reads.get("runs") or ["?"])[0]), True)]
+    problems, n = check_readings(reads, store)
+    if problems:
+        more = len(problems) - 20
+        return [("%s  readings: %s" % (ds, p), False) for p in problems[:20]] + \
+            ([("%s  readings: %d more" % (ds, more), False)] if more > 0 else [])
+    return [("%s  %d price readings at %d collections rebuild every offer's counts and sums in the day's records" % (
+        ds, n, len(reads["runs"])), True)]
+
+
 def verify_gpu_day(src, ds, only=None):
     """[(line, ok)] for one GPU index day."""
     m = src.json("data/manifests/gpu/%s.json" % ds)
@@ -159,6 +244,8 @@ def verify_gpu_day(src, ds, only=None):
     lines += [("%s  %s" % (ds, p), False) for p in problems]
     if not only and not problems:
         lines.append(("%s  every input file matches its SHA-256; the day's state reproduces%s" % (ds, note), True))
+    if not only and "data/readings/%s.json.gz" % ds in m["inputs"]:
+        lines += verify_readings(src, ds)
     return lines
 
 
@@ -197,10 +284,25 @@ def main(argv=None):
     ap.add_argument("--all", action="store_true", help="every day with a manifest")
     ap.add_argument("--gpu", help="one GPU (e.g. H100)")
     ap.add_argument("--company", help="one company (e.g. Anthropic)")
+    ap.add_argument("--readings", action="store_true", help="with --date: rebuild that day's records from its price "
+                    "readings (any day from 2026-10-28, final or not)")
     a = ap.parse_args(argv)
     if not a.date and not a.all:
         ap.error("give --date or --all")
+    if a.readings and not a.date:
+        ap.error("--readings needs --date")
     src = Source(a.data)
+    if a.readings:
+        try:
+            lines = verify_readings(src, a.date)
+        except Missing as e:
+            print("could not read %s" % e)
+            return 2
+        for text, ok in lines:
+            print(("ok    " if ok else "FAIL  ") + text)
+        bad = sum(1 for _, ok in lines if not ok)
+        print("\n%d checked, %d %s" % (len(lines), bad, "do not match" if bad else "mismatches: the records rebuild"))
+        return 1 if bad else 0
     try:
         index = src.json("data/manifests/index.json")
         gdays = sorted(index.get("gpu") or {})
