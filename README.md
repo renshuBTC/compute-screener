@@ -15,7 +15,7 @@
 
 ## What it tracks
 
-- **GPU rental prices:** a daily index in USD per GPU-hour for **H100, H200, A100, B200, B300 and RTX PRO 6000**. It is built from the posted on-demand prices of 20 sources (cloud rate cards and GPU marketplaces), standardized to one benchmark contract (on-demand, 8-GPU node, US), and recalculated every minute (each source read every 1 to 30 minutes). With 1-day, 1-week and 1-month changes, each provider's average price, and the prices of GPU rental contracts on the exchanges that list them.
+- **GPU rental prices:** a daily index in USD per GPU-hour for **H100, H200, A100, B200, B300, RTX PRO 6000, L40S and RTX A6000** (L40S and RTX A6000 from 2026-10-28). It is built from the posted on-demand prices of 20 sources (cloud rate cards and GPU marketplaces), standardized to one benchmark contract (on-demand, 8-GPU node, US), and recalculated every minute (each source read every 1 to 30 minutes). With 1-day, 1-week and 1-month changes, each provider's average price, and the prices of GPU rental contracts on the exchanges that list them.
 - **AI token prices:** a daily index in USD per 1M tokens (3 input : 1 output) for **Anthropic, OpenAI, Google, xAI, Meta, Moonshot AI, Alibaba, DeepSeek, Z.ai and Xiaomi**, with each company's models and their posted prices.
 - **AI model API prices:** a page per model in the token index (Claude, GPT, Gemini, Grok, Kimi, Qwen, DeepSeek, GLM, MiMo and more) with its posted input and output price per 1M tokens and its daily price history, for example [Kimi K3](https://computescreener.com/models/kimi-k3) or [Claude Opus 5.5](https://computescreener.com/models/claude-opus-5-5).
 

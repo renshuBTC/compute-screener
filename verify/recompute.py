@@ -11,7 +11,7 @@ Pure functions on the files' contents; standard library only.
 from datetime import date, timedelta
 
 import method as M
-from catalog import GPUS, VARIANTS
+from catalog import VARIANTS, gpus_on
 
 
 def day_records(store, day):
@@ -38,10 +38,12 @@ def model_for(models, d):
     hist = models.get("history") or []
     eligible = [m for m in hist if m["calibrated_on"] <= d.isoformat()]
     m = (eligible or hist)[-1]
-    # a family added after the last calibration: its benchmark variant is 1.0 by
-    # definition; its other variants wait for the next calibration
-    for g in GPUS:
-        m["variant"].setdefault(g, {VARIANTS[g][0]: 1.0})
+    # a family indexed on day d but added after that calibration: its benchmark variant is 1.0 by definition; its
+    # other variants wait for the next calibration. Added to a copy, so the stored calibration (data/model.json) and
+    # the factors in force on the days before the family's start stay as they were.
+    missing = [g for g in gpus_on(d.isoformat()) if g not in m["variant"]]
+    if missing:
+        m = dict(m, variant=dict(m["variant"], **{g: {VARIANTS[g][0]: 1.0} for g in missing}))
     return m
 
 

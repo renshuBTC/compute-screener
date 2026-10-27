@@ -5,7 +5,17 @@ Shared by the collectors (providers.py), the calculation (method.py) and the pub
 published calculation code needs nothing from the collectors. Standard library only.
 """
 
-GPUS = ["H100", "H200", "A100", "B200", "B300", "MI300X", "RTX PRO 6000"]
+# the first seven families (indexed from the start), then the families added later (owner, 2026-10-27: "Put as many
+# gpu from the every gpu in the list in the table, following the same format and same methodology")
+CORE_GPUS = ["H100", "H200", "A100", "B200", "B300", "MI300X", "RTX PRO 6000"]
+ADDED_GPUS = ["L40S", "RTX A6000", "RTX 6000 Ada", "L40", "RTX 5090", "RTX 4090", "RTX A4000"]
+GPUS = CORE_GPUS + ADDED_GPUS
+
+# the first index day of each added family: its offers before then are recorded but not used. An added family without
+# a start is collected but not indexed yet: on the day the collectors were extended (2026-10-27) only the L40S and the
+# RTX A6000 had the five providers an index needs (methodology: aggregation); each other starts once a whole day of
+# collection prices it at five providers or more, and is given its start then
+FAMILY_START = {"L40S": "2026-10-28", "RTX A6000": "2026-10-28"}
 
 # Benchmark contract form factor per family (the first entry) and the other variants that can be standardized to it.
 VARIANTS = {
@@ -19,7 +29,40 @@ VARIANTS = {
     # Max-Q = the 300 W Workstation card. Listings that do not say which edition
     # keep variant=None and are dropped by the completeness check.
     "RTX PRO 6000": ["600W", "Max-Q"],
+    # the added families: each is one product, a PCIe card with one memory size (CARD_GB); a listing of another memory
+    # size (an RTX 4090 modified to 48 GB) is another product, left out as an unsupported variant
+    "L40S": ["PCIe"], "RTX 6000 Ada": ["PCIe"], "RTX A6000": ["PCIe"], "L40": ["PCIe"],
+    "RTX 5090": ["PCIe"], "RTX 4090": ["PCIe"], "RTX A4000": ["PCIe"],
 }
+CARD_GB = {"L40S": 48, "RTX 6000 Ada": 48, "RTX A6000": 48, "L40": 48, "RTX 5090": 32, "RTX 4090": 24, "RTX A4000": 16}
+
+
+def card_variant(gpu, vram):
+    """An added family's form factor for a listing with this memory per GPU (GB as the source states it, None when it
+    does not): "PCIe" for the family's card (with ECC on, a card reports up to a tenth less memory), else the memory
+    as an unsupported variant ("48GB")."""
+    gb = CARD_GB[gpu]
+    if not vram or 0.9 * gb <= vram <= gb + 1:
+        return "PCIe"
+    return "%dGB" % round(vram)
+
+
+def gpus_on(day):
+    """The families indexed on a day (ISO date; None: every family indexed or to be indexed on a set day): the first
+    seven, and each added family from its FAMILY_START."""
+    return [g for g in GPUS if g in CORE_GPUS or (g in FAMILY_START and (not day or day >= FAMILY_START[g]))]
+
+
+def not_indexed(gpu, day):
+    """Why an added family's offers are not used on a day (None when they are)."""
+    if gpu in CORE_GPUS or gpu not in GPUS:
+        return None
+    if gpu not in FAMILY_START:
+        return "%s is not indexed yet (collected until it has five providers)" % gpu
+    if day and day < FAMILY_START[gpu]:
+        return "%s is indexed from %s" % (gpu, FAMILY_START[gpu])
+    return None
+
 
 # providers (index constituents)
 PROVIDER_NAMES = {

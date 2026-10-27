@@ -1,4 +1,4 @@
-"""Compute Screener GPU Rental Index — methodology (v4.1).
+"""Compute Screener GPU Rental Index — methodology (v4.2).
 
 Four steps per index day (every calendar day, US Central), one index per GPU family:
 
@@ -25,15 +25,21 @@ Four steps per index day (every calendar day, US Central), one index per GPU fam
                    move it (a chained index). The cross-section average of all
                    providers (winsorized mean) is published beside it.
 
+A family added after the start (catalog.FAMILY_START) is indexed from its first day: its offers before then are
+recorded but not used (an added family with no start yet is collected only), the providers first priced in its first
+14 days count at once (later ones after the shadow period), its index starts on the first day at least five providers
+are priced (the cross-section), and the node-size, region and CPU factors stay those calibrated on the first seven
+families (CALIBRATION_GPUS), so adding a family changes nothing for the families already indexed.
+
 Pure functions only; I/O lives in build_index.py. Standard library only.
 """
 import math
 import statistics
 from datetime import date, timedelta
 
-from catalog import GPUS, MARKETPLACES, VARIANTS
+from catalog import CORE_GPUS, FAMILY_START, GPUS, MARKETPLACES, VARIANTS, gpus_on, not_indexed
 
-VERSION = "4.1"
+VERSION = "4.2"
 BENCH_NODE = "8"
 MIN_PROVIDERS = 5          # providers needed to publish a value (observed or imputed); each weighs <= 20%
 MIN_OBSERVED = 3           # of which observed on the day
@@ -73,11 +79,19 @@ MARKETPLACE_SCREEN_FROM = "2026-10-27"
 # From this index day (audit, 2026-10-27) every earlier day is compared in the day's own factors (restate), and each
 # observed provider's offers without a factor are stored with its day, so a recalibration never moves the index.
 RESTATE_FROM = "2026-10-27"
+# the families whose matched comparisons calibrate the pooled factors (node size, region, CPU): the first seven, so
+# adding a family never changes the factors of the families already indexed (4.2, 2026-10-28); every family is
+# standardized with them
+CALIBRATION_GPUS = frozenset(CORE_GPUS)
 
 BENCHMARK = {
     "H100": "H100 SXM 80GB", "H200": "H200 SXM 141GB", "A100": "A100 SXM 80GB",
     "B200": "B200 SXM on HGX", "B300": "B300 SXM on HGX", "MI300X": "MI300X OAM 192GB",
     "RTX PRO 6000": "RTX PRO 6000 Blackwell 96GB, 600 W, Server or Workstation Edition",
+    # added on 2026-10-28 (FAMILY_START): each one PCIe card
+    "L40S": "L40S 48GB PCIe", "RTX 6000 Ada": "RTX 6000 Ada Generation 48GB PCIe", "RTX A6000": "RTX A6000 48GB PCIe",
+    "L40": "L40 48GB PCIe", "RTX 5090": "GeForce RTX 5090 32GB", "RTX 4090": "GeForce RTX 4090 24GB",
+    "RTX A4000": "RTX A4000 16GB PCIe",
 }
 BENCH_TERMS = "on-demand, 8-GPU node, US hardware, CPU-neutral"
 
@@ -138,6 +152,8 @@ def completeness(records):
         why = None
         if r.get("gpu") not in GPUS:
             why = "unknown GPU"
+        elif not_indexed(r["gpu"], r.get("day")):
+            why = not_indexed(r["gpu"], r.get("day"))
         elif r.get("variant") not in VARIANTS.get(r["gpu"], []):
             why = "form factor not published" if r.get("variant") is None else "unsupported variant"
         elif r.get("rental_type") != "on-demand":
@@ -356,9 +372,11 @@ def calibrate(records, calibrated_on, window):
     """Estimate basis-adjustment factors from matched comparisons.
 
     Sequential: node size, then form factor (on node-adjusted prices), then
-    region and CPU platform (on node+variant adjusted prices).
+    region and CPU platform (on node+variant adjusted prices). Calibrated on the
+    CALIBRATION_GPUS families' records only; every family is standardized with
+    these factors (an added family's single form factor is its benchmark, 1.0).
     """
-    recs = [dict(r) for r in records]
+    recs = [dict(r) for r in records if r.get("gpu") in CALIBRATION_GPUS]
     for r in recs:
         r["_b"] = node_bucket(r.get("node"))
         r["_reg"] = region_of(r.get("country"))
@@ -577,14 +595,21 @@ def quartiles(values):
     return [q[0], q[1], q[2]]
 
 
-def eligible(first, day, shadow_from, provider=None):
+def eligible(first, day, shadow_from, provider=None, gpu=None):
     """A provider counts in the chained index once collected for SHADOW_DAYS, unless it was in the panel
     before shadow_from (the start of the panel) or was added by 4.1 (counted at once by the owner's decision;
-    a chained index still needs two days of its prices to measure a change)."""
+    a chained index still needs two days of its prices to measure a change). For a family added later
+    (FAMILY_START), the panel is the providers first priced in its first SHADOW_DAYS days (its index starts on the
+    first day five of them are priced), which count at once; a provider first priced later serves the shadow period.
+    The 4.1 exception is for the first seven families only."""
     if not first:
         return False
     if not day:
         return True
+    start = FAMILY_START.get(gpu)
+    if start:
+        launch = (date.fromisoformat(first) - date.fromisoformat(start)).days < SHADOW_DAYS
+        return launch or (date.fromisoformat(day) - date.fromisoformat(first)).days >= SHADOW_DAYS
     if provider in ADDED_41 and day >= V41_START:
         return True
     return first < shadow_from or (date.fromisoformat(day) - date.fromisoformat(first)).days >= SHADOW_DAYS
@@ -627,7 +652,7 @@ def aggregate(std_records, lookback, chain=None, first_seen=None, day=None, shad
     priced on both days (matched), so entries and exits do not move it; with no published day within
     CHAIN_GAP_DAYS the index starts at the cross-section."""
     out = {}
-    for g in GPUS:
+    for g in gpus_on(day):
         rs = [r for r in std_records if r["gpu"] == g]
         byp = {}
         for r in rs:
@@ -658,7 +683,7 @@ def aggregate(std_records, lookback, chain=None, first_seen=None, day=None, shad
         prev = (chain or {}).get(g)
         if prev and prev.get("level"):
             fs = (first_seen or {}).get(g) or {}
-            matched = sorted(p for p in provs if p in prev["avgs"] and eligible(fs.get(p), day, shadow_from, p))
+            matched = sorted(p for p in provs if p in prev["avgs"] and eligible(fs.get(p), day, shadow_from, p, g))
             m_obs = [p for p in matched if not provs[p]["carried"]]
             for p, v in provs.items():
                 v["matched"] = p in matched
