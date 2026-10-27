@@ -86,9 +86,17 @@ def build_ctx(stats, d):
             if g not in chain and lvl:
                 chain[g] = {"day": b.isoformat(), "level": lvl, "avgs": (s.get("chain_avgs") or {}).get(g) or {},
                             "offers": (s.get("offers") or {}).get(g) or {}}
+    # the stored offers and observed averages of the IMPUTE_DAYS days before d, every day listed ({} where nothing is
+    # stored), for method.restate (from RESTATE_FROM every earlier day is compared in d's own factors)
+    offers_by_day, avgs_by_day = {}, {}
+    for b in M.prev_days(d, M.IMPUTE_DAYS):
+        s = days.get(b.isoformat()) or {}
+        offers_by_day[b.isoformat()] = s.get("offers") or {}
+        avgs_by_day[b.isoformat()] = s.get("provider_avg") or {}
     return {"history_centers": hc, "pv_history": pvh, "prior_held": prior_held, "lookback": lookback,
             "chain": chain, "first_seen": stats.get("first_seen") or {}, "day": d.isoformat(),
-            "shadow_from": stats.get("shadow_from") or M.V4_START}
+            "shadow_from": stats.get("shadow_from") or M.V4_START,
+            "offers_by_day": offers_by_day, "avgs_by_day": avgs_by_day}
 
 
 def look_back_days(d):

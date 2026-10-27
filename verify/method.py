@@ -66,6 +66,13 @@ V4_START = "2026-10-24"    # first index day calculated with 4.0; providers coll
 V41_START = "2026-10-24"   # 4.1 applied (owner): its added providers count at once, from their second day of prices
 ADDED_41 = frozenset({"lium", "vultr", "together", "massedcompute", "latitude", "digitalocean", "civo", "crusoe",
                       "imwt", "boostrun", "voltagepark", "denvr", "excesssupply", "horizon", "phyntec"})
+# From this index day (audit, 2026-10-27) the within-provider 2x screen applies to marketplace asks only, as the
+# methodology states; before, it was applied to every provider with three or more asks for a form factor (see
+# data/errata.json). The first days after compare the clouds it affected like for like (old_screen_keys).
+MARKETPLACE_SCREEN_FROM = "2026-10-27"
+# From this index day (audit, 2026-10-27) every earlier day is compared in the day's own factors (restate), and each
+# observed provider's offers without a factor are stored with its day, so a recalibration never moves the index.
+RESTATE_FROM = "2026-10-27"
 
 BENCHMARK = {
     "H100": "H100 SXM 80GB", "H200": "H200 SXM 141GB", "A100": "A100 SXM 80GB",
@@ -186,11 +193,35 @@ def _provider_means(records, keyf):
     return {k: {p: mean(v) for p, v in d.items()} for k, d in by.items()}
 
 
-def outlier_screen(records, history_centers):
+def _own_band(records, everyone):
+    """{(provider, "GPU|variant"): median ask} for the within-provider screen: marketplaces only (everyone=False),
+    or every provider with MIN_BAND_RECORDS asks (everyone=True: the screen as it ran before MARKETPLACE_SCREEN_FROM)."""
+    pv = {}
+    for r in records:
+        if everyone or r["provider"] in MARKETPLACES:
+            pv.setdefault((r["provider"], "%s|%s" % (r["gpu"], r["variant"])), []).append(r["unit_usd"])
+    return {k: med(v) for k, v in pv.items() if len(v) >= MIN_BAND_RECORDS}
+
+
+def old_screen_keys(records):
+    """The offers the within-provider screen dropped before MARKETPLACE_SCREEN_FROM and keeps from then on (a cloud's
+    asks more than OUTLIER_BAND x from its own median): a day compared with a day before then leaves them out of the
+    comparison, so the rule's change is not read as a price change."""
+    band = _own_band(records, everyone=True)
+    out = set()
+    for r in records:
+        m = band.get((r["provider"], "%s|%s" % (r["gpu"], r["variant"])))
+        if r["provider"] not in MARKETPLACES and m and not (m / OUTLIER_BAND <= r["unit_usd"] <= m * OUTLIER_BAND):
+            out.add(r["key"])
+    return out
+
+
+def outlier_screen(records, history_centers, day=None):
     """Two layers, both aimed at reporting errors rather than real dispersion.
 
     1. Within a marketplace provider (>= MIN_BAND_RECORDS asks for a variant),
-       drop asks more than OUTLIER_BAND x away from that provider's median.
+       drop asks more than OUTLIER_BAND x away from that provider's median
+       (before MARKETPLACE_SCREEN_FROM, within every provider).
     2. Across providers, drop records outside [center/BAND_X, center*BAND_X],
        where center is the median of prior days' cross-provider medians for the
        variant (dynamic historical band) or, with no history, today's median of
@@ -200,10 +231,7 @@ def outlier_screen(records, history_centers):
     """
     vkey = lambda r: "%s|%s" % (r["gpu"], r["variant"])
     out = []
-    pv = {}
-    for r in records:
-        pv.setdefault((r["provider"], vkey(r)), []).append(r["unit_usd"])
-    pv_med = {k: med(v) for k, v in pv.items() if len(v) >= MIN_BAND_RECORDS}
+    pv_med = _own_band(records, everyone=not day or day < MARKETPLACE_SCREEN_FROM)
     stage1 = []
     for r in records:
         m = pv_med.get((r["provider"], vkey(r)))
@@ -436,23 +464,31 @@ def standardize(records, model):
 OFFER_FIELDS = ("key", "unit_usd", "gpu", "variant", "node", "country", "cpu")
 
 
-def offers_state(std_records):
+def offers_state(std_records, old_keys=()):
     """Each observed provider's offers on the day, as stored for the next day's chain: {gpu: {provider: [rows]}}
-    with rows in OFFER_FIELDS order (raw USD per GPU-hour and what standardization needs)."""
+    with rows in OFFER_FIELDS order (raw USD per GPU-hour and what standardization needs), and a final 1 on an offer
+    the within-provider screen dropped before MARKETPLACE_SCREEN_FROM (old_keys), so a comparison with a day before
+    then can leave it out."""
     out = {}
     for r in std_records:
-        out.setdefault(r["gpu"], {}).setdefault(r["provider"], []).append(
-            [r.get(f) if f != "unit_usd" else round(r["unit_usd"], 6) for f in OFFER_FIELDS])
+        row = [r.get(f) if f != "unit_usd" else round(r["unit_usd"], 6) for f in OFFER_FIELDS]
+        if r.get("key") in old_keys:
+            row.append(1)
+        out.setdefault(r["gpu"], {}).setdefault(r["provider"], []).append(row)
     return out
 
 
-def restandardize(offers, model):
+def restandardize(offers, model, old_rule=False):
     """A day's stored offers for one GPU standardized with another day's model:
-    {provider: {"keys": {offer key: raw USD}, "avg": mean standardized price}}."""
+    {provider: {"keys": {offer key: raw USD}, "avg": mean standardized price}}; old_rule leaves out the offers the
+    within-provider screen dropped before MARKETPLACE_SCREEN_FROM (for a comparison with a day before then)."""
     out = {}
+    n = len(OFFER_FIELDS)
     for p, rows in (offers or {}).items():
         keys, adj = {}, []
         for row in rows:
+            if old_rule and len(row) > n and row[n]:
+                continue
             r = dict(zip(OFFER_FIELDS, row))
             f = factor(r, model)
             if f and r["unit_usd"]:
@@ -461,6 +497,58 @@ def restandardize(offers, model):
         if adj:
             out[p] = {"keys": keys, "avg": mean(adj)}
     return out
+
+
+def restate(lookback, chain, offers_by_day, avgs_by_day, model):
+    """The look-back state in the day's own factors (from RESTATE_FROM): a change of the factors, as at the weekly
+    recalibration, must not read as a price change, so every earlier day is compared in today's factors.
+
+    offers_by_day, avgs_by_day: {day: {gpu: stored offers}} and {day: {gpu: {provider: observed average}}} for each of
+    the IMPUTE_DAYS days before the day computed ({} for a day with nothing stored; a day beyond them is not used,
+    so every run computes a day from the same days whatever else it has stored).
+
+    Returns (lookback, bases):
+      lookback  as given, with an imputed provider's last average and the other providers' averages that day
+                restandardized from that day's offers in today's factors (as given where they are not stored);
+      bases     {gpu: {provider: its chain-day average in today's factors}} for each provider imputed on the chain day,
+                imputed again the same way (none where the inputs are not stored: its stored average then applies).
+    A provider observed on the chain day is compared with its offers then (provider_change)."""
+    cache = {}
+
+    def rest(day, g, old_rule=False):
+        if (day, g, old_rule) not in cache:
+            offs = (offers_by_day.get(day) or {}).get(g)
+            cache[(day, g, old_rule)] = restandardize(offs, model, old_rule) if offs else {}
+        return cache[(day, g, old_rule)]
+
+    out = {}
+    for g, provs in (lookback or {}).items():
+        out[g] = {}
+        for p, (d, last, others) in provs.items():
+            rd = rest(d, g)
+            out[g][p] = (d, rd[p]["avg"], {q: rd[q]["avg"] for q in others if q in rd}) if p in rd else (d, last, others)
+    bases = {}
+    for g, c in (chain or {}).items():
+        rc = rest(c["day"], g)
+        for p in c.get("avgs") or {}:
+            if p in rc or not rc:
+                continue
+            # imputed on the chain day: from its last observed day before then, as that day's own calculation did
+            for b in prev_days(date.fromisoformat(c["day"]), IMPUTE_DAYS):
+                s = b.isoformat()
+                if s not in avgs_by_day:
+                    break
+                seen = avgs_by_day[s].get(g) or {}
+                if p in seen:
+                    rs = rest(s, g)
+                    # the chain day as the screen of day s saw it, when that screen was the old one
+                    rcs = rest(c["day"], g, c["day"] >= MARKETPLACE_SCREEN_FROM > s)
+                    if p in rs:
+                        ratio = gmean([rcs[q]["avg"] / rs[q]["avg"] for q in seen
+                                       if q != p and q in rcs and q in rs and rs[q]["avg"]]) or 1.0
+                        bases.setdefault(g, {})[p] = rs[p]["avg"] * ratio
+                    break
+    return out, bases
 
 
 # ------------------------------------------------------------------ step 4
@@ -502,23 +590,33 @@ def eligible(first, day, shadow_from, provider=None):
     return first < shadow_from or (date.fromisoformat(day) - date.fromisoformat(first)).days >= SHADOW_DAYS
 
 
-def provider_change(p, v, prev_avg, prev_offers):
+def provider_change(p, v, prev_avg, prev_offers, base=None, restated=False, cur=None):
     """A matched provider's price change since the last published day: its average today over its average then,
     both standardized with today's factors, so a recalibration of the factors is not read as a price change.
-    Imputed providers, and providers imputed on that day, move by their averages as carried."""
+    Before RESTATE_FROM, imputed providers, and providers imputed on that day, move by their averages as carried.
+    From then (restated), every provider is compared in today's factors: with its offers on that day (prev_offers),
+    else with its average imputed again from that day's offers (base), else with its average as stored.
+    cur: its average today for this comparison when that differs from v["avg"] (old_screen_keys)."""
+    now = v["avg"] if cur is None else cur
     po = prev_offers.get(p)
+    if restated:
+        return now / (po["avg"] if po else (base or prev_avg))
     if v["carried"] or not po:
         return v["avg"] / prev_avg
     return v["avg"] / po["avg"]
 
 
-def aggregate(std_records, lookback, chain=None, first_seen=None, day=None, shadow_from=V4_START, prev_offers=None):
+def aggregate(std_records, lookback, chain=None, first_seen=None, day=None, shadow_from=V4_START, prev_offers=None,
+              bases=None, old_avgs=None):
     """lookback: {gpu: {provider: (day, avg, {other provider: avg})}} with each
     provider's most recent observed average in the previous IMPUTE_DAYS days and
     the averages of the other providers observed that day.
     chain: {gpu: {"day", "level", "avgs": {provider: avg}}}: the last published day within CHAIN_GAP_DAYS.
     first_seen: {gpu: {provider: first day observed}}.
     prev_offers: {gpu: restandardize(offers on the chain day, today's model)}.
+    bases: {gpu: {provider: chain-day average in today's factors}} for providers imputed then (restate).
+    old_avgs: {gpu: {provider: average today without old_screen_keys}}, used when comparing with a day before
+    MARKETPLACE_SCREEN_FROM.
 
     A provider missing today is imputed (class-mean imputation): its last average
     times the geometric-mean change, since that day, of the providers observed on
@@ -536,13 +634,15 @@ def aggregate(std_records, lookback, chain=None, first_seen=None, day=None, shad
             byp.setdefault(r["provider"], []).append(r["adj_usd"])
         provs = {p: {"avg": mean(v), "records": len(v), "carried": False} for p, v in byp.items()}
         seen = {p: v["avg"] for p, v in provs.items()}   # observed today: only these measure the change since then
+        old = (old_avgs or {}).get(g) or {}
+        now_vs = lambda q, then: old[q] if q in old and then < MARKETPLACE_SCREEN_FROM else seen[q]
         for p, (d, last, others) in (lookback.get(g) or {}).items():
             if p in provs:
                 continue
             # "the geometric-mean change, since that day, of the providers observed on both days": a provider imputed
             # a moment earlier in this loop is not observed and does not count (it did before 2026-10-27, so with
             # two providers carried from the same day the result depended on their order)
-            ratio = gmean([seen[q] / a for q, a in others.items() if q in seen and a]) or 1.0
+            ratio = gmean([now_vs(q, d) / a for q, a in others.items() if q in seen and a]) or 1.0
             provs[p] = {"avg": last * ratio, "records": 0, "carried": True, "from": d, "last": last, "ratio": ratio}
         observed = [p for p, v in provs.items() if not v["carried"]]
         res = {"value": None, "cross": None, "providers": provs, "records": len(rs), "clip": None, "chain": None,
@@ -567,7 +667,11 @@ def aggregate(std_records, lookback, chain=None, first_seen=None, day=None, shad
                 # 1/n, whatever its price level or rank (a winsorized mean of levels would count the providers at
                 # the clipping points twice)
                 po = (prev_offers or {}).get(g) or {}
-                changes = {p: provider_change(p, provs[p], prev["avgs"][p], po) for p in matched}
+                base = (bases or {}).get(g) or {}
+                restated = bool(day and day >= RESTATE_FROM)
+                changes = {p: provider_change(p, provs[p], prev["avgs"][p], po, base.get(p), restated,
+                                              old[p] if p in old and prev["day"] < MARKETPLACE_SCREEN_FROM else None)
+                           for p in matched}
                 for p, c in changes.items():
                     provs[p]["change"] = c
                 ratio = gmean(list(changes.values()))
@@ -610,17 +714,31 @@ def compute_day(day_records, model, ctx):
     prior_held, lookback, chain (with each GPU's offers on the chain day), first_seen, day and shadow_from.
     Returns results plus the stats to store for the day.
     """
+    day = ctx.get("day")
     kept, incomplete = completeness(day_records)
     kept, soldout = capacity_rule(kept)
     incomplete += soldout
-    kept, outliers, variant_medians, centers = outlier_screen(kept, ctx["history_centers"])
+    old_keys = old_screen_keys(kept) if day and day >= MARKETPLACE_SCREEN_FROM else set()
+    kept, outliers, variant_medians, centers = outlier_screen(kept, ctx["history_centers"], day)
     kept, held, pv_today, alerts = validate(kept, ctx["pv_history"], ctx["prior_held"])
     std, unadjustable = standardize(kept, model)
-    std, thin = book_floor(std, ctx.get("day"))   # counted on the asks the index can use, after every other filter
+    std, thin = book_floor(std, day)   # counted on the asks the index can use, after every other filter
     chain = ctx.get("chain") or {}
     prev_offers = {g: restandardize(c.get("offers"), model) for g, c in chain.items()}
-    agg = aggregate(std, ctx["lookback"], chain, ctx.get("first_seen"), ctx.get("day"),
-                    ctx.get("shadow_from", V4_START), prev_offers)
+    lookback, bases = ctx["lookback"], None
+    if day and day >= RESTATE_FROM:
+        lookback, bases = restate(ctx["lookback"], chain, ctx.get("offers_by_day") or {}, ctx.get("avgs_by_day") or {},
+                                  model)
+    # each cloud with offers the old within-provider screen dropped: its average without them, for comparisons with
+    # the days before MARKETPLACE_SCREEN_FROM (their stored averages and offers were made without them)
+    old_by = {}
+    hit = {(r["provider"], r["gpu"]) for r in std if r["key"] in old_keys}
+    for r in std:
+        if (r["provider"], r["gpu"]) in hit and r["key"] not in old_keys:
+            old_by.setdefault(r["gpu"], {}).setdefault(r["provider"], []).append(r["adj_usd"])
+    old_avgs = {g: {p: mean(v) for p, v in d.items()} for g, d in old_by.items()}
+    agg = aggregate(std, lookback, chain, ctx.get("first_seen"), day, ctx.get("shadow_from", V4_START), prev_offers,
+                    bases, old_avgs)
     # why each provider without a price today is imputed, from its own records' exclusion reasons
     why = {}
     for cat, rows in (("incomplete", incomplete), ("thin", thin), ("outlier", outliers), ("held", held),
@@ -633,6 +751,12 @@ def compute_day(day_records, model, ctx):
             v["status"] = "observed" if not v["carried"] else imputed_because(why.get((p, g), set()))
     provider_avg = {g: {p: v["avg"] for p, v in a["providers"].items() if not v["carried"]}
                     for g, a in agg.items()}
+    # the offers stored with the day: each observed provider's, and from RESTATE_FROM also those of its offers that
+    # have no factor today, so a form factor that gains one at a recalibration is counted on both days compared
+    stored = std
+    if day and day >= RESTATE_FROM:
+        observed = {(r["provider"], r["gpu"]) for r in std}
+        stored = std + [r for r in unadjustable if (r["provider"], r["gpu"]) in observed]
     return {
         "agg": agg, "std": std,
         "excluded": {"incomplete": incomplete, "thin": thin, "outliers": outliers, "held": held,
@@ -643,5 +767,5 @@ def compute_day(day_records, model, ctx):
                   # the observed providers' offers, so the next day compares each offer with itself
                   "level": {g: a["value"] for g, a in agg.items()},
                   "chain_avgs": {g: {p: v["avg"] for p, v in a["providers"].items()} for g, a in agg.items()},
-                  "offers": offers_state(std)},
+                  "offers": offers_state(stored, old_keys)},
     }
