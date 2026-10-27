@@ -15,11 +15,24 @@
 
 ## What it tracks
 
-- **GPU rental prices:** a daily index in USD per GPU-hour for **H100, H200, A100, B200, B300 and RTX PRO 6000**. It is built from the posted on-demand prices of 20 sources (cloud rate cards and GPU marketplaces), standardized to one benchmark contract (on-demand, 8-GPU node, US), and updated every 2 to 3 hours. With 1-day, 1-week and 1-month changes, each provider's average price, and the prices of GPU rental contracts on the exchanges that list them.
+- **GPU rental prices:** a daily index in USD per GPU-hour for **H100, H200, A100, B200, B300 and RTX PRO 6000**. It is built from the posted on-demand prices of 20 sources (cloud rate cards and GPU marketplaces), standardized to one benchmark contract (on-demand, 8-GPU node, US), and recalculated every minute (each source read every 1 to 30 minutes). With 1-day, 1-week and 1-month changes, each provider's average price, and the prices of GPU rental contracts on the exchanges that list them.
 - **AI token prices:** a daily index in USD per 1M tokens (3 input : 1 output) for **Anthropic, OpenAI, Google, xAI, Meta, Moonshot AI, Alibaba, DeepSeek, Z.ai and Xiaomi**, with each company's models and their posted prices.
 - **AI model API prices:** a page per model in the token index (Claude, GPT, Gemini, Grok, Kimi, Qwen, DeepSeek, GLM, MiMo and more) with its posted input and output price per 1M tokens and its daily price history, for example [Kimi K3](https://computescreener.com/models/kimi-k3) or [Claude Opus 5.5](https://computescreener.com/models/claude-opus-5-5).
 
 How every price is collected, filtered and combined: [methodology](https://computescreener.com/methodology).
+
+## Verify every value
+
+[![verify](https://github.com/renshuBTC/compute-screener/actions/workflows/verify.yml/badge.svg)](https://github.com/renshuBTC/compute-screener/actions/workflows/verify.yml)
+
+Every final day has a manifest: each file the day was computed from with its SHA-256, and the final values. The
+calculation code and a verifier are in [verify/](verify). It recomputes any published value from the public files:
+
+```sh
+python verify/verify.py --date 2026-10-25 --gpu H100
+```
+
+A job in this repository recomputes every day with a manifest, every day: [results](verify/results.csv).
 
 ## Use it
 
@@ -30,17 +43,19 @@ How every price is collected, filtered and combined: [methodology](https://compu
 | Daily CSV (this repo) | [data/](data): every GPU's and company's daily index, provider averages, and each model's daily input and output prices, updated every day |
 | Free API (JSON, no key) | Docs: [computescreener.com/api](https://computescreener.com/api) · [index.json](https://computescreener.com/data/index.json) (latest GPU prices) · [series.json](https://computescreener.com/data/series.json) (GPU history) · [tokens.json](https://computescreener.com/data/tokens.json) · [token_series.json](https://computescreener.com/data/token_series.json) · [models.json](https://computescreener.com/data/models.json) (model prices and history) |
 
-The connector is listed in Claude's connector directory and in the official MCP Registry as `com.computescreener/compute-screener`.
+The connector is listed in the official MCP Registry as `com.computescreener/compute-screener`.
 
 ## This repository
 
-`data/` holds the daily CSV copies (see [data/README.md](data/README.md)), refreshed by a scheduled workflow. `dist/`
-holds a minified build of the website's pages, for reference. The price pipeline and the connector are not published.
+`data/` holds the daily CSV copies (see [data/README.md](data/README.md)), refreshed by a scheduled workflow.
+`verify/` holds the GPU index's calculation code and the verifier. `dist/` holds a minified build of the website's
+pages, for reference. The price collectors and the connector are not published.
 
 ## Licence
 
 - **Data:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse it, including commercially, with credit to "Compute Screener (computescreener.com)". See the [terms](https://computescreener.com/terms).
 - **Code:** © 2026 Compute Screener. All rights reserved: no licence is granted to copy, modify or redistribute it. See [LICENSE](LICENSE).
+  The code in `verify/` may be read, copied and run to check or reproduce the published values: see [verify/LICENSE](verify/LICENSE).
 
 Prices are information, not investment advice.
 
