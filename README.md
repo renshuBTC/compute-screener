@@ -43,7 +43,7 @@ A job in this repository recomputes every day with a manifest, every day: [resul
 | Daily CSV (this repo) | [data/](data): every GPU's and company's daily index, provider averages, and each model's daily input and output prices, updated every day |
 | Free API (JSON, no key) | Docs: [computescreener.com/api](https://computescreener.com/api) · [index.json](https://computescreener.com/data/index.json) (latest GPU prices) · [series.json](https://computescreener.com/data/series.json) (GPU history) · [tokens.json](https://computescreener.com/data/tokens.json) · [token_series.json](https://computescreener.com/data/token_series.json) · [models.json](https://computescreener.com/data/models.json) (model prices and history) |
 
-The connector is listed in the official MCP Registry as `com.computescreener/compute-screener`.
+The connector is listed in Claude's connector directory and in the official MCP Registry as `com.computescreener/compute-screener`.
 
 ## This repository
 
