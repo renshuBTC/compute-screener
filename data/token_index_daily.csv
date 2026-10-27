@@ -660,6 +660,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-23,Anthropic,6.3749,true,false
 2026-10-24,Anthropic,6.0359,true,false
 2026-10-25,Anthropic,5.6728,true,false
+2026-10-26,Anthropic,5.57,true,false
 2025-01-01,OpenAI,1.0779,true,true
 2025-01-02,OpenAI,1.3206,true,true
 2025-01-03,OpenAI,2.016,true,true
@@ -1321,6 +1322,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-23,OpenAI,1.8393,true,false
 2026-10-24,OpenAI,1.5779,true,false
 2026-10-25,OpenAI,0.7603,true,false
+2026-10-26,OpenAI,1.3339,true,false
 2025-01-01,Google,0.135,true,true
 2025-01-02,Google,0.1349,true,true
 2025-01-03,Google,0.1354,true,true
@@ -1980,6 +1982,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-23,Google,2.0582,true,false
 2026-10-24,Google,1.9079,true,false
 2026-10-25,Google,1.7178,true,false
+2026-10-26,Google,1.7814,true,false
 2025-04-10,xAI,2.7333,true,true
 2025-04-11,xAI,2.7318,true,true
 2025-04-12,xAI,2.4911,true,true
@@ -2558,6 +2561,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-23,Meta,0.125,true,false
 2026-10-24,Meta,0.125,true,false
 2026-10-25,Meta,0.125,true,false
+2026-10-26,Meta,0.125,true,false
 2025-07-12,Moonshot AI,1.075,true,true
 2025-07-13,Moonshot AI,1.075,true,true
 2025-07-14,Moonshot AI,1.075,true,true
@@ -2885,6 +2889,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-23,Moonshot AI,5.6122,true,false
 2026-10-24,Moonshot AI,4.7844,true,false
 2026-10-25,Moonshot AI,4.8795,true,false
+2026-10-26,Moonshot AI,5.0128,true,false
 2026-04-11,Alibaba,0.6358,true,true
 2026-04-12,Alibaba,0.5849,true,true
 2026-04-16,Alibaba,0.6035,true,true
@@ -3024,6 +3029,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-23,Alibaba,0.4433,true,false
 2026-10-24,Alibaba,0.3521,true,false
 2026-10-25,Alibaba,0.5255,true,false
+2026-10-26,Alibaba,0.5632,true,false
 2026-08-17,DeepSeek,0.3865,true,true
 2026-08-18,DeepSeek,0.3824,true,true
 2026-08-19,DeepSeek,0.3817,true,true
@@ -3094,6 +3100,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-23,DeepSeek,0.2797,true,false
 2026-10-24,DeepSeek,0.2791,true,false
 2026-10-25,DeepSeek,0.2738,true,false
+2026-10-26,DeepSeek,0.5558,true,false
 2025-07-29,Z.ai,1.0,true,true
 2025-07-30,Z.ai,1.0,true,true
 2025-07-31,Z.ai,1.0,true,true
@@ -3548,6 +3555,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-23,Z.ai,0.8197,true,false
 2026-10-24,Z.ai,0.7112,true,false
 2026-10-25,Z.ai,0.7054,true,false
+2026-10-26,Z.ai,0.8342,true,false
 2026-01-26,Xiaomi,0.15,true,true
 2026-01-27,Xiaomi,0.15,true,true
 2026-01-28,Xiaomi,0.15,true,true
@@ -3821,3 +3829,4 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-23,Xiaomi,0.2544,true,false
 2026-10-24,Xiaomi,0.2703,true,false
 2026-10-25,Xiaomi,0.3019,true,false
+2026-10-26,Xiaomi,0.2885,true,false
