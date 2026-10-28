@@ -63,7 +63,9 @@ that reads the providers' prices is not published; the readings show what it rea
 
 For each token index day, it recomputes each company's value from the day's trace and compares it with the
 published value. The trace lists each model's tokens and posted prices, and the value is the token-weighted mean
-of the company's models, blended 3 input : 1 output.
+of the company's models' prices at the mix the trace states (Token Price Index 2.0, from 2026-10-28: 87% cache read,
+12% input, 1% output; on a day none of a company's models is in OpenRouter's top 50, its last model weights are used),
+or blended 3 input : 1 output for version 1's days (to 2026-10-27).
 
 If this folder's copy of a calculation file differs from the one that wrote a manifest, the verifier prints a
 note. When a methodology version changes the code, this folder is updated with it.

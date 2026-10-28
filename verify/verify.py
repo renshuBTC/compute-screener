@@ -18,7 +18,8 @@ in force and the stored state of the previous days, and compares:
     offer's unit price as posted and whether it had capacity, at each collection) is summed again into each offer's
     counts and sums, which must equal the day's records.
 For a token index day it recomputes each company's value from the day's trace: the token-weighted mean of its models'
-posted prices, blended 3 input : 1 output.
+posted prices at the mix the trace states (method 2.0: 87% cache read, 12% input, 1% output; on a day a company has
+no countable model, weighted by its last model shares instead), or blended 3 input : 1 output for version 1's days.
 
 Exit status: 0 every value checked matches; 1 a value or file does not match; 2 a file could not be read.
 Needs Python 3.9+ and nothing else (standard library). The calculation code (method.py, recompute.py, catalog.py) is
@@ -256,14 +257,21 @@ def verify_token_day(src, ds, only=None):
     same_code(m)
     trace = src.json(next(iter(m["inputs"])))
     minc = trace.get("min_coverage", 0.8)
+    mix = trace.get("mix")   # method 2.0: {"cache_read": 0.87, "input": 0.12, "output": 0.01}
     lines = []
     for lab, r in sorted((trace.get("labs") or {}).items()):
         if only and lab.lower() != only.lower():
             continue
         ms = r.get("models") or []
-        bad = [x["slug"] for x in ms if abs(x["price"] - (3 * x["input"] + x["output"]) / 4) > 1e-9]
-        w = sum(x["tokens"] for x in ms)
-        v = sum(x["tokens"] * x["price"] for x in ms) / w if w else None
+        if mix:
+            price = lambda x: mix["cache_read"] * x["cache_read"] + mix["input"] * x["input"] + mix["output"] * x["output"]
+        else:   # version 1: 3 input : 1 output at list prices
+            price = lambda x: (3 * x["input"] + x["output"]) / 4
+        bad = [x["slug"] for x in ms if abs(x["price"] - price(x)) > 1e-6]
+        # a company with no countable model that day is priced with its last model weights (method 2.0)
+        key = "share" if r.get("carried_from") else "tokens"
+        w = sum(x[key] for x in ms)
+        v = sum(x[key] * x["price"] for x in ms) / w if w else None
         if v is not None and r.get("coverage", 0) < minc:
             v = None
         mine = round(v, 4) if v is not None else None
@@ -272,7 +280,7 @@ def verify_token_day(src, ds, only=None):
             continue
         ok = mine == pub and not bad
         lines.append(("%s %s  published %s, recomputed %s  (%d models)%s" % (
-            ds, lab, pub, mine, len(ms), "; blend wrong for " + ", ".join(bad) if bad else ""), ok))
+            ds, lab, pub, mine, len(ms), "; price wrong for " + ", ".join(bad) if bad else ""), ok))
     lines += [("%s  %s" % (ds, p), False) for p in problems]
     return lines
 
