@@ -14,8 +14,12 @@ GPUS = CORE_GPUS + ADDED_GPUS
 # the first index day of each added family: its offers before then are recorded but not used. An added family without
 # a start is collected but not indexed yet: on the day the collectors were extended (2026-10-27) only the L40S and the
 # RTX A6000 had the five providers an index needs (methodology: aggregation); each other starts once a whole day of
-# collection prices it at five providers or more, and is given its start then
-FAMILY_START = {"L40S": "2026-10-28", "RTX A6000": "2026-10-28"}
+# collection prices it at five providers or more, and is given its start then. 2026-10-28 (the method run on the day's
+# records as if indexed): RTX 6000 Ada 5 (Lium, Massed Compute, RunPod, Vast.ai, Verda), L40 5 (CoreWeave, Hyperstack,
+# Massed Compute, RunPod, Vast.ai), RTX 4090 5 (Akash, Excess Supply, Lium, RunPod, Vast.ai): indexed from 2026-10-30;
+# RTX 5090 4, RTX A4000 3: collected until a day prices them at five
+FAMILY_START = {"L40S": "2026-10-28", "RTX A6000": "2026-10-28",
+                "RTX 6000 Ada": "2026-10-30", "L40": "2026-10-30", "RTX 4090": "2026-10-30"}
 
 # Benchmark contract form factor per family (the first entry) and the other variants that can be standardized to it.
 VARIANTS = {
