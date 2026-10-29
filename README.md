@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://computescreener.com"><img src="docs/screenshot.png" alt="Compute Screener: rental prices of H100, H200, B300, B200, RTX PRO 6000 and A100 in USD per GPU-hour, with 1-day, 1-week and 1-month changes, trend and 3-month chart" width="800"></a>
+  <a href="https://computescreener.com"><img src="docs/screenshot.png" alt="Compute Screener: rental prices of H100, H200, B300, RTX A6000, B200, RTX PRO 6000, L40S and A100 in USD per GPU-hour, with 1-day, 1-week and 1-month changes, trend and 3-month chart" width="800"></a>
 </p>
 
 ## What it tracks
