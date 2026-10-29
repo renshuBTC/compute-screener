@@ -662,6 +662,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,Anthropic,0.6093,true,true
 2026-10-26,Anthropic,0.5996,true,true
 2026-10-27,Anthropic,0.5932,true,true
+2026-10-28,Anthropic,0.6108,true,false
 2025-01-01,OpenAI,0.3665,true,true
 2025-01-02,OpenAI,0.449,true,true
 2025-01-03,OpenAI,0.5418,true,true
@@ -1325,6 +1326,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,OpenAI,0.085,true,true
 2026-10-26,OpenAI,0.1574,true,true
 2026-10-27,OpenAI,0.1872,true,true
+2026-10-28,OpenAI,0.1944,true,false
 2025-02-07,Google,0.0686,true,true
 2025-02-13,Google,0.0871,true,true
 2025-02-14,Google,0.087,true,true
@@ -1914,6 +1916,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,Google,0.2038,true,true
 2026-10-26,Google,0.2091,true,true
 2026-10-27,Google,0.2109,true,true
+2026-10-28,Google,0.213,true,false
 2025-04-10,xAI,1.4907,true,true
 2025-04-11,xAI,1.49,true,true
 2025-04-12,xAI,1.3699,true,true
@@ -2477,6 +2480,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,xAI,0.735,true,true
 2026-10-26,xAI,0.735,true,true
 2026-10-27,xAI,0.735,true,true
+2026-10-28,xAI,0.735,true,false
 2026-08-06,Meta,0.323,true,true
 2026-08-07,Meta,0.323,true,true
 2026-08-08,Meta,0.323,true,true
@@ -2560,6 +2564,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,Meta,0.0157,true,true
 2026-10-26,Meta,0.0157,true,true
 2026-10-27,Meta,0.0157,true,true
+2026-10-28,Meta,0.0157,true,false
 2025-07-12,Moonshot AI,0.2275,true,true
 2025-07-13,Moonshot AI,0.2275,true,true
 2025-07-14,Moonshot AI,0.2275,true,true
@@ -2909,6 +2914,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,Moonshot AI,0.627,true,true
 2026-10-26,Moonshot AI,0.6441,true,true
 2026-10-27,Moonshot AI,0.6627,true,true
+2026-10-28,Moonshot AI,0.6664,true,false
 2026-04-11,Alibaba,0.1232,true,true
 2026-04-12,Alibaba,0.07,true,true
 2026-04-16,Alibaba,0.1182,true,true
@@ -3053,6 +3059,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,Alibaba,0.0829,true,true
 2026-10-26,Alibaba,0.0889,true,true
 2026-10-27,Alibaba,0.0637,true,true
+2026-10-28,Alibaba,0.0658,true,false
 2026-08-17,DeepSeek,0.0459,true,true
 2026-08-18,DeepSeek,0.0454,true,true
 2026-08-19,DeepSeek,0.0453,true,true
@@ -3125,6 +3132,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,DeepSeek,0.028,true,true
 2026-10-26,DeepSeek,0.0285,true,true
 2026-10-27,DeepSeek,0.0284,true,true
+2026-10-28,DeepSeek,0.0283,true,false
 2025-07-29,Z.ai,0.1897,true,true
 2025-07-30,Z.ai,0.1897,true,true
 2025-07-31,Z.ai,0.1897,true,true
@@ -3581,6 +3589,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,Z.ai,0.1443,true,true
 2026-10-26,Z.ai,0.1705,true,true
 2026-10-27,Z.ai,0.1702,true,true
+2026-10-28,Z.ai,0.1461,true,false
 2026-01-26,Xiaomi,0.0237,true,true
 2026-01-27,Xiaomi,0.0237,true,true
 2026-01-28,Xiaomi,0.0237,true,true
@@ -3856,6 +3865,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,Xiaomi,0.0365,true,true
 2026-10-26,Xiaomi,0.035,true,true
 2026-10-27,Xiaomi,0.0354,true,true
+2026-10-28,Xiaomi,0.0345,true,false
 2026-03-15,StepFun,0.0324,true,true
 2026-03-16,StepFun,0.0324,true,true
 2026-03-17,StepFun,0.0324,true,true
@@ -4083,6 +4093,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,StepFun,0.2255,true,true
 2026-10-26,StepFun,0.2234,true,true
 2026-10-27,StepFun,0.2208,true,true
+2026-10-28,StepFun,0.2221,true,false
 2025-01-15,MiniMax,0.209,true,true
 2025-01-16,MiniMax,0.209,true,true
 2025-01-17,MiniMax,0.209,true,true
@@ -4731,6 +4742,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,MiniMax,0.0612,true,true
 2026-10-26,MiniMax,0.0525,true,true
 2026-10-27,MiniMax,0.0417,true,true
+2026-10-28,MiniMax,0.041,true,false
 2025-01-01,Mistral,0.1971,true,true
 2025-01-02,Mistral,0.1953,true,true
 2025-01-03,Mistral,0.1947,true,true
@@ -5322,6 +5334,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,Mistral,0.3268,true,true
 2026-10-26,Mistral,0.3268,true,true
 2026-10-27,Mistral,0.3268,true,true
+2026-10-28,Mistral,0.3268,true,false
 2026-02-18,NVIDIA,0.02,true,true
 2026-02-19,NVIDIA,0.02,true,true
 2026-02-20,NVIDIA,0.02,true,true
@@ -5574,3 +5587,4 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-25,NVIDIA,0.2004,true,true
 2026-10-26,NVIDIA,0.2004,true,true
 2026-10-27,NVIDIA,0.2004,true,true
+2026-10-28,NVIDIA,0.2004,true,false
