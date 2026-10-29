@@ -33,6 +33,16 @@ ok    2026-10-27 B200  published 7.8178, recomputed 7.8178  (10 providers, 10 pr
 ok    2026-10-27 B300  published 9.0801, recomputed 9.0801  (9 providers, 9 priced that day; 9.1178 x 0.995870 from 2026-10-26)
 ok    2026-10-27 RTX PRO 6000  published 2.0202, recomputed 2.0202  (9 providers, 9 priced that day; 2.0052 x 1.007479 from 2026-10-26)
 ok    2026-10-27  every input file matches its SHA-256; the day's state reproduces
+ok    2026-10-28 H100  published 3.7153, recomputed 3.7153  (18 providers, 16 priced that day; 3.7096 x 1.001532 from 2026-10-27)
+ok    2026-10-28 H200  published 5.122, recomputed 5.122  (12 providers, 12 priced that day; 5.1058 x 1.003170 from 2026-10-27)
+ok    2026-10-28 A100  published 1.7329, recomputed 1.7329  (11 providers, 10 priced that day; 1.7329 x 0.999953 from 2026-10-27)
+ok    2026-10-28 B200  published 7.7962, recomputed 7.7962  (10 providers, 10 priced that day; 7.8178 x 0.997233 from 2026-10-27)
+ok    2026-10-28 B300  published 9.1334, recomputed 9.1334  (10 providers, 10 priced that day; 9.0801 x 1.005871 from 2026-10-27)
+ok    2026-10-28 RTX PRO 6000  published 2.0303, recomputed 2.0303  (9 providers, 9 priced that day; 2.0202 x 1.005032 from 2026-10-27)
+ok    2026-10-28 L40S  published 1.3945, recomputed 1.3945  (10 providers, 10 priced that day)
+ok    2026-10-28 RTX A6000  published 0.5727, recomputed 0.5727  (7 providers, 7 priced that day)
+ok    2026-10-28  every input file matches its SHA-256; the day's state reproduces
+ok    2026-10-28  415713 price readings at 965 collections rebuild every offer's counts and sums in the day's records
 ok    2026-10-22 Alibaba  published 0.5635, recomputed 0.5635  (2 models)
 ok    2026-10-22 Anthropic  published 5.15, recomputed 5.15  (5 models)
 ok    2026-10-22 DeepSeek  published 0.2859, recomputed 0.2859  (2 models)
@@ -86,4 +96,4 @@ note  this copy of catalog.py differs from the one that wrote the gpu manifests 
 note  this copy of method.py differs from the one that wrote the gpu manifests from 2026-10-23
 note  this copy of recompute.py differs from the one that wrote the gpu manifests from 2026-10-23
 
-84 checked, 0 mismatches: every value reproduces
+94 checked, 0 mismatches: every value reproduces
