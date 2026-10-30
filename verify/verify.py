@@ -36,6 +36,7 @@ from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+import catalog as C  # noqa: E402
 import method as M  # noqa: E402
 import recompute as R  # noqa: E402
 
@@ -300,6 +301,15 @@ def main(argv=None):
     if a.readings and not a.date:
         ap.error("--readings needs --date")
     src = Source(a.data)
+    # the families started since this copy's starts (data/families.json, written by the index's scripts/auto_start.py
+    # from 2026-10-31, when a whole day prices a family at 5 providers): their days are recomputed like the others
+    try:
+        started = C.merge_started((src.json("data/families.json") or {}).get("start"))
+        if started:
+            NOTES.append("started since this copy's catalog (data/families.json): %s" % ", ".join(
+                "%s from %s" % (g, C.FAMILY_START[g]) for g in started))
+    except (Missing, ValueError, AttributeError):
+        pass   # not published (before 2026-10-31 every start was in the catalog)
     if a.readings:
         try:
             lines = verify_readings(src, a.date)

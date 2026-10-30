@@ -20,6 +20,36 @@ GPUS = CORE_GPUS + ADDED_GPUS
 # RTX 5090 4, RTX A4000 3: collected until a day prices them at five
 FAMILY_START = {"L40S": "2026-10-28", "RTX A6000": "2026-10-28",
                 "RTX 6000 Ada": "2026-10-30", "L40": "2026-10-30", "RTX 4090": "2026-10-30"}
+# From 2026-10-31 a family is started without a code change (owner: "no longer hide and ask for my permissions before
+# you expand the lists, once theres new GPUs roll it out right away"): scripts/auto_start.py writes its start to
+# data/families.json, published at /data/families.json, which the pipeline, the site, the app, the connector and the
+# public verifier read. A start set here never changes; the file only adds families of ADDED_GPUS that have none.
+FAMILIES_FILE = "families.json"
+
+
+def merge_started(started):
+    """Add the starts of families started since (data/families.json "start"): only families of ADDED_GPUS without a
+    start here, each an ISO day; returns the families added."""
+    added = []
+    for g, d in sorted((started or {}).items()):
+        if g in ADDED_GPUS and g not in FAMILY_START and isinstance(d, str) and len(d) == 10 and d[4] == "-":
+            FAMILY_START[g] = d
+            added.append(g)
+    return added
+
+
+def _load_started():
+    import json
+    import os
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", FAMILIES_FILE)
+    try:
+        with open(p) as f:
+            merge_started((json.load(f) or {}).get("start"))
+    except (OSError, ValueError, AttributeError):
+        pass   # no file (the public verifier's copy reads it from the published data instead)
+
+
+_load_started()
 
 # Benchmark contract form factor per family (the first entry) and the other variants that can be standardized to it.
 VARIANTS = {
