@@ -1,39 +1,39 @@
 date,company,usd_per_1m_tokens,final,rebuilt_history
 2025-01-01,Anthropic,0.7388,true,true
-2025-01-02,Anthropic,0.752,true,true
-2025-01-03,Anthropic,0.7524,true,true
-2025-01-04,Anthropic,0.7499,true,true
-2025-01-05,Anthropic,0.7546,true,true
+2025-01-02,Anthropic,0.7601,true,true
+2025-01-03,Anthropic,0.7715,true,true
+2025-01-04,Anthropic,0.7595,true,true
+2025-01-05,Anthropic,0.7639,true,true
 2025-01-06,Anthropic,0.7524,true,true
 2025-01-07,Anthropic,0.755,true,true
-2025-01-08,Anthropic,0.7527,true,true
+2025-01-08,Anthropic,0.7591,true,true
 2025-01-09,Anthropic,0.754,true,true
-2025-01-10,Anthropic,0.7593,true,true
+2025-01-10,Anthropic,0.7658,true,true
 2025-01-11,Anthropic,0.7561,true,true
 2025-01-12,Anthropic,0.7687,true,true
 2025-01-13,Anthropic,0.7653,true,true
 2025-01-14,Anthropic,0.7525,true,true
 2025-01-15,Anthropic,0.7671,true,true
 2025-01-16,Anthropic,0.7645,true,true
-2025-01-17,Anthropic,0.7602,true,true
-2025-01-18,Anthropic,0.7692,true,true
+2025-01-17,Anthropic,0.7686,true,true
+2025-01-18,Anthropic,0.7757,true,true
 2025-01-19,Anthropic,0.7663,true,true
 2025-01-20,Anthropic,0.7689,true,true
 2025-01-21,Anthropic,0.7695,true,true
 2025-01-22,Anthropic,0.7588,true,true
 2025-01-23,Anthropic,0.7601,true,true
 2025-01-24,Anthropic,0.7585,true,true
-2025-01-25,Anthropic,0.7596,true,true
-2025-01-26,Anthropic,0.7596,true,true
-2025-01-27,Anthropic,0.7598,true,true
-2025-01-28,Anthropic,0.7705,true,true
-2025-01-29,Anthropic,0.7566,true,true
-2025-01-30,Anthropic,0.7566,true,true
-2025-01-31,Anthropic,0.7578,true,true
-2025-02-01,Anthropic,0.7621,true,true
+2025-01-25,Anthropic,0.7664,true,true
+2025-01-26,Anthropic,0.7671,true,true
+2025-01-27,Anthropic,0.7675,true,true
+2025-01-28,Anthropic,0.7817,true,true
+2025-01-29,Anthropic,0.7663,true,true
+2025-01-30,Anthropic,0.764,true,true
+2025-01-31,Anthropic,0.7696,true,true
+2025-02-01,Anthropic,0.7713,true,true
 2025-02-02,Anthropic,0.7609,true,true
-2025-02-03,Anthropic,0.7591,true,true
-2025-02-04,Anthropic,0.7555,true,true
+2025-02-03,Anthropic,0.768,true,true
+2025-02-04,Anthropic,0.7625,true,true
 2025-02-05,Anthropic,0.7542,true,true
 2025-02-06,Anthropic,0.761,true,true
 2025-02-07,Anthropic,0.7615,true,true
@@ -181,9 +181,9 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2025-06-30,Anthropic,0.8741,true,true
 2025-07-01,Anthropic,0.8507,true,true
 2025-07-02,Anthropic,0.8691,true,true
-2025-07-03,Anthropic,0.8552,true,true
-2025-07-04,Anthropic,0.889,true,true
-2025-07-05,Anthropic,0.8809,true,true
+2025-07-03,Anthropic,0.8893,true,true
+2025-07-04,Anthropic,0.9229,true,true
+2025-07-05,Anthropic,0.9138,true,true
 2025-07-06,Anthropic,0.8908,true,true
 2025-07-07,Anthropic,0.8983,true,true
 2025-07-08,Anthropic,0.8683,true,true
@@ -641,21 +641,21 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-04,Anthropic,0.8446,true,true
 2026-10-05,Anthropic,0.82,true,true
 2026-10-06,Anthropic,0.7621,true,true
-2026-10-07,Anthropic,0.8026,true,true
-2026-10-08,Anthropic,0.6422,true,true
-2026-10-09,Anthropic,0.6631,true,true
-2026-10-10,Anthropic,0.6513,true,true
-2026-10-11,Anthropic,0.7127,true,true
-2026-10-12,Anthropic,0.6627,true,true
-2026-10-13,Anthropic,0.6283,true,true
-2026-10-14,Anthropic,0.652,true,true
-2026-10-15,Anthropic,0.6767,true,true
-2026-10-16,Anthropic,0.6435,true,true
-2026-10-17,Anthropic,0.6699,true,true
-2026-10-18,Anthropic,0.6812,true,true
-2026-10-19,Anthropic,0.6955,true,true
-2026-10-20,Anthropic,0.7097,true,true
-2026-10-21,Anthropic,0.6514,true,true
+2026-10-07,Anthropic,0.7824,true,true
+2026-10-08,Anthropic,0.6294,true,true
+2026-10-09,Anthropic,0.6451,true,true
+2026-10-10,Anthropic,0.6271,true,true
+2026-10-11,Anthropic,0.6853,true,true
+2026-10-12,Anthropic,0.643,true,true
+2026-10-13,Anthropic,0.6112,true,true
+2026-10-14,Anthropic,0.633,true,true
+2026-10-15,Anthropic,0.6626,true,true
+2026-10-16,Anthropic,0.6244,true,true
+2026-10-17,Anthropic,0.6519,true,true
+2026-10-18,Anthropic,0.6642,true,true
+2026-10-19,Anthropic,0.6794,true,true
+2026-10-20,Anthropic,0.6932,true,true
+2026-10-21,Anthropic,0.6347,true,true
 2026-10-22,Anthropic,0.5649,true,true
 2026-10-23,Anthropic,0.6845,true,true
 2026-10-24,Anthropic,0.6476,true,true
@@ -663,70 +663,71 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,Anthropic,0.5996,true,true
 2026-10-27,Anthropic,0.5932,true,true
 2026-10-28,Anthropic,0.6108,true,false
+2026-10-29,Anthropic,0.5724,true,false
 2025-01-01,OpenAI,0.3665,true,true
 2025-01-02,OpenAI,0.449,true,true
-2025-01-03,OpenAI,0.5418,true,true
+2025-01-03,OpenAI,0.8679,true,true
 2025-01-04,OpenAI,0.3774,true,true
 2025-01-05,OpenAI,0.4296,true,true
 2025-01-06,OpenAI,0.3879,true,true
-2025-01-07,OpenAI,0.3681,true,true
-2025-01-08,OpenAI,0.3932,true,true
-2025-01-09,OpenAI,0.4299,true,true
-2025-01-10,OpenAI,0.3884,true,true
-2025-01-11,OpenAI,0.2913,true,true
+2025-01-07,OpenAI,0.5081,true,true
+2025-01-08,OpenAI,0.6528,true,true
+2025-01-09,OpenAI,0.6309,true,true
+2025-01-10,OpenAI,0.6653,true,true
+2025-01-11,OpenAI,0.4999,true,true
 2025-01-12,OpenAI,0.3465,true,true
 2025-01-13,OpenAI,0.4166,true,true
-2025-01-14,OpenAI,0.4106,true,true
-2025-01-15,OpenAI,0.3573,true,true
-2025-01-16,OpenAI,0.3636,true,true
-2025-01-17,OpenAI,0.3114,true,true
-2025-01-18,OpenAI,0.6058,true,true
+2025-01-14,OpenAI,0.558,true,true
+2025-01-15,OpenAI,0.539,true,true
+2025-01-16,OpenAI,0.4949,true,true
+2025-01-17,OpenAI,0.4675,true,true
+2025-01-18,OpenAI,0.6016,true,true
 2025-01-19,OpenAI,0.2699,true,true
 2025-01-20,OpenAI,0.2997,true,true
-2025-01-21,OpenAI,0.3225,true,true
-2025-01-22,OpenAI,0.3913,true,true
-2025-01-23,OpenAI,0.3448,true,true
+2025-01-21,OpenAI,0.5176,true,true
+2025-01-22,OpenAI,0.5009,true,true
+2025-01-23,OpenAI,0.4963,true,true
 2025-01-24,OpenAI,0.3033,true,true
 2025-01-25,OpenAI,0.2918,true,true
 2025-01-26,OpenAI,0.2464,true,true
-2025-01-27,OpenAI,0.2842,true,true
-2025-01-28,OpenAI,0.3814,true,true
-2025-01-29,OpenAI,0.3363,true,true
+2025-01-27,OpenAI,0.5188,true,true
+2025-01-28,OpenAI,0.7121,true,true
+2025-01-29,OpenAI,0.5158,true,true
 2025-01-30,OpenAI,0.3931,true,true
-2025-01-31,OpenAI,0.2717,true,true
+2025-01-31,OpenAI,0.4657,true,true
 2025-02-01,OpenAI,0.3818,true,true
-2025-02-02,OpenAI,0.3655,true,true
-2025-02-03,OpenAI,0.3953,true,true
+2025-02-02,OpenAI,0.7116,true,true
+2025-02-03,OpenAI,0.7291,true,true
 2025-02-04,OpenAI,0.3926,true,true
 2025-02-05,OpenAI,0.3198,true,true
-2025-02-06,OpenAI,0.3884,true,true
+2025-02-06,OpenAI,0.6248,true,true
 2025-02-07,OpenAI,0.3712,true,true
 2025-02-08,OpenAI,0.5573,true,true
-2025-02-09,OpenAI,0.399,true,true
+2025-02-09,OpenAI,0.625,true,true
 2025-02-10,OpenAI,0.3893,true,true
 2025-02-11,OpenAI,0.3388,true,true
-2025-02-12,OpenAI,0.3886,true,true
+2025-02-12,OpenAI,0.5976,true,true
 2025-02-13,OpenAI,0.4172,true,true
-2025-02-14,OpenAI,0.3527,true,true
+2025-02-14,OpenAI,0.5174,true,true
 2025-02-15,OpenAI,0.7933,true,true
 2025-02-16,OpenAI,0.3665,true,true
-2025-02-17,OpenAI,0.4315,true,true
-2025-02-18,OpenAI,0.4568,true,true
-2025-02-19,OpenAI,0.4837,true,true
-2025-02-20,OpenAI,0.4986,true,true
-2025-02-21,OpenAI,0.4703,true,true
+2025-02-17,OpenAI,0.6528,true,true
+2025-02-18,OpenAI,0.6483,true,true
+2025-02-19,OpenAI,0.636,true,true
+2025-02-20,OpenAI,0.7014,true,true
+2025-02-21,OpenAI,0.6115,true,true
 2025-02-22,OpenAI,0.4502,true,true
 2025-02-23,OpenAI,0.3975,true,true
-2025-02-24,OpenAI,0.3959,true,true
+2025-02-24,OpenAI,0.5371,true,true
 2025-02-25,OpenAI,0.3518,true,true
 2025-02-26,OpenAI,0.395,true,true
 2025-02-27,OpenAI,0.4458,true,true
 2025-02-28,OpenAI,0.5886,true,true
-2025-03-01,OpenAI,0.4249,true,true
+2025-03-01,OpenAI,0.4287,true,true
 2025-03-02,OpenAI,0.3891,true,true
 2025-03-03,OpenAI,0.516,true,true
 2025-03-04,OpenAI,0.412,true,true
-2025-03-05,OpenAI,0.4134,true,true
+2025-03-05,OpenAI,0.5775,true,true
 2025-03-06,OpenAI,0.4676,true,true
 2025-03-07,OpenAI,0.3802,true,true
 2025-03-08,OpenAI,0.2301,true,true
@@ -754,14 +755,14 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2025-03-30,OpenAI,0.2275,true,true
 2025-03-31,OpenAI,0.2014,true,true
 2025-04-01,OpenAI,0.2697,true,true
-2025-04-02,OpenAI,0.144,true,true
+2025-04-02,OpenAI,0.1866,true,true
 2025-04-03,OpenAI,0.1347,true,true
 2025-04-04,OpenAI,0.1209,true,true
 2025-04-05,OpenAI,0.109,true,true
 2025-04-06,OpenAI,0.1101,true,true
 2025-04-07,OpenAI,0.1254,true,true
-2025-04-08,OpenAI,0.1327,true,true
-2025-04-09,OpenAI,0.1704,true,true
+2025-04-08,OpenAI,0.189,true,true
+2025-04-09,OpenAI,0.205,true,true
 2025-04-10,OpenAI,0.2149,true,true
 2025-04-11,OpenAI,0.2018,true,true
 2025-04-12,OpenAI,0.3218,true,true
@@ -801,7 +802,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2025-05-16,OpenAI,0.1802,true,true
 2025-05-17,OpenAI,0.18,true,true
 2025-05-18,OpenAI,0.1799,true,true
-2025-05-19,OpenAI,0.1798,true,true
+2025-05-19,OpenAI,0.1822,true,true
 2025-05-20,OpenAI,0.177,true,true
 2025-05-21,OpenAI,0.1877,true,true
 2025-05-22,OpenAI,0.209,true,true
@@ -822,12 +823,12 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2025-06-06,OpenAI,0.2678,true,true
 2025-06-07,OpenAI,0.2439,true,true
 2025-06-08,OpenAI,0.2513,true,true
-2025-06-09,OpenAI,0.2949,true,true
+2025-06-09,OpenAI,0.4296,true,true
 2025-06-10,OpenAI,0.3537,true,true
 2025-06-11,OpenAI,0.4206,true,true
 2025-06-12,OpenAI,0.421,true,true
 2025-06-13,OpenAI,0.4739,true,true
-2025-06-14,OpenAI,0.4315,true,true
+2025-06-14,OpenAI,0.6136,true,true
 2025-06-16,OpenAI,0.4318,true,true
 2025-06-17,OpenAI,0.4106,true,true
 2025-06-18,OpenAI,0.4136,true,true
@@ -845,7 +846,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2025-06-30,OpenAI,0.4188,true,true
 2025-07-01,OpenAI,0.4042,true,true
 2025-07-02,OpenAI,0.4025,true,true
-2025-07-03,OpenAI,0.4203,true,true
+2025-07-03,OpenAI,0.7164,true,true
 2025-07-04,OpenAI,0.4016,true,true
 2025-07-05,OpenAI,0.2925,true,true
 2025-07-06,OpenAI,0.2648,true,true
@@ -862,14 +863,14 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2025-07-18,OpenAI,0.4631,true,true
 2025-07-19,OpenAI,0.4688,true,true
 2025-07-20,OpenAI,0.4131,true,true
-2025-07-21,OpenAI,0.4881,true,true
+2025-07-21,OpenAI,0.6309,true,true
 2025-07-22,OpenAI,0.4417,true,true
 2025-07-23,OpenAI,0.3911,true,true
 2025-07-24,OpenAI,0.3084,true,true
 2025-07-25,OpenAI,0.3381,true,true
 2025-07-26,OpenAI,0.4132,true,true
 2025-07-27,OpenAI,0.439,true,true
-2025-07-28,OpenAI,0.4402,true,true
+2025-07-28,OpenAI,0.6374,true,true
 2025-07-29,OpenAI,0.4054,true,true
 2025-07-30,OpenAI,0.2986,true,true
 2025-07-31,OpenAI,0.3207,true,true
@@ -879,105 +880,105 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2025-08-04,OpenAI,0.4178,true,true
 2025-08-05,OpenAI,0.4508,true,true
 2025-08-06,OpenAI,0.3839,true,true
-2025-08-07,OpenAI,0.3437,true,true
-2025-08-08,OpenAI,0.2829,true,true
-2025-08-09,OpenAI,0.2249,true,true
-2025-08-10,OpenAI,0.2314,true,true
-2025-08-11,OpenAI,0.2839,true,true
-2025-08-12,OpenAI,0.3174,true,true
-2025-08-13,OpenAI,0.3049,true,true
-2025-08-14,OpenAI,0.3161,true,true
-2025-08-15,OpenAI,0.3376,true,true
-2025-08-16,OpenAI,0.2392,true,true
-2025-08-17,OpenAI,0.225,true,true
-2025-08-18,OpenAI,0.2859,true,true
-2025-08-19,OpenAI,0.24,true,true
-2025-08-20,OpenAI,0.2884,true,true
-2025-08-21,OpenAI,0.3072,true,true
-2025-08-22,OpenAI,0.3068,true,true
-2025-08-23,OpenAI,0.2781,true,true
-2025-08-24,OpenAI,0.2473,true,true
-2025-08-25,OpenAI,0.3698,true,true
-2025-08-26,OpenAI,0.333,true,true
-2025-08-27,OpenAI,0.3122,true,true
-2025-08-28,OpenAI,0.3429,true,true
-2025-08-29,OpenAI,0.2843,true,true
-2025-08-30,OpenAI,0.305,true,true
-2025-08-31,OpenAI,0.2309,true,true
-2025-09-01,OpenAI,0.2664,true,true
-2025-09-02,OpenAI,0.2538,true,true
-2025-09-03,OpenAI,0.2586,true,true
-2025-09-04,OpenAI,0.2488,true,true
-2025-09-05,OpenAI,0.2445,true,true
-2025-09-06,OpenAI,0.2466,true,true
-2025-09-07,OpenAI,0.2521,true,true
-2025-09-08,OpenAI,0.2619,true,true
-2025-09-09,OpenAI,0.2062,true,true
-2025-09-10,OpenAI,0.2155,true,true
-2025-09-11,OpenAI,0.2072,true,true
-2025-09-12,OpenAI,0.2162,true,true
-2025-09-13,OpenAI,0.2061,true,true
-2025-09-14,OpenAI,0.2179,true,true
-2025-09-15,OpenAI,0.2275,true,true
-2025-09-16,OpenAI,0.2647,true,true
-2025-09-17,OpenAI,0.265,true,true
-2025-09-18,OpenAI,0.2948,true,true
-2025-09-19,OpenAI,0.3063,true,true
-2025-09-20,OpenAI,0.2886,true,true
-2025-09-21,OpenAI,0.2339,true,true
-2025-09-22,OpenAI,0.2955,true,true
-2025-09-23,OpenAI,0.2754,true,true
-2025-09-24,OpenAI,0.2557,true,true
-2025-09-25,OpenAI,0.2309,true,true
-2025-09-26,OpenAI,0.2738,true,true
-2025-09-27,OpenAI,0.2398,true,true
-2025-09-28,OpenAI,0.2406,true,true
-2025-09-29,OpenAI,0.2233,true,true
-2025-09-30,OpenAI,0.2354,true,true
-2025-10-01,OpenAI,0.2119,true,true
-2025-10-02,OpenAI,0.191,true,true
-2025-10-03,OpenAI,0.1744,true,true
-2025-10-04,OpenAI,0.176,true,true
-2025-10-05,OpenAI,0.1973,true,true
-2025-10-06,OpenAI,0.1976,true,true
-2025-10-07,OpenAI,0.2378,true,true
-2025-10-08,OpenAI,0.2026,true,true
-2025-10-09,OpenAI,0.2538,true,true
-2025-10-10,OpenAI,0.1916,true,true
-2025-10-11,OpenAI,0.2197,true,true
-2025-10-12,OpenAI,0.2022,true,true
-2025-10-13,OpenAI,0.2517,true,true
-2025-10-14,OpenAI,0.2417,true,true
-2025-10-15,OpenAI,0.2873,true,true
-2025-10-16,OpenAI,0.23,true,true
-2025-10-17,OpenAI,0.2057,true,true
-2025-10-18,OpenAI,0.2121,true,true
-2025-10-19,OpenAI,0.2188,true,true
-2025-10-20,OpenAI,0.1881,true,true
-2025-10-21,OpenAI,0.1783,true,true
-2025-10-22,OpenAI,0.1862,true,true
-2025-10-23,OpenAI,0.256,true,true
-2025-10-24,OpenAI,0.1978,true,true
-2025-10-25,OpenAI,0.2,true,true
-2025-10-26,OpenAI,0.1975,true,true
-2025-10-27,OpenAI,0.2101,true,true
-2025-10-28,OpenAI,0.2674,true,true
-2025-10-29,OpenAI,0.1825,true,true
-2025-10-30,OpenAI,0.2641,true,true
-2025-10-31,OpenAI,0.2659,true,true
-2025-11-01,OpenAI,0.249,true,true
-2025-11-02,OpenAI,0.2147,true,true
-2025-11-03,OpenAI,0.2829,true,true
-2025-11-04,OpenAI,0.201,true,true
-2025-11-05,OpenAI,0.2853,true,true
-2025-11-06,OpenAI,0.2297,true,true
-2025-11-07,OpenAI,0.193,true,true
-2025-11-08,OpenAI,0.2084,true,true
-2025-11-09,OpenAI,0.2038,true,true
-2025-11-10,OpenAI,0.2926,true,true
-2025-11-11,OpenAI,0.2647,true,true
-2025-11-12,OpenAI,0.2063,true,true
-2025-11-13,OpenAI,0.2034,true,true
+2025-08-07,OpenAI,0.3444,true,true
+2025-08-08,OpenAI,0.2899,true,true
+2025-08-09,OpenAI,0.2381,true,true
+2025-08-10,OpenAI,0.2484,true,true
+2025-08-11,OpenAI,0.2892,true,true
+2025-08-12,OpenAI,0.3202,true,true
+2025-08-13,OpenAI,0.3091,true,true
+2025-08-14,OpenAI,0.319,true,true
+2025-08-15,OpenAI,0.3391,true,true
+2025-08-16,OpenAI,0.2476,true,true
+2025-08-17,OpenAI,0.2337,true,true
+2025-08-18,OpenAI,0.2906,true,true
+2025-08-19,OpenAI,0.2478,true,true
+2025-08-20,OpenAI,0.2932,true,true
+2025-08-21,OpenAI,0.311,true,true
+2025-08-22,OpenAI,0.3098,true,true
+2025-08-23,OpenAI,0.2835,true,true
+2025-08-24,OpenAI,0.254,true,true
+2025-08-25,OpenAI,0.369,true,true
+2025-08-26,OpenAI,0.3344,true,true
+2025-08-27,OpenAI,0.3145,true,true
+2025-08-28,OpenAI,0.3436,true,true
+2025-08-29,OpenAI,0.2883,true,true
+2025-08-30,OpenAI,0.3083,true,true
+2025-08-31,OpenAI,0.2387,true,true
+2025-09-01,OpenAI,0.27,true,true
+2025-09-02,OpenAI,0.2574,true,true
+2025-09-03,OpenAI,0.2617,true,true
+2025-09-04,OpenAI,0.2523,true,true
+2025-09-05,OpenAI,0.2479,true,true
+2025-09-06,OpenAI,0.2497,true,true
+2025-09-07,OpenAI,0.2557,true,true
+2025-09-08,OpenAI,0.2653,true,true
+2025-09-09,OpenAI,0.2109,true,true
+2025-09-10,OpenAI,0.2202,true,true
+2025-09-11,OpenAI,0.2119,true,true
+2025-09-12,OpenAI,0.2205,true,true
+2025-09-13,OpenAI,0.2112,true,true
+2025-09-14,OpenAI,0.223,true,true
+2025-09-15,OpenAI,0.2318,true,true
+2025-09-16,OpenAI,0.2674,true,true
+2025-09-17,OpenAI,0.2677,true,true
+2025-09-18,OpenAI,0.2965,true,true
+2025-09-19,OpenAI,0.3075,true,true
+2025-09-20,OpenAI,0.2908,true,true
+2025-09-21,OpenAI,0.2376,true,true
+2025-09-22,OpenAI,0.2976,true,true
+2025-09-23,OpenAI,0.2777,true,true
+2025-09-24,OpenAI,0.2678,true,true
+2025-09-25,OpenAI,0.2438,true,true
+2025-09-26,OpenAI,0.284,true,true
+2025-09-27,OpenAI,0.2571,true,true
+2025-09-28,OpenAI,0.2575,true,true
+2025-09-29,OpenAI,0.2366,true,true
+2025-09-30,OpenAI,0.2454,true,true
+2025-10-01,OpenAI,0.2243,true,true
+2025-10-02,OpenAI,0.204,true,true
+2025-10-03,OpenAI,0.1821,true,true
+2025-10-04,OpenAI,0.1923,true,true
+2025-10-05,OpenAI,0.2086,true,true
+2025-10-06,OpenAI,0.2109,true,true
+2025-10-07,OpenAI,0.2435,true,true
+2025-10-08,OpenAI,0.2134,true,true
+2025-10-09,OpenAI,0.259,true,true
+2025-10-10,OpenAI,0.2027,true,true
+2025-10-11,OpenAI,0.2293,true,true
+2025-10-12,OpenAI,0.215,true,true
+2025-10-13,OpenAI,0.2588,true,true
+2025-10-14,OpenAI,0.2521,true,true
+2025-10-15,OpenAI,0.2946,true,true
+2025-10-16,OpenAI,0.2401,true,true
+2025-10-17,OpenAI,0.2177,true,true
+2025-10-18,OpenAI,0.2218,true,true
+2025-10-19,OpenAI,0.2289,true,true
+2025-10-20,OpenAI,0.1972,true,true
+2025-10-21,OpenAI,0.1874,true,true
+2025-10-22,OpenAI,0.1941,true,true
+2025-10-23,OpenAI,0.2605,true,true
+2025-10-24,OpenAI,0.2058,true,true
+2025-10-25,OpenAI,0.2105,true,true
+2025-10-26,OpenAI,0.2115,true,true
+2025-10-27,OpenAI,0.2249,true,true
+2025-10-28,OpenAI,0.2773,true,true
+2025-10-29,OpenAI,0.198,true,true
+2025-10-30,OpenAI,0.2711,true,true
+2025-10-31,OpenAI,0.273,true,true
+2025-11-01,OpenAI,0.2552,true,true
+2025-11-02,OpenAI,0.226,true,true
+2025-11-03,OpenAI,0.2879,true,true
+2025-11-04,OpenAI,0.21,true,true
+2025-11-05,OpenAI,0.2923,true,true
+2025-11-06,OpenAI,0.2367,true,true
+2025-11-07,OpenAI,0.2031,true,true
+2025-11-08,OpenAI,0.2292,true,true
+2025-11-09,OpenAI,0.2235,true,true
+2025-11-10,OpenAI,0.2967,true,true
+2025-11-11,OpenAI,0.2729,true,true
+2025-11-12,OpenAI,0.2173,true,true
+2025-11-13,OpenAI,0.214,true,true
 2025-11-14,OpenAI,0.2141,true,true
 2025-11-15,OpenAI,0.2099,true,true
 2025-11-16,OpenAI,0.1914,true,true
@@ -1010,7 +1011,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2025-12-13,OpenAI,0.258,true,true
 2025-12-14,OpenAI,0.2519,true,true
 2025-12-15,OpenAI,0.2773,true,true
-2025-12-16,OpenAI,0.2665,true,true
+2025-12-16,OpenAI,0.2707,true,true
 2025-12-17,OpenAI,0.33,true,true
 2025-12-18,OpenAI,0.2753,true,true
 2025-12-19,OpenAI,0.289,true,true
@@ -1040,129 +1041,129 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-01-12,OpenAI,0.2696,true,true
 2026-01-13,OpenAI,0.2347,true,true
 2026-01-14,OpenAI,0.2184,true,true
-2026-01-15,OpenAI,0.2434,true,true
-2026-01-16,OpenAI,0.2291,true,true
-2026-01-17,OpenAI,0.1892,true,true
-2026-01-18,OpenAI,0.1975,true,true
-2026-01-19,OpenAI,0.2151,true,true
-2026-01-20,OpenAI,0.2445,true,true
-2026-01-21,OpenAI,0.2348,true,true
-2026-01-22,OpenAI,0.2272,true,true
-2026-01-23,OpenAI,0.2505,true,true
-2026-01-24,OpenAI,0.1976,true,true
-2026-01-25,OpenAI,0.2284,true,true
-2026-01-26,OpenAI,0.2283,true,true
-2026-01-27,OpenAI,0.2404,true,true
-2026-01-28,OpenAI,0.284,true,true
-2026-01-29,OpenAI,0.3116,true,true
-2026-01-30,OpenAI,0.2117,true,true
-2026-01-31,OpenAI,0.224,true,true
-2026-02-01,OpenAI,0.2192,true,true
-2026-02-02,OpenAI,0.2263,true,true
-2026-02-03,OpenAI,0.2234,true,true
-2026-02-04,OpenAI,0.2085,true,true
-2026-02-05,OpenAI,0.1929,true,true
-2026-02-06,OpenAI,0.2771,true,true
-2026-02-07,OpenAI,0.2722,true,true
-2026-02-08,OpenAI,0.2124,true,true
-2026-02-09,OpenAI,0.2593,true,true
-2026-02-10,OpenAI,0.1959,true,true
-2026-02-11,OpenAI,0.1852,true,true
-2026-02-12,OpenAI,0.2281,true,true
-2026-02-13,OpenAI,0.1824,true,true
-2026-02-14,OpenAI,0.1466,true,true
-2026-02-15,OpenAI,0.1563,true,true
-2026-02-16,OpenAI,0.1636,true,true
-2026-02-17,OpenAI,0.1673,true,true
-2026-02-18,OpenAI,0.148,true,true
-2026-02-19,OpenAI,0.1934,true,true
-2026-02-20,OpenAI,0.1937,true,true
-2026-02-21,OpenAI,0.1625,true,true
-2026-02-22,OpenAI,0.2289,true,true
-2026-02-23,OpenAI,0.265,true,true
-2026-02-24,OpenAI,0.2483,true,true
-2026-02-25,OpenAI,0.2578,true,true
-2026-02-26,OpenAI,0.2595,true,true
-2026-02-27,OpenAI,0.2454,true,true
-2026-02-28,OpenAI,0.2026,true,true
-2026-03-01,OpenAI,0.2111,true,true
-2026-03-02,OpenAI,0.2379,true,true
-2026-03-03,OpenAI,0.2536,true,true
-2026-03-04,OpenAI,0.2391,true,true
-2026-03-05,OpenAI,0.2508,true,true
-2026-03-06,OpenAI,0.2871,true,true
-2026-03-07,OpenAI,0.3169,true,true
-2026-03-08,OpenAI,0.2407,true,true
-2026-03-09,OpenAI,0.2901,true,true
-2026-03-10,OpenAI,0.2556,true,true
-2026-03-11,OpenAI,0.2854,true,true
-2026-03-12,OpenAI,0.2714,true,true
-2026-03-13,OpenAI,0.2686,true,true
-2026-03-14,OpenAI,0.2547,true,true
-2026-03-15,OpenAI,0.2166,true,true
-2026-03-16,OpenAI,0.3088,true,true
-2026-03-17,OpenAI,0.2992,true,true
-2026-03-18,OpenAI,0.3133,true,true
-2026-03-19,OpenAI,0.3339,true,true
-2026-03-20,OpenAI,0.2922,true,true
-2026-03-21,OpenAI,0.3708,true,true
-2026-03-22,OpenAI,0.3166,true,true
-2026-03-23,OpenAI,0.3238,true,true
-2026-03-24,OpenAI,0.3566,true,true
-2026-03-25,OpenAI,0.3606,true,true
-2026-03-26,OpenAI,0.3535,true,true
-2026-03-27,OpenAI,0.3733,true,true
-2026-03-28,OpenAI,0.2552,true,true
-2026-03-29,OpenAI,0.311,true,true
-2026-03-30,OpenAI,0.3486,true,true
-2026-03-31,OpenAI,0.3504,true,true
-2026-04-01,OpenAI,0.3451,true,true
-2026-04-02,OpenAI,0.3522,true,true
+2026-01-15,OpenAI,0.2568,true,true
+2026-01-16,OpenAI,0.2445,true,true
+2026-01-17,OpenAI,0.21,true,true
+2026-01-18,OpenAI,0.2222,true,true
+2026-01-19,OpenAI,0.2338,true,true
+2026-01-20,OpenAI,0.2603,true,true
+2026-01-21,OpenAI,0.2527,true,true
+2026-01-22,OpenAI,0.2488,true,true
+2026-01-23,OpenAI,0.2782,true,true
+2026-01-24,OpenAI,0.2204,true,true
+2026-01-25,OpenAI,0.2512,true,true
+2026-01-26,OpenAI,0.2451,true,true
+2026-01-27,OpenAI,0.2574,true,true
+2026-01-28,OpenAI,0.3106,true,true
+2026-01-29,OpenAI,0.3304,true,true
+2026-01-30,OpenAI,0.248,true,true
+2026-01-31,OpenAI,0.2469,true,true
+2026-02-01,OpenAI,0.2517,true,true
+2026-02-02,OpenAI,0.2426,true,true
+2026-02-03,OpenAI,0.2387,true,true
+2026-02-04,OpenAI,0.2265,true,true
+2026-02-05,OpenAI,0.2077,true,true
+2026-02-06,OpenAI,0.2895,true,true
+2026-02-07,OpenAI,0.2866,true,true
+2026-02-08,OpenAI,0.2352,true,true
+2026-02-09,OpenAI,0.2725,true,true
+2026-02-10,OpenAI,0.2199,true,true
+2026-02-11,OpenAI,0.214,true,true
+2026-02-12,OpenAI,0.2423,true,true
+2026-02-13,OpenAI,0.207,true,true
+2026-02-14,OpenAI,0.1773,true,true
+2026-02-15,OpenAI,0.1915,true,true
+2026-02-16,OpenAI,0.1869,true,true
+2026-02-17,OpenAI,0.193,true,true
+2026-02-18,OpenAI,0.1663,true,true
+2026-02-19,OpenAI,0.2162,true,true
+2026-02-20,OpenAI,0.2135,true,true
+2026-02-21,OpenAI,0.2022,true,true
+2026-02-22,OpenAI,0.2518,true,true
+2026-02-23,OpenAI,0.2837,true,true
+2026-02-24,OpenAI,0.2713,true,true
+2026-02-25,OpenAI,0.275,true,true
+2026-02-26,OpenAI,0.2743,true,true
+2026-02-27,OpenAI,0.2612,true,true
+2026-02-28,OpenAI,0.224,true,true
+2026-03-01,OpenAI,0.2313,true,true
+2026-03-02,OpenAI,0.2531,true,true
+2026-03-03,OpenAI,0.2697,true,true
+2026-03-04,OpenAI,0.2527,true,true
+2026-03-05,OpenAI,0.2652,true,true
+2026-03-06,OpenAI,0.2892,true,true
+2026-03-07,OpenAI,0.3182,true,true
+2026-03-08,OpenAI,0.244,true,true
+2026-03-09,OpenAI,0.2988,true,true
+2026-03-10,OpenAI,0.2658,true,true
+2026-03-11,OpenAI,0.2955,true,true
+2026-03-12,OpenAI,0.2835,true,true
+2026-03-13,OpenAI,0.2718,true,true
+2026-03-14,OpenAI,0.2582,true,true
+2026-03-15,OpenAI,0.231,true,true
+2026-03-16,OpenAI,0.311,true,true
+2026-03-17,OpenAI,0.3027,true,true
+2026-03-18,OpenAI,0.316,true,true
+2026-03-19,OpenAI,0.3354,true,true
+2026-03-20,OpenAI,0.2952,true,true
+2026-03-21,OpenAI,0.3702,true,true
+2026-03-22,OpenAI,0.3193,true,true
+2026-03-23,OpenAI,0.3259,true,true
+2026-03-24,OpenAI,0.3567,true,true
+2026-03-25,OpenAI,0.3605,true,true
+2026-03-26,OpenAI,0.3538,true,true
+2026-03-27,OpenAI,0.3727,true,true
+2026-03-28,OpenAI,0.2588,true,true
+2026-03-29,OpenAI,0.314,true,true
+2026-03-30,OpenAI,0.3492,true,true
+2026-03-31,OpenAI,0.3509,true,true
+2026-04-01,OpenAI,0.3458,true,true
+2026-04-02,OpenAI,0.3526,true,true
 2026-04-03,OpenAI,0.3576,true,true
-2026-04-04,OpenAI,0.244,true,true
-2026-04-05,OpenAI,0.2573,true,true
-2026-04-06,OpenAI,0.2836,true,true
-2026-04-07,OpenAI,0.2949,true,true
-2026-04-08,OpenAI,0.2605,true,true
-2026-04-09,OpenAI,0.2473,true,true
-2026-04-10,OpenAI,0.3886,true,true
+2026-04-04,OpenAI,0.2485,true,true
+2026-04-05,OpenAI,0.2608,true,true
+2026-04-06,OpenAI,0.2864,true,true
+2026-04-07,OpenAI,0.2974,true,true
+2026-04-08,OpenAI,0.2643,true,true
+2026-04-09,OpenAI,0.2511,true,true
+2026-04-10,OpenAI,0.3876,true,true
 2026-04-11,OpenAI,0.3821,true,true
 2026-04-12,OpenAI,0.3325,true,true
 2026-04-13,OpenAI,0.3182,true,true
 2026-04-14,OpenAI,0.3108,true,true
 2026-04-15,OpenAI,0.2839,true,true
 2026-04-16,OpenAI,0.3352,true,true
-2026-04-17,OpenAI,0.3161,true,true
-2026-04-18,OpenAI,0.4339,true,true
-2026-04-19,OpenAI,0.3743,true,true
-2026-04-20,OpenAI,0.3439,true,true
+2026-04-17,OpenAI,0.318,true,true
+2026-04-18,OpenAI,0.4298,true,true
+2026-04-19,OpenAI,0.3732,true,true
+2026-04-20,OpenAI,0.3449,true,true
 2026-04-21,OpenAI,0.3536,true,true
 2026-04-22,OpenAI,0.3458,true,true
 2026-04-23,OpenAI,0.3374,true,true
 2026-04-24,OpenAI,0.3521,true,true
 2026-04-25,OpenAI,0.4166,true,true
 2026-04-26,OpenAI,0.3786,true,true
-2026-04-27,OpenAI,0.4245,true,true
+2026-04-27,OpenAI,0.4213,true,true
 2026-04-28,OpenAI,0.4415,true,true
 2026-04-29,OpenAI,0.4848,true,true
 2026-04-30,OpenAI,0.478,true,true
 2026-05-01,OpenAI,0.4099,true,true
 2026-05-02,OpenAI,0.4655,true,true
-2026-05-03,OpenAI,0.611,true,true
-2026-05-04,OpenAI,0.5448,true,true
+2026-05-03,OpenAI,0.5915,true,true
+2026-05-04,OpenAI,0.5304,true,true
 2026-05-05,OpenAI,0.5437,true,true
 2026-05-06,OpenAI,0.523,true,true
 2026-05-07,OpenAI,0.4879,true,true
 2026-05-08,OpenAI,0.4995,true,true
 2026-05-09,OpenAI,0.7799,true,true
-2026-05-10,OpenAI,0.7686,true,true
-2026-05-11,OpenAI,0.6287,true,true
+2026-05-10,OpenAI,0.7467,true,true
+2026-05-11,OpenAI,0.6132,true,true
 2026-05-12,OpenAI,0.6312,true,true
 2026-05-13,OpenAI,0.5876,true,true
 2026-05-14,OpenAI,0.552,true,true
 2026-05-15,OpenAI,0.6109,true,true
-2026-05-16,OpenAI,0.7198,true,true
-2026-05-17,OpenAI,0.7586,true,true
+2026-05-16,OpenAI,0.6936,true,true
+2026-05-17,OpenAI,0.724,true,true
 2026-05-18,OpenAI,0.6179,true,true
 2026-05-19,OpenAI,0.5499,true,true
 2026-05-20,OpenAI,0.5566,true,true
@@ -1231,8 +1232,8 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-07-22,OpenAI,0.7026,true,true
 2026-07-23,OpenAI,0.6351,true,true
 2026-07-24,OpenAI,0.6772,true,true
-2026-07-25,OpenAI,0.7151,true,true
-2026-07-26,OpenAI,0.6076,true,true
+2026-07-25,OpenAI,0.7682,true,true
+2026-07-26,OpenAI,0.6498,true,true
 2026-07-27,OpenAI,0.6309,true,true
 2026-07-28,OpenAI,0.6099,true,true
 2026-07-29,OpenAI,0.6081,true,true
@@ -1327,385 +1328,437 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,OpenAI,0.1574,true,true
 2026-10-27,OpenAI,0.1872,true,true
 2026-10-28,OpenAI,0.1944,true,false
-2025-02-07,Google,0.0686,true,true
-2025-02-13,Google,0.0871,true,true
-2025-02-14,Google,0.087,true,true
-2025-02-15,Google,0.0905,true,true
-2025-02-16,Google,0.0922,true,true
-2025-02-17,Google,0.0904,true,true
-2025-02-18,Google,0.0951,true,true
-2025-02-19,Google,0.0947,true,true
-2025-02-20,Google,0.0942,true,true
-2025-02-21,Google,0.094,true,true
-2025-02-22,Google,0.0945,true,true
-2025-02-23,Google,0.0955,true,true
-2025-02-24,Google,0.0952,true,true
-2025-02-25,Google,0.0945,true,true
-2025-02-26,Google,0.0923,true,true
-2025-02-27,Google,0.0925,true,true
-2025-02-28,Google,0.0931,true,true
-2025-03-01,Google,0.0958,true,true
-2025-03-02,Google,0.0948,true,true
-2025-03-03,Google,0.0938,true,true
-2025-03-04,Google,0.0936,true,true
-2025-03-05,Google,0.0882,true,true
-2025-03-06,Google,0.0865,true,true
-2025-03-07,Google,0.0932,true,true
-2025-03-08,Google,0.0949,true,true
-2025-03-09,Google,0.0932,true,true
-2025-03-10,Google,0.0902,true,true
-2025-03-11,Google,0.0906,true,true
-2025-03-12,Google,0.0923,true,true
-2025-03-13,Google,0.0948,true,true
-2025-03-14,Google,0.0916,true,true
-2025-03-15,Google,0.0917,true,true
-2025-03-16,Google,0.0912,true,true
-2025-03-17,Google,0.0897,true,true
-2025-03-18,Google,0.0897,true,true
-2025-03-19,Google,0.091,true,true
-2025-03-20,Google,0.0894,true,true
-2025-03-21,Google,0.0919,true,true
-2025-03-22,Google,0.0885,true,true
-2025-03-23,Google,0.0903,true,true
-2025-03-24,Google,0.0903,true,true
-2025-03-25,Google,0.0918,true,true
-2025-03-26,Google,0.0907,true,true
-2025-03-27,Google,0.09,true,true
-2025-03-28,Google,0.0934,true,true
-2025-03-29,Google,0.0933,true,true
-2025-03-30,Google,0.0941,true,true
-2025-03-31,Google,0.0942,true,true
-2025-04-01,Google,0.0918,true,true
-2025-04-02,Google,0.0887,true,true
-2025-04-03,Google,0.0907,true,true
-2025-04-04,Google,0.0903,true,true
-2025-04-05,Google,0.0912,true,true
-2025-04-06,Google,0.0876,true,true
-2025-04-07,Google,0.0877,true,true
-2025-04-12,Google,0.0951,true,true
-2025-05-11,Google,0.1171,true,true
-2025-05-12,Google,0.1316,true,true
-2025-05-13,Google,0.1505,true,true
-2025-05-14,Google,0.1617,true,true
-2025-05-15,Google,0.1586,true,true
-2025-05-16,Google,0.1619,true,true
-2025-05-17,Google,0.1642,true,true
-2025-05-18,Google,0.1547,true,true
-2025-05-19,Google,0.1518,true,true
-2025-05-20,Google,0.1609,true,true
-2025-05-21,Google,0.1603,true,true
-2025-05-22,Google,0.1901,true,true
-2025-05-23,Google,0.1803,true,true
-2025-05-24,Google,0.1681,true,true
-2025-05-25,Google,0.1763,true,true
-2025-05-26,Google,0.1891,true,true
-2025-05-27,Google,0.2009,true,true
-2025-05-28,Google,0.2052,true,true
-2025-05-29,Google,0.1846,true,true
-2025-05-30,Google,0.1766,true,true
-2025-05-31,Google,0.1463,true,true
-2025-06-01,Google,0.1514,true,true
-2025-06-02,Google,0.1557,true,true
-2025-06-03,Google,0.1693,true,true
-2025-06-04,Google,0.1771,true,true
-2025-06-05,Google,0.1904,true,true
-2025-06-06,Google,0.1707,true,true
-2025-06-07,Google,0.1694,true,true
-2025-06-08,Google,0.177,true,true
-2025-06-09,Google,0.1834,true,true
-2025-06-10,Google,0.1518,true,true
-2025-06-11,Google,0.158,true,true
-2025-06-12,Google,0.1744,true,true
-2025-06-13,Google,0.1606,true,true
-2025-06-14,Google,0.1489,true,true
-2025-06-16,Google,0.161,true,true
-2025-06-17,Google,0.1642,true,true
-2025-06-18,Google,0.142,true,true
-2025-06-19,Google,0.1536,true,true
-2025-06-20,Google,0.1434,true,true
-2025-06-21,Google,0.1131,true,true
-2025-06-22,Google,0.1224,true,true
-2025-06-23,Google,0.1217,true,true
-2025-06-24,Google,0.1173,true,true
-2025-06-25,Google,0.1274,true,true
-2025-06-26,Google,0.122,true,true
-2025-06-27,Google,0.117,true,true
-2025-06-28,Google,0.1259,true,true
-2025-06-29,Google,0.1235,true,true
-2025-06-30,Google,0.1395,true,true
-2025-07-01,Google,0.13,true,true
-2025-07-02,Google,0.1542,true,true
-2025-07-03,Google,0.1505,true,true
-2025-07-04,Google,0.1637,true,true
-2025-07-05,Google,0.1597,true,true
-2025-07-06,Google,0.1473,true,true
-2025-07-07,Google,0.1471,true,true
-2025-07-08,Google,0.1399,true,true
-2025-07-09,Google,0.1391,true,true
-2025-07-10,Google,0.1362,true,true
-2025-07-11,Google,0.1462,true,true
-2025-07-12,Google,0.1441,true,true
-2025-07-13,Google,0.1332,true,true
-2025-07-14,Google,0.151,true,true
-2025-07-16,Google,0.1873,true,true
-2025-07-17,Google,0.1736,true,true
-2025-07-18,Google,0.1752,true,true
-2025-07-19,Google,0.1635,true,true
-2025-07-20,Google,0.1606,true,true
-2025-07-21,Google,0.1786,true,true
-2025-07-22,Google,0.1852,true,true
-2025-07-23,Google,0.1734,true,true
-2025-07-24,Google,0.1704,true,true
-2025-07-25,Google,0.1671,true,true
-2025-07-26,Google,0.1555,true,true
-2025-07-27,Google,0.1587,true,true
-2025-07-28,Google,0.1618,true,true
-2025-07-29,Google,0.1658,true,true
-2025-07-30,Google,0.1707,true,true
-2025-07-31,Google,0.1592,true,true
-2025-08-01,Google,0.1527,true,true
-2025-08-02,Google,0.1469,true,true
-2025-08-03,Google,0.1564,true,true
-2025-08-04,Google,0.1621,true,true
-2025-08-05,Google,0.1621,true,true
-2025-08-06,Google,0.1707,true,true
-2025-08-07,Google,0.1668,true,true
-2025-08-08,Google,0.1622,true,true
-2025-08-09,Google,0.1555,true,true
-2025-08-10,Google,0.1493,true,true
-2025-08-11,Google,0.16,true,true
-2025-08-12,Google,0.1555,true,true
-2025-08-13,Google,0.1597,true,true
-2025-08-14,Google,0.1595,true,true
-2025-08-15,Google,0.1574,true,true
-2025-08-16,Google,0.1487,true,true
-2025-08-17,Google,0.14,true,true
-2025-08-18,Google,0.1424,true,true
-2025-08-19,Google,0.16,true,true
-2025-08-20,Google,0.172,true,true
-2025-08-21,Google,0.1748,true,true
-2025-08-22,Google,0.1706,true,true
-2025-08-23,Google,0.158,true,true
-2025-08-24,Google,0.174,true,true
-2025-08-25,Google,0.1607,true,true
-2025-08-26,Google,0.1712,true,true
-2025-08-27,Google,0.1828,true,true
-2025-08-28,Google,0.1769,true,true
-2025-08-29,Google,0.1757,true,true
-2025-08-30,Google,0.2325,true,true
-2025-08-31,Google,0.1531,true,true
+2026-10-29,OpenAI,0.1778,true,false
+2025-01-01,Google,0.0294,true,true
+2025-01-02,Google,0.0293,true,true
+2025-01-03,Google,0.0294,true,true
+2025-01-04,Google,0.0269,true,true
+2025-01-05,Google,0.0331,true,true
+2025-01-06,Google,0.0348,true,true
+2025-01-07,Google,0.0308,true,true
+2025-01-08,Google,0.0322,true,true
+2025-01-09,Google,0.0412,true,true
+2025-01-10,Google,0.0472,true,true
+2025-01-11,Google,0.0296,true,true
+2025-01-12,Google,0.0293,true,true
+2025-01-13,Google,0.0342,true,true
+2025-01-14,Google,0.033,true,true
+2025-01-15,Google,0.0308,true,true
+2025-01-16,Google,0.0321,true,true
+2025-01-17,Google,0.0328,true,true
+2025-01-18,Google,0.037,true,true
+2025-01-19,Google,0.0299,true,true
+2025-01-20,Google,0.0316,true,true
+2025-01-21,Google,0.032,true,true
+2025-01-22,Google,0.0322,true,true
+2025-01-23,Google,0.0334,true,true
+2025-01-24,Google,0.0387,true,true
+2025-01-25,Google,0.0494,true,true
+2025-01-26,Google,0.0339,true,true
+2025-01-27,Google,0.0722,true,true
+2025-01-28,Google,0.0449,true,true
+2025-01-29,Google,0.0564,true,true
+2025-01-30,Google,0.0559,true,true
+2025-01-31,Google,0.055,true,true
+2025-02-01,Google,0.0444,true,true
+2025-02-02,Google,0.0441,true,true
+2025-02-03,Google,0.0539,true,true
+2025-02-04,Google,0.0337,true,true
+2025-02-05,Google,0.0395,true,true
+2025-02-06,Google,0.0556,true,true
+2025-02-07,Google,0.0614,true,true
+2025-02-08,Google,0.0636,true,true
+2025-02-09,Google,0.0542,true,true
+2025-02-10,Google,0.0624,true,true
+2025-02-11,Google,0.0729,true,true
+2025-02-12,Google,0.0747,true,true
+2025-02-13,Google,0.0841,true,true
+2025-02-14,Google,0.0803,true,true
+2025-02-15,Google,0.0819,true,true
+2025-02-16,Google,0.085,true,true
+2025-02-17,Google,0.0848,true,true
+2025-02-18,Google,0.0918,true,true
+2025-02-19,Google,0.0906,true,true
+2025-02-20,Google,0.0877,true,true
+2025-02-21,Google,0.0918,true,true
+2025-02-22,Google,0.0879,true,true
+2025-02-23,Google,0.0908,true,true
+2025-02-24,Google,0.0903,true,true
+2025-02-25,Google,0.0916,true,true
+2025-02-26,Google,0.0894,true,true
+2025-02-27,Google,0.0899,true,true
+2025-02-28,Google,0.0899,true,true
+2025-03-01,Google,0.0921,true,true
+2025-03-02,Google,0.0907,true,true
+2025-03-03,Google,0.0905,true,true
+2025-03-04,Google,0.0898,true,true
+2025-03-05,Google,0.0846,true,true
+2025-03-06,Google,0.0821,true,true
+2025-03-07,Google,0.083,true,true
+2025-03-08,Google,0.0847,true,true
+2025-03-09,Google,0.0861,true,true
+2025-03-10,Google,0.0858,true,true
+2025-03-11,Google,0.0863,true,true
+2025-03-12,Google,0.087,true,true
+2025-03-13,Google,0.0902,true,true
+2025-03-14,Google,0.087,true,true
+2025-03-15,Google,0.0872,true,true
+2025-03-16,Google,0.0863,true,true
+2025-03-17,Google,0.0867,true,true
+2025-03-18,Google,0.0873,true,true
+2025-03-19,Google,0.0878,true,true
+2025-03-20,Google,0.087,true,true
+2025-03-21,Google,0.0889,true,true
+2025-03-22,Google,0.0851,true,true
+2025-03-23,Google,0.086,true,true
+2025-03-24,Google,0.0885,true,true
+2025-03-25,Google,0.0911,true,true
+2025-03-26,Google,0.0886,true,true
+2025-03-27,Google,0.0885,true,true
+2025-03-28,Google,0.0918,true,true
+2025-03-29,Google,0.0888,true,true
+2025-03-30,Google,0.0919,true,true
+2025-03-31,Google,0.0908,true,true
+2025-04-01,Google,0.0876,true,true
+2025-04-02,Google,0.0879,true,true
+2025-04-03,Google,0.0893,true,true
+2025-04-04,Google,0.0884,true,true
+2025-04-05,Google,0.086,true,true
+2025-04-06,Google,0.0834,true,true
+2025-04-07,Google,0.0832,true,true
+2025-04-08,Google,0.0831,true,true
+2025-04-09,Google,0.0833,true,true
+2025-04-10,Google,0.0864,true,true
+2025-04-11,Google,0.0845,true,true
+2025-04-12,Google,0.0917,true,true
+2025-04-13,Google,0.0872,true,true
+2025-04-14,Google,0.0835,true,true
+2025-05-08,Google,0.125,true,true
+2025-05-09,Google,0.1335,true,true
+2025-05-10,Google,0.1198,true,true
+2025-05-11,Google,0.1147,true,true
+2025-05-12,Google,0.1308,true,true
+2025-05-13,Google,0.1477,true,true
+2025-05-14,Google,0.1581,true,true
+2025-05-15,Google,0.1541,true,true
+2025-05-16,Google,0.1583,true,true
+2025-05-17,Google,0.1602,true,true
+2025-05-18,Google,0.1512,true,true
+2025-05-19,Google,0.1485,true,true
+2025-05-20,Google,0.1571,true,true
+2025-05-21,Google,0.1569,true,true
+2025-05-22,Google,0.1864,true,true
+2025-05-23,Google,0.1768,true,true
+2025-05-24,Google,0.1643,true,true
+2025-05-25,Google,0.1724,true,true
+2025-05-26,Google,0.1857,true,true
+2025-05-27,Google,0.1974,true,true
+2025-05-28,Google,0.202,true,true
+2025-05-29,Google,0.1818,true,true
+2025-05-30,Google,0.1733,true,true
+2025-05-31,Google,0.1428,true,true
+2025-06-01,Google,0.1484,true,true
+2025-06-02,Google,0.1531,true,true
+2025-06-03,Google,0.167,true,true
+2025-06-04,Google,0.1741,true,true
+2025-06-05,Google,0.1869,true,true
+2025-06-06,Google,0.1682,true,true
+2025-06-07,Google,0.1668,true,true
+2025-06-08,Google,0.1735,true,true
+2025-06-09,Google,0.1798,true,true
+2025-06-10,Google,0.1494,true,true
+2025-06-11,Google,0.1523,true,true
+2025-06-12,Google,0.1666,true,true
+2025-06-13,Google,0.1581,true,true
+2025-06-14,Google,0.1461,true,true
+2025-06-16,Google,0.1589,true,true
+2025-06-17,Google,0.1618,true,true
+2025-06-18,Google,0.1404,true,true
+2025-06-19,Google,0.1516,true,true
+2025-06-20,Google,0.1412,true,true
+2025-06-21,Google,0.1121,true,true
+2025-06-22,Google,0.1212,true,true
+2025-06-23,Google,0.1201,true,true
+2025-06-24,Google,0.1157,true,true
+2025-06-25,Google,0.1258,true,true
+2025-06-26,Google,0.1209,true,true
+2025-06-27,Google,0.1159,true,true
+2025-06-28,Google,0.1244,true,true
+2025-06-29,Google,0.1217,true,true
+2025-06-30,Google,0.1373,true,true
+2025-07-01,Google,0.1286,true,true
+2025-07-02,Google,0.1512,true,true
+2025-07-03,Google,0.1482,true,true
+2025-07-04,Google,0.1616,true,true
+2025-07-05,Google,0.1572,true,true
+2025-07-06,Google,0.1454,true,true
+2025-07-07,Google,0.1456,true,true
+2025-07-08,Google,0.1386,true,true
+2025-07-09,Google,0.1378,true,true
+2025-07-10,Google,0.1349,true,true
+2025-07-11,Google,0.1448,true,true
+2025-07-12,Google,0.1426,true,true
+2025-07-13,Google,0.1318,true,true
+2025-07-14,Google,0.1497,true,true
+2025-07-16,Google,0.1855,true,true
+2025-07-17,Google,0.1718,true,true
+2025-07-18,Google,0.1705,true,true
+2025-07-19,Google,0.1583,true,true
+2025-07-20,Google,0.1572,true,true
+2025-07-21,Google,0.1731,true,true
+2025-07-22,Google,0.1789,true,true
+2025-07-23,Google,0.1714,true,true
+2025-07-24,Google,0.1686,true,true
+2025-07-25,Google,0.161,true,true
+2025-07-26,Google,0.1433,true,true
+2025-07-27,Google,0.1475,true,true
+2025-07-28,Google,0.1589,true,true
+2025-07-29,Google,0.161,true,true
+2025-07-30,Google,0.1653,true,true
+2025-07-31,Google,0.1499,true,true
+2025-08-01,Google,0.1431,true,true
+2025-08-02,Google,0.1356,true,true
+2025-08-03,Google,0.1489,true,true
+2025-08-04,Google,0.1604,true,true
+2025-08-05,Google,0.1604,true,true
+2025-08-06,Google,0.1688,true,true
+2025-08-07,Google,0.1651,true,true
+2025-08-08,Google,0.1604,true,true
+2025-08-09,Google,0.1534,true,true
+2025-08-10,Google,0.1476,true,true
+2025-08-11,Google,0.158,true,true
+2025-08-12,Google,0.1539,true,true
+2025-08-13,Google,0.1566,true,true
+2025-08-14,Google,0.1576,true,true
+2025-08-15,Google,0.1559,true,true
+2025-08-16,Google,0.147,true,true
+2025-08-17,Google,0.1384,true,true
+2025-08-18,Google,0.1412,true,true
+2025-08-19,Google,0.1583,true,true
+2025-08-20,Google,0.1699,true,true
+2025-08-21,Google,0.1721,true,true
+2025-08-22,Google,0.1686,true,true
+2025-08-23,Google,0.1554,true,true
+2025-08-24,Google,0.1715,true,true
+2025-08-25,Google,0.1592,true,true
+2025-08-26,Google,0.1694,true,true
+2025-08-27,Google,0.1809,true,true
+2025-08-28,Google,0.1752,true,true
+2025-08-29,Google,0.1744,true,true
+2025-08-30,Google,0.23,true,true
+2025-08-31,Google,0.1519,true,true
 2025-09-01,Google,0.1422,true,true
 2025-09-02,Google,0.1704,true,true
-2025-09-03,Google,0.1677,true,true
+2025-09-03,Google,0.1663,true,true
 2025-09-04,Google,0.1839,true,true
 2025-09-05,Google,0.1642,true,true
-2025-09-06,Google,0.161,true,true
-2025-09-07,Google,0.1668,true,true
+2025-09-06,Google,0.1591,true,true
+2025-09-07,Google,0.165,true,true
 2025-09-08,Google,0.1635,true,true
 2025-09-09,Google,0.1662,true,true
-2025-09-10,Google,0.164,true,true
-2025-09-11,Google,0.1676,true,true
-2025-09-12,Google,0.1688,true,true
-2025-09-13,Google,0.1534,true,true
+2025-09-10,Google,0.1624,true,true
+2025-09-11,Google,0.1661,true,true
+2025-09-12,Google,0.1664,true,true
+2025-09-13,Google,0.1498,true,true
 2025-09-14,Google,0.1618,true,true
-2025-09-15,Google,0.1643,true,true
+2025-09-15,Google,0.1625,true,true
 2025-09-16,Google,0.1564,true,true
-2025-09-17,Google,0.1613,true,true
-2025-09-18,Google,0.1553,true,true
-2025-09-19,Google,0.1591,true,true
-2025-09-20,Google,0.1564,true,true
-2025-09-21,Google,0.1543,true,true
+2025-09-17,Google,0.1591,true,true
+2025-09-18,Google,0.1531,true,true
+2025-09-19,Google,0.1569,true,true
+2025-09-20,Google,0.154,true,true
+2025-09-21,Google,0.1513,true,true
 2025-09-22,Google,0.1551,true,true
-2025-09-23,Google,0.1557,true,true
+2025-09-23,Google,0.1541,true,true
 2025-09-24,Google,0.1583,true,true
 2025-09-25,Google,0.1653,true,true
 2025-09-26,Google,0.1662,true,true
 2025-09-27,Google,0.1665,true,true
-2025-09-28,Google,0.1762,true,true
+2025-09-28,Google,0.1714,true,true
 2025-09-29,Google,0.1599,true,true
-2025-09-30,Google,0.1547,true,true
-2025-10-01,Google,0.1564,true,true
-2025-10-02,Google,0.16,true,true
-2025-10-03,Google,0.1592,true,true
-2025-10-04,Google,0.1403,true,true
-2025-10-05,Google,0.1612,true,true
-2025-10-06,Google,0.1667,true,true
-2025-10-07,Google,0.1646,true,true
-2025-10-08,Google,0.1713,true,true
-2025-10-09,Google,0.1786,true,true
-2025-10-10,Google,0.1848,true,true
-2025-10-11,Google,0.1813,true,true
-2025-10-12,Google,0.1751,true,true
-2025-10-13,Google,0.1774,true,true
-2025-10-14,Google,0.1728,true,true
-2025-10-15,Google,0.1683,true,true
-2025-10-16,Google,0.1747,true,true
-2025-10-17,Google,0.1798,true,true
-2025-10-18,Google,0.1879,true,true
-2025-10-19,Google,0.1743,true,true
-2025-10-20,Google,0.1752,true,true
-2025-10-21,Google,0.1657,true,true
-2025-10-22,Google,0.1847,true,true
-2025-10-23,Google,0.1856,true,true
-2025-10-24,Google,0.1872,true,true
-2025-10-25,Google,0.1819,true,true
-2025-10-26,Google,0.199,true,true
-2025-10-27,Google,0.1901,true,true
-2025-10-28,Google,0.1868,true,true
-2025-10-29,Google,0.132,true,true
-2025-10-30,Google,0.1288,true,true
-2025-10-31,Google,0.1304,true,true
-2025-11-01,Google,0.1288,true,true
-2025-11-02,Google,0.1342,true,true
-2025-11-03,Google,0.1215,true,true
-2025-11-04,Google,0.1222,true,true
-2025-11-05,Google,0.1199,true,true
-2025-11-06,Google,0.1311,true,true
-2025-11-07,Google,0.129,true,true
-2025-11-08,Google,0.1214,true,true
-2025-11-09,Google,0.121,true,true
-2025-11-10,Google,0.1241,true,true
-2025-11-11,Google,0.1248,true,true
-2025-11-12,Google,0.1183,true,true
-2025-11-13,Google,0.1219,true,true
-2025-11-14,Google,0.1208,true,true
-2025-11-15,Google,0.1188,true,true
-2025-11-16,Google,0.1144,true,true
-2025-11-17,Google,0.1249,true,true
-2025-11-18,Google,0.1398,true,true
-2025-11-19,Google,0.1874,true,true
-2025-11-20,Google,0.1937,true,true
-2025-11-21,Google,0.1934,true,true
-2025-11-22,Google,0.1811,true,true
-2025-11-23,Google,0.1631,true,true
-2025-11-24,Google,0.1773,true,true
-2025-11-25,Google,0.1589,true,true
-2025-11-26,Google,0.1693,true,true
-2025-11-27,Google,0.1654,true,true
-2025-11-28,Google,0.1604,true,true
-2025-11-29,Google,0.1609,true,true
-2025-11-30,Google,0.1721,true,true
-2025-12-01,Google,0.1717,true,true
-2025-12-02,Google,0.1696,true,true
-2025-12-03,Google,0.1713,true,true
-2025-12-04,Google,0.1749,true,true
-2025-12-05,Google,0.2033,true,true
-2025-12-06,Google,0.1713,true,true
-2025-12-07,Google,0.1584,true,true
-2025-12-08,Google,0.1632,true,true
-2025-12-09,Google,0.1513,true,true
-2025-12-10,Google,0.1572,true,true
-2025-12-11,Google,0.174,true,true
-2025-12-12,Google,0.1733,true,true
-2025-12-13,Google,0.1498,true,true
-2025-12-14,Google,0.1601,true,true
-2025-12-15,Google,0.1522,true,true
-2025-12-16,Google,0.1519,true,true
-2025-12-17,Google,0.1549,true,true
-2025-12-18,Google,0.1585,true,true
-2025-12-19,Google,0.1403,true,true
-2025-12-20,Google,0.1501,true,true
-2025-12-21,Google,0.1417,true,true
-2025-12-22,Google,0.1494,true,true
-2025-12-23,Google,0.1508,true,true
-2025-12-24,Google,0.1402,true,true
-2025-12-25,Google,0.1459,true,true
-2025-12-26,Google,0.1402,true,true
-2025-12-27,Google,0.1421,true,true
-2025-12-28,Google,0.1405,true,true
-2025-12-29,Google,0.1427,true,true
-2025-12-30,Google,0.144,true,true
-2025-12-31,Google,0.1465,true,true
-2026-01-01,Google,0.1399,true,true
-2026-01-02,Google,0.1418,true,true
-2026-01-03,Google,0.1447,true,true
-2026-01-04,Google,0.1543,true,true
-2026-01-05,Google,0.1421,true,true
-2026-01-06,Google,0.1408,true,true
-2026-01-07,Google,0.1395,true,true
-2026-01-08,Google,0.1449,true,true
-2026-01-09,Google,0.1425,true,true
-2026-01-10,Google,0.1294,true,true
-2026-01-11,Google,0.1446,true,true
-2026-01-12,Google,0.1466,true,true
-2026-01-13,Google,0.1442,true,true
-2026-01-14,Google,0.145,true,true
-2026-01-15,Google,0.2226,true,true
-2026-01-16,Google,0.1971,true,true
-2026-01-17,Google,0.2311,true,true
-2026-01-18,Google,0.2522,true,true
-2026-01-19,Google,0.1629,true,true
-2026-01-20,Google,0.1637,true,true
-2026-01-21,Google,0.1391,true,true
-2026-01-22,Google,0.1475,true,true
-2026-01-23,Google,0.1445,true,true
-2026-01-24,Google,0.1461,true,true
-2026-01-25,Google,0.1461,true,true
-2026-01-26,Google,0.1406,true,true
-2026-01-27,Google,0.1382,true,true
-2026-01-28,Google,0.1485,true,true
-2026-01-29,Google,0.1404,true,true
-2026-01-30,Google,0.1452,true,true
-2026-01-31,Google,0.1423,true,true
-2026-02-01,Google,0.1444,true,true
-2026-02-02,Google,0.1425,true,true
-2026-02-03,Google,0.1395,true,true
-2026-02-04,Google,0.1379,true,true
-2026-02-05,Google,0.1377,true,true
-2026-02-06,Google,0.1384,true,true
-2026-02-07,Google,0.1358,true,true
-2026-02-08,Google,0.1347,true,true
-2026-02-09,Google,0.1429,true,true
-2026-02-10,Google,0.1421,true,true
-2026-02-11,Google,0.141,true,true
-2026-02-12,Google,0.1386,true,true
-2026-02-13,Google,0.1428,true,true
-2026-02-14,Google,0.1282,true,true
-2026-02-15,Google,0.1338,true,true
-2026-02-16,Google,0.1341,true,true
-2026-02-17,Google,0.1302,true,true
-2026-02-18,Google,0.1377,true,true
-2026-02-19,Google,0.1488,true,true
-2026-02-20,Google,0.1598,true,true
-2026-02-21,Google,0.159,true,true
-2026-02-22,Google,0.158,true,true
-2026-02-23,Google,0.1681,true,true
-2026-02-24,Google,0.1578,true,true
-2026-02-25,Google,0.1577,true,true
-2026-02-26,Google,0.1502,true,true
-2026-02-27,Google,0.1567,true,true
-2026-02-28,Google,0.1533,true,true
-2026-03-01,Google,0.1557,true,true
-2026-03-02,Google,0.1476,true,true
-2026-03-03,Google,0.1512,true,true
-2026-03-04,Google,0.1607,true,true
-2026-03-05,Google,0.16,true,true
-2026-03-06,Google,0.1546,true,true
-2026-03-07,Google,0.1474,true,true
-2026-03-08,Google,0.1473,true,true
-2026-03-09,Google,0.1537,true,true
-2026-03-10,Google,0.1569,true,true
-2026-03-11,Google,0.1523,true,true
-2026-03-12,Google,0.149,true,true
-2026-03-13,Google,0.1562,true,true
+2025-09-30,Google,0.1517,true,true
+2025-10-01,Google,0.1534,true,true
+2025-10-02,Google,0.1559,true,true
+2025-10-03,Google,0.1545,true,true
+2025-10-04,Google,0.1378,true,true
+2025-10-05,Google,0.1572,true,true
+2025-10-06,Google,0.1597,true,true
+2025-10-07,Google,0.1545,true,true
+2025-10-08,Google,0.1618,true,true
+2025-10-09,Google,0.1716,true,true
+2025-10-10,Google,0.1734,true,true
+2025-10-11,Google,0.1694,true,true
+2025-10-12,Google,0.1693,true,true
+2025-10-13,Google,0.1707,true,true
+2025-10-14,Google,0.1662,true,true
+2025-10-15,Google,0.1624,true,true
+2025-10-16,Google,0.1649,true,true
+2025-10-17,Google,0.1706,true,true
+2025-10-18,Google,0.1735,true,true
+2025-10-19,Google,0.1704,true,true
+2025-10-20,Google,0.1687,true,true
+2025-10-21,Google,0.1616,true,true
+2025-10-22,Google,0.1764,true,true
+2025-10-23,Google,0.1762,true,true
+2025-10-24,Google,0.1771,true,true
+2025-10-25,Google,0.1737,true,true
+2025-10-26,Google,0.1888,true,true
+2025-10-27,Google,0.1802,true,true
+2025-10-28,Google,0.1776,true,true
+2025-10-29,Google,0.1255,true,true
+2025-10-30,Google,0.12,true,true
+2025-10-31,Google,0.1227,true,true
+2025-11-01,Google,0.1222,true,true
+2025-11-02,Google,0.1269,true,true
+2025-11-03,Google,0.1145,true,true
+2025-11-04,Google,0.1157,true,true
+2025-11-05,Google,0.114,true,true
+2025-11-06,Google,0.124,true,true
+2025-11-07,Google,0.1219,true,true
+2025-11-08,Google,0.1171,true,true
+2025-11-09,Google,0.1171,true,true
+2025-11-10,Google,0.1182,true,true
+2025-11-11,Google,0.1186,true,true
+2025-11-12,Google,0.112,true,true
+2025-11-13,Google,0.1151,true,true
+2025-11-14,Google,0.1133,true,true
+2025-11-15,Google,0.1142,true,true
+2025-11-16,Google,0.11,true,true
+2025-11-17,Google,0.1163,true,true
+2025-11-18,Google,0.1293,true,true
+2025-11-19,Google,0.1699,true,true
+2025-11-20,Google,0.1831,true,true
+2025-11-21,Google,0.1808,true,true
+2025-11-22,Google,0.1693,true,true
+2025-11-23,Google,0.1569,true,true
+2025-11-24,Google,0.1662,true,true
+2025-11-25,Google,0.1479,true,true
+2025-11-26,Google,0.1573,true,true
+2025-11-27,Google,0.1551,true,true
+2025-11-28,Google,0.1512,true,true
+2025-11-29,Google,0.1548,true,true
+2025-11-30,Google,0.1659,true,true
+2025-12-01,Google,0.1614,true,true
+2025-12-02,Google,0.1584,true,true
+2025-12-03,Google,0.1602,true,true
+2025-12-04,Google,0.1647,true,true
+2025-12-05,Google,0.1923,true,true
+2025-12-06,Google,0.1667,true,true
+2025-12-07,Google,0.154,true,true
+2025-12-08,Google,0.1583,true,true
+2025-12-09,Google,0.1445,true,true
+2025-12-10,Google,0.1504,true,true
+2025-12-11,Google,0.1663,true,true
+2025-12-12,Google,0.1656,true,true
+2025-12-13,Google,0.1454,true,true
+2025-12-14,Google,0.1549,true,true
+2025-12-15,Google,0.1474,true,true
+2025-12-16,Google,0.1474,true,true
+2025-12-17,Google,0.1503,true,true
+2025-12-18,Google,0.1545,true,true
+2025-12-19,Google,0.1368,true,true
+2025-12-20,Google,0.1459,true,true
+2025-12-21,Google,0.1387,true,true
+2025-12-22,Google,0.1462,true,true
+2025-12-23,Google,0.1472,true,true
+2025-12-24,Google,0.137,true,true
+2025-12-25,Google,0.1425,true,true
+2025-12-26,Google,0.1368,true,true
+2025-12-27,Google,0.1395,true,true
+2025-12-28,Google,0.1369,true,true
+2025-12-29,Google,0.1395,true,true
+2025-12-30,Google,0.1409,true,true
+2025-12-31,Google,0.1429,true,true
+2026-01-01,Google,0.1372,true,true
+2026-01-02,Google,0.1385,true,true
+2026-01-03,Google,0.1405,true,true
+2026-01-04,Google,0.1505,true,true
+2026-01-05,Google,0.1387,true,true
+2026-01-06,Google,0.1361,true,true
+2026-01-07,Google,0.1362,true,true
+2026-01-08,Google,0.1412,true,true
+2026-01-09,Google,0.1389,true,true
+2026-01-10,Google,0.1267,true,true
+2026-01-11,Google,0.1413,true,true
+2026-01-12,Google,0.1422,true,true
+2026-01-13,Google,0.1395,true,true
+2026-01-14,Google,0.1414,true,true
+2026-01-15,Google,0.2178,true,true
+2026-01-16,Google,0.1915,true,true
+2026-01-17,Google,0.2278,true,true
+2026-01-18,Google,0.2492,true,true
+2026-01-19,Google,0.1588,true,true
+2026-01-20,Google,0.1598,true,true
+2026-01-21,Google,0.1348,true,true
+2026-01-22,Google,0.142,true,true
+2026-01-23,Google,0.1399,true,true
+2026-01-24,Google,0.1432,true,true
+2026-01-25,Google,0.1427,true,true
+2026-01-26,Google,0.1367,true,true
+2026-01-27,Google,0.1345,true,true
+2026-01-28,Google,0.1438,true,true
+2026-01-29,Google,0.1372,true,true
+2026-01-30,Google,0.1418,true,true
+2026-01-31,Google,0.1392,true,true
+2026-02-01,Google,0.1412,true,true
+2026-02-02,Google,0.1397,true,true
+2026-02-03,Google,0.1358,true,true
+2026-02-04,Google,0.135,true,true
+2026-02-05,Google,0.135,true,true
+2026-02-06,Google,0.135,true,true
+2026-02-07,Google,0.1319,true,true
+2026-02-08,Google,0.1324,true,true
+2026-02-09,Google,0.1391,true,true
+2026-02-10,Google,0.1346,true,true
+2026-02-11,Google,0.1375,true,true
+2026-02-12,Google,0.1357,true,true
+2026-02-13,Google,0.1393,true,true
+2026-02-14,Google,0.1258,true,true
+2026-02-15,Google,0.1306,true,true
+2026-02-16,Google,0.1318,true,true
+2026-02-17,Google,0.1269,true,true
+2026-02-18,Google,0.1344,true,true
+2026-02-19,Google,0.1448,true,true
+2026-02-20,Google,0.1561,true,true
+2026-02-21,Google,0.1556,true,true
+2026-02-22,Google,0.1553,true,true
+2026-02-23,Google,0.1632,true,true
+2026-02-24,Google,0.154,true,true
+2026-02-25,Google,0.1542,true,true
+2026-02-26,Google,0.1465,true,true
+2026-02-27,Google,0.1529,true,true
+2026-02-28,Google,0.1507,true,true
+2026-03-01,Google,0.1524,true,true
+2026-03-02,Google,0.1435,true,true
+2026-03-03,Google,0.1472,true,true
+2026-03-04,Google,0.156,true,true
+2026-03-05,Google,0.1558,true,true
+2026-03-06,Google,0.1511,true,true
+2026-03-07,Google,0.1453,true,true
+2026-03-08,Google,0.1448,true,true
+2026-03-09,Google,0.1498,true,true
+2026-03-10,Google,0.1526,true,true
+2026-03-11,Google,0.1496,true,true
+2026-03-12,Google,0.1462,true,true
+2026-03-13,Google,0.1536,true,true
 2026-03-14,Google,0.1317,true,true
 2026-03-15,Google,0.1306,true,true
-2026-03-16,Google,0.1446,true,true
-2026-03-17,Google,0.1226,true,true
-2026-03-18,Google,0.1336,true,true
-2026-03-19,Google,0.1422,true,true
-2026-03-20,Google,0.1518,true,true
+2026-03-16,Google,0.142,true,true
+2026-03-17,Google,0.1207,true,true
+2026-03-18,Google,0.1315,true,true
+2026-03-19,Google,0.1396,true,true
+2026-03-20,Google,0.1489,true,true
 2026-03-21,Google,0.1458,true,true
 2026-03-22,Google,0.1413,true,true
-2026-03-23,Google,0.1364,true,true
-2026-03-24,Google,0.1425,true,true
-2026-03-25,Google,0.1428,true,true
-2026-03-26,Google,0.1363,true,true
-2026-03-27,Google,0.1435,true,true
+2026-03-23,Google,0.1341,true,true
+2026-03-24,Google,0.1394,true,true
+2026-03-25,Google,0.1402,true,true
+2026-03-26,Google,0.134,true,true
+2026-03-27,Google,0.141,true,true
 2026-03-28,Google,0.1319,true,true
 2026-03-29,Google,0.1327,true,true
-2026-03-30,Google,0.1436,true,true
-2026-03-31,Google,0.1547,true,true
+2026-03-30,Google,0.1411,true,true
+2026-03-31,Google,0.1522,true,true
 2026-04-01,Google,0.1489,true,true
 2026-04-02,Google,0.1432,true,true
 2026-04-03,Google,0.1447,true,true
@@ -1917,6 +1970,106 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,Google,0.2091,true,true
 2026-10-27,Google,0.2109,true,true
 2026-10-28,Google,0.213,true,false
+2026-10-29,Google,0.244,true,false
+2025-01-01,xAI,2.08,true,true
+2025-01-02,xAI,2.08,true,true
+2025-01-03,xAI,2.08,true,true
+2025-01-04,xAI,2.08,true,true
+2025-01-05,xAI,2.08,true,true
+2025-01-06,xAI,2.08,true,true
+2025-01-07,xAI,2.08,true,true
+2025-01-08,xAI,2.08,true,true
+2025-01-09,xAI,2.08,true,true
+2025-01-10,xAI,2.08,true,true
+2025-01-11,xAI,2.08,true,true
+2025-01-12,xAI,2.08,true,true
+2025-01-13,xAI,2.08,true,true
+2025-01-14,xAI,2.08,true,true
+2025-01-15,xAI,2.08,true,true
+2025-01-16,xAI,2.08,true,true
+2025-01-17,xAI,2.08,true,true
+2025-01-18,xAI,2.08,true,true
+2025-01-19,xAI,2.08,true,true
+2025-01-20,xAI,2.08,true,true
+2025-01-21,xAI,2.08,true,true
+2025-01-22,xAI,2.08,true,true
+2025-01-23,xAI,2.08,true,true
+2025-01-24,xAI,2.08,true,true
+2025-01-25,xAI,2.08,true,true
+2025-01-26,xAI,2.08,true,true
+2025-01-27,xAI,2.08,true,true
+2025-01-28,xAI,2.08,true,true
+2025-01-29,xAI,2.08,true,true
+2025-01-30,xAI,2.08,true,true
+2025-01-31,xAI,2.08,true,true
+2025-02-01,xAI,2.08,true,true
+2025-02-02,xAI,2.08,true,true
+2025-02-03,xAI,2.08,true,true
+2025-02-04,xAI,2.08,true,true
+2025-02-05,xAI,2.08,true,true
+2025-02-06,xAI,2.08,true,true
+2025-02-07,xAI,2.08,true,true
+2025-02-08,xAI,2.08,true,true
+2025-02-09,xAI,2.08,true,true
+2025-02-10,xAI,2.08,true,true
+2025-02-11,xAI,2.08,true,true
+2025-02-12,xAI,2.08,true,true
+2025-02-13,xAI,2.08,true,true
+2025-02-14,xAI,2.08,true,true
+2025-02-15,xAI,2.08,true,true
+2025-02-16,xAI,2.08,true,true
+2025-02-17,xAI,2.08,true,true
+2025-02-18,xAI,2.08,true,true
+2025-02-19,xAI,2.08,true,true
+2025-02-20,xAI,2.08,true,true
+2025-02-21,xAI,2.08,true,true
+2025-02-22,xAI,2.08,true,true
+2025-02-23,xAI,2.08,true,true
+2025-02-24,xAI,2.08,true,true
+2025-02-25,xAI,2.08,true,true
+2025-02-26,xAI,2.08,true,true
+2025-02-27,xAI,2.08,true,true
+2025-02-28,xAI,2.08,true,true
+2025-03-01,xAI,2.08,true,true
+2025-03-02,xAI,2.08,true,true
+2025-03-03,xAI,2.08,true,true
+2025-03-04,xAI,2.08,true,true
+2025-03-05,xAI,2.08,true,true
+2025-03-06,xAI,2.08,true,true
+2025-03-07,xAI,2.08,true,true
+2025-03-08,xAI,2.08,true,true
+2025-03-09,xAI,2.08,true,true
+2025-03-10,xAI,2.08,true,true
+2025-03-11,xAI,2.08,true,true
+2025-03-12,xAI,2.08,true,true
+2025-03-13,xAI,2.08,true,true
+2025-03-14,xAI,2.08,true,true
+2025-03-15,xAI,2.08,true,true
+2025-03-16,xAI,2.08,true,true
+2025-03-17,xAI,2.08,true,true
+2025-03-18,xAI,2.08,true,true
+2025-03-19,xAI,2.08,true,true
+2025-03-20,xAI,2.08,true,true
+2025-03-21,xAI,2.08,true,true
+2025-03-22,xAI,2.08,true,true
+2025-03-23,xAI,2.08,true,true
+2025-03-24,xAI,2.08,true,true
+2025-03-25,xAI,2.08,true,true
+2025-03-26,xAI,2.08,true,true
+2025-03-27,xAI,2.08,true,true
+2025-03-28,xAI,2.08,true,true
+2025-03-29,xAI,2.08,true,true
+2025-03-30,xAI,2.08,true,true
+2025-03-31,xAI,2.08,true,true
+2025-04-01,xAI,2.08,true,true
+2025-04-02,xAI,2.08,true,true
+2025-04-03,xAI,2.08,true,true
+2025-04-04,xAI,2.08,true,true
+2025-04-05,xAI,2.08,true,true
+2025-04-06,xAI,2.08,true,true
+2025-04-07,xAI,2.08,true,true
+2025-04-08,xAI,2.08,true,true
+2025-04-09,xAI,2.08,true,true
 2025-04-10,xAI,1.4907,true,true
 2025-04-11,xAI,1.49,true,true
 2025-04-12,xAI,1.3699,true,true
@@ -2481,6 +2634,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,xAI,0.735,true,true
 2026-10-27,xAI,0.735,true,true
 2026-10-28,xAI,0.735,true,false
+2026-10-29,xAI,0.735,true,false
 2026-08-06,Meta,0.323,true,true
 2026-08-07,Meta,0.323,true,true
 2026-08-08,Meta,0.323,true,true
@@ -2565,6 +2719,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,Meta,0.0157,true,true
 2026-10-27,Meta,0.0157,true,true
 2026-10-28,Meta,0.0157,true,false
+2026-10-29,Meta,0.0157,true,false
 2025-07-12,Moonshot AI,0.2275,true,true
 2025-07-13,Moonshot AI,0.2275,true,true
 2025-07-14,Moonshot AI,0.2275,true,true
@@ -2763,74 +2918,197 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-01-24,Moonshot AI,0.2275,true,true
 2026-01-25,Moonshot AI,0.2275,true,true
 2026-01-26,Moonshot AI,0.2275,true,true
-2026-04-22,Moonshot AI,0.2932,true,true
-2026-04-23,Moonshot AI,0.2932,true,true
-2026-04-24,Moonshot AI,0.2932,true,true
-2026-04-25,Moonshot AI,0.2932,true,true
-2026-04-26,Moonshot AI,0.2932,true,true
-2026-04-27,Moonshot AI,0.2932,true,true
-2026-04-28,Moonshot AI,0.2932,true,true
-2026-04-29,Moonshot AI,0.2932,true,true
-2026-04-30,Moonshot AI,0.2932,true,true
-2026-05-01,Moonshot AI,0.2932,true,true
-2026-05-02,Moonshot AI,0.2932,true,true
-2026-05-03,Moonshot AI,0.2932,true,true
-2026-05-04,Moonshot AI,0.2932,true,true
-2026-05-05,Moonshot AI,0.2932,true,true
-2026-05-06,Moonshot AI,0.2932,true,true
-2026-05-07,Moonshot AI,0.2932,true,true
-2026-05-08,Moonshot AI,0.2932,true,true
-2026-05-09,Moonshot AI,0.2932,true,true
-2026-05-10,Moonshot AI,0.2932,true,true
-2026-05-11,Moonshot AI,0.2932,true,true
-2026-05-12,Moonshot AI,0.2932,true,true
-2026-05-13,Moonshot AI,0.2932,true,true
-2026-05-17,Moonshot AI,0.2932,true,true
-2026-05-25,Moonshot AI,0.2932,true,true
-2026-05-27,Moonshot AI,0.2932,true,true
-2026-05-28,Moonshot AI,0.2932,true,true
-2026-06-13,Moonshot AI,0.301,true,true
-2026-06-14,Moonshot AI,0.3031,true,true
-2026-06-15,Moonshot AI,0.3013,true,true
-2026-06-16,Moonshot AI,0.3041,true,true
-2026-06-17,Moonshot AI,0.3003,true,true
-2026-06-18,Moonshot AI,0.2993,true,true
-2026-06-19,Moonshot AI,0.299,true,true
-2026-06-20,Moonshot AI,0.3002,true,true
-2026-06-22,Moonshot AI,0.3002,true,true
-2026-06-23,Moonshot AI,0.2998,true,true
-2026-06-24,Moonshot AI,0.3009,true,true
-2026-06-27,Moonshot AI,0.301,true,true
-2026-06-28,Moonshot AI,0.3019,true,true
-2026-07-02,Moonshot AI,0.3029,true,true
+2026-01-27,Moonshot AI,0.2002,true,true
+2026-01-28,Moonshot AI,0.1927,true,true
+2026-01-29,Moonshot AI,0.1973,true,true
+2026-01-30,Moonshot AI,0.1938,true,true
+2026-01-31,Moonshot AI,0.1925,true,true
+2026-02-01,Moonshot AI,0.1912,true,true
+2026-02-02,Moonshot AI,0.193,true,true
+2026-02-03,Moonshot AI,0.1937,true,true
+2026-02-04,Moonshot AI,0.1914,true,true
+2026-02-05,Moonshot AI,0.1902,true,true
+2026-02-06,Moonshot AI,0.1901,true,true
+2026-02-07,Moonshot AI,0.1896,true,true
+2026-02-08,Moonshot AI,0.1896,true,true
+2026-02-09,Moonshot AI,0.1896,true,true
+2026-02-10,Moonshot AI,0.189,true,true
+2026-02-11,Moonshot AI,0.1901,true,true
+2026-02-12,Moonshot AI,0.189,true,true
+2026-02-13,Moonshot AI,0.1901,true,true
+2026-02-14,Moonshot AI,0.1899,true,true
+2026-02-15,Moonshot AI,0.1899,true,true
+2026-02-16,Moonshot AI,0.19,true,true
+2026-02-17,Moonshot AI,0.189,true,true
+2026-02-18,Moonshot AI,0.189,true,true
+2026-02-19,Moonshot AI,0.189,true,true
+2026-02-20,Moonshot AI,0.189,true,true
+2026-02-21,Moonshot AI,0.1906,true,true
+2026-02-22,Moonshot AI,0.189,true,true
+2026-02-23,Moonshot AI,0.189,true,true
+2026-02-24,Moonshot AI,0.189,true,true
+2026-02-25,Moonshot AI,0.189,true,true
+2026-02-26,Moonshot AI,0.189,true,true
+2026-02-27,Moonshot AI,0.189,true,true
+2026-02-28,Moonshot AI,0.189,true,true
+2026-03-01,Moonshot AI,0.189,true,true
+2026-03-02,Moonshot AI,0.189,true,true
+2026-03-03,Moonshot AI,0.189,true,true
+2026-03-04,Moonshot AI,0.189,true,true
+2026-03-05,Moonshot AI,0.189,true,true
+2026-03-06,Moonshot AI,0.189,true,true
+2026-03-07,Moonshot AI,0.189,true,true
+2026-03-08,Moonshot AI,0.189,true,true
+2026-03-09,Moonshot AI,0.189,true,true
+2026-03-10,Moonshot AI,0.189,true,true
+2026-03-11,Moonshot AI,0.189,true,true
+2026-03-12,Moonshot AI,0.189,true,true
+2026-03-13,Moonshot AI,0.189,true,true
+2026-03-14,Moonshot AI,0.189,true,true
+2026-03-15,Moonshot AI,0.189,true,true
+2026-03-16,Moonshot AI,0.189,true,true
+2026-03-17,Moonshot AI,0.189,true,true
+2026-03-18,Moonshot AI,0.189,true,true
+2026-03-19,Moonshot AI,0.189,true,true
+2026-03-20,Moonshot AI,0.189,true,true
+2026-03-21,Moonshot AI,0.189,true,true
+2026-03-22,Moonshot AI,0.189,true,true
+2026-03-23,Moonshot AI,0.189,true,true
+2026-03-24,Moonshot AI,0.189,true,true
+2026-03-25,Moonshot AI,0.189,true,true
+2026-03-26,Moonshot AI,0.189,true,true
+2026-03-27,Moonshot AI,0.189,true,true
+2026-03-28,Moonshot AI,0.189,true,true
+2026-03-29,Moonshot AI,0.189,true,true
+2026-03-30,Moonshot AI,0.189,true,true
+2026-03-31,Moonshot AI,0.189,true,true
+2026-04-01,Moonshot AI,0.189,true,true
+2026-04-02,Moonshot AI,0.189,true,true
+2026-04-03,Moonshot AI,0.189,true,true
+2026-04-04,Moonshot AI,0.189,true,true
+2026-04-05,Moonshot AI,0.189,true,true
+2026-04-06,Moonshot AI,0.189,true,true
+2026-04-07,Moonshot AI,0.189,true,true
+2026-04-08,Moonshot AI,0.189,true,true
+2026-04-09,Moonshot AI,0.189,true,true
+2026-04-10,Moonshot AI,0.189,true,true
+2026-04-11,Moonshot AI,0.189,true,true
+2026-04-12,Moonshot AI,0.189,true,true
+2026-04-13,Moonshot AI,0.189,true,true
+2026-04-14,Moonshot AI,0.189,true,true
+2026-04-15,Moonshot AI,0.189,true,true
+2026-04-16,Moonshot AI,0.189,true,true
+2026-04-17,Moonshot AI,0.189,true,true
+2026-04-18,Moonshot AI,0.189,true,true
+2026-04-19,Moonshot AI,0.189,true,true
+2026-04-20,Moonshot AI,0.2214,true,true
+2026-04-21,Moonshot AI,0.2695,true,true
+2026-04-22,Moonshot AI,0.2776,true,true
+2026-04-23,Moonshot AI,0.2782,true,true
+2026-04-24,Moonshot AI,0.2799,true,true
+2026-04-25,Moonshot AI,0.2821,true,true
+2026-04-26,Moonshot AI,0.2812,true,true
+2026-04-27,Moonshot AI,0.281,true,true
+2026-04-28,Moonshot AI,0.281,true,true
+2026-04-29,Moonshot AI,0.2789,true,true
+2026-04-30,Moonshot AI,0.2777,true,true
+2026-05-01,Moonshot AI,0.2773,true,true
+2026-05-02,Moonshot AI,0.2789,true,true
+2026-05-03,Moonshot AI,0.2802,true,true
+2026-05-04,Moonshot AI,0.2812,true,true
+2026-05-05,Moonshot AI,0.2815,true,true
+2026-05-06,Moonshot AI,0.279,true,true
+2026-05-07,Moonshot AI,0.2776,true,true
+2026-05-08,Moonshot AI,0.273,true,true
+2026-05-09,Moonshot AI,0.2772,true,true
+2026-05-10,Moonshot AI,0.2761,true,true
+2026-05-11,Moonshot AI,0.2769,true,true
+2026-05-12,Moonshot AI,0.2733,true,true
+2026-05-13,Moonshot AI,0.2729,true,true
+2026-05-14,Moonshot AI,0.267,true,true
+2026-05-15,Moonshot AI,0.2662,true,true
+2026-05-16,Moonshot AI,0.2687,true,true
+2026-05-17,Moonshot AI,0.273,true,true
+2026-05-18,Moonshot AI,0.2676,true,true
+2026-05-19,Moonshot AI,0.2657,true,true
+2026-05-20,Moonshot AI,0.2707,true,true
+2026-05-21,Moonshot AI,0.2671,true,true
+2026-05-22,Moonshot AI,0.2637,true,true
+2026-05-23,Moonshot AI,0.2682,true,true
+2026-05-24,Moonshot AI,0.2613,true,true
+2026-05-25,Moonshot AI,0.2728,true,true
+2026-05-26,Moonshot AI,0.2706,true,true
+2026-05-27,Moonshot AI,0.2785,true,true
+2026-05-28,Moonshot AI,0.278,true,true
+2026-05-29,Moonshot AI,0.2508,true,true
+2026-05-30,Moonshot AI,0.2591,true,true
+2026-05-31,Moonshot AI,0.2686,true,true
+2026-06-01,Moonshot AI,0.2623,true,true
+2026-06-02,Moonshot AI,0.2618,true,true
+2026-06-03,Moonshot AI,0.2625,true,true
+2026-06-04,Moonshot AI,0.2621,true,true
+2026-06-05,Moonshot AI,0.2677,true,true
+2026-06-06,Moonshot AI,0.2657,true,true
+2026-06-07,Moonshot AI,0.2665,true,true
+2026-06-08,Moonshot AI,0.2623,true,true
+2026-06-09,Moonshot AI,0.254,true,true
+2026-06-10,Moonshot AI,0.2568,true,true
+2026-06-11,Moonshot AI,0.2599,true,true
+2026-06-12,Moonshot AI,0.2668,true,true
+2026-06-13,Moonshot AI,0.2891,true,true
+2026-06-14,Moonshot AI,0.2893,true,true
+2026-06-15,Moonshot AI,0.2796,true,true
+2026-06-16,Moonshot AI,0.2811,true,true
+2026-06-17,Moonshot AI,0.2799,true,true
+2026-06-18,Moonshot AI,0.281,true,true
+2026-06-19,Moonshot AI,0.2868,true,true
+2026-06-20,Moonshot AI,0.2843,true,true
+2026-06-21,Moonshot AI,0.2766,true,true
+2026-06-22,Moonshot AI,0.2823,true,true
+2026-06-23,Moonshot AI,0.2797,true,true
+2026-06-24,Moonshot AI,0.2813,true,true
+2026-06-25,Moonshot AI,0.2776,true,true
+2026-06-26,Moonshot AI,0.2774,true,true
+2026-06-27,Moonshot AI,0.2793,true,true
+2026-06-28,Moonshot AI,0.2821,true,true
+2026-06-29,Moonshot AI,0.281,true,true
+2026-06-30,Moonshot AI,0.2734,true,true
+2026-07-01,Moonshot AI,0.2768,true,true
+2026-07-02,Moonshot AI,0.2823,true,true
 2026-07-03,Moonshot AI,0.3084,true,true
 2026-07-04,Moonshot AI,0.3097,true,true
 2026-07-05,Moonshot AI,0.3046,true,true
-2026-07-06,Moonshot AI,0.3015,true,true
-2026-07-07,Moonshot AI,0.3,true,true
-2026-07-08,Moonshot AI,0.3009,true,true
-2026-07-09,Moonshot AI,0.3005,true,true
+2026-07-06,Moonshot AI,0.2815,true,true
+2026-07-07,Moonshot AI,0.2798,true,true
+2026-07-08,Moonshot AI,0.2803,true,true
+2026-07-09,Moonshot AI,0.2796,true,true
+2026-07-10,Moonshot AI,0.2679,true,true
+2026-07-11,Moonshot AI,0.2736,true,true
+2026-07-12,Moonshot AI,0.2737,true,true
+2026-07-13,Moonshot AI,0.2717,true,true
+2026-07-14,Moonshot AI,0.2702,true,true
 2026-07-15,Moonshot AI,0.3019,true,true
 2026-07-16,Moonshot AI,0.3003,true,true
-2026-07-18,Moonshot AI,0.6469,true,true
+2026-07-17,Moonshot AI,0.4438,true,true
+2026-07-18,Moonshot AI,0.6169,true,true
 2026-07-19,Moonshot AI,0.6508,true,true
-2026-07-20,Moonshot AI,0.6333,true,true
-2026-07-21,Moonshot AI,0.6472,true,true
-2026-07-22,Moonshot AI,0.6221,true,true
-2026-07-23,Moonshot AI,0.6764,true,true
-2026-07-24,Moonshot AI,0.6473,true,true
-2026-07-25,Moonshot AI,0.6877,true,true
+2026-07-20,Moonshot AI,0.5826,true,true
+2026-07-21,Moonshot AI,0.6091,true,true
+2026-07-22,Moonshot AI,0.5541,true,true
+2026-07-23,Moonshot AI,0.6262,true,true
+2026-07-24,Moonshot AI,0.606,true,true
+2026-07-25,Moonshot AI,0.6286,true,true
 2026-07-26,Moonshot AI,0.7028,true,true
-2026-07-27,Moonshot AI,0.771,true,true
-2026-07-28,Moonshot AI,0.771,true,true
-2026-07-29,Moonshot AI,0.7245,true,true
-2026-07-30,Moonshot AI,0.7198,true,true
-2026-07-31,Moonshot AI,0.771,true,true
+2026-07-27,Moonshot AI,0.6921,true,true
+2026-07-28,Moonshot AI,0.6914,true,true
+2026-07-29,Moonshot AI,0.6701,true,true
+2026-07-30,Moonshot AI,0.652,true,true
+2026-07-31,Moonshot AI,0.7088,true,true
 2026-08-01,Moonshot AI,0.771,true,true
 2026-08-02,Moonshot AI,0.771,true,true
-2026-08-03,Moonshot AI,0.7028,true,true
+2026-08-03,Moonshot AI,0.6457,true,true
 2026-08-04,Moonshot AI,0.7222,true,true
-2026-08-05,Moonshot AI,0.6879,true,true
+2026-08-05,Moonshot AI,0.6317,true,true
 2026-08-06,Moonshot AI,0.7031,true,true
 2026-08-07,Moonshot AI,0.7151,true,true
 2026-08-08,Moonshot AI,0.7295,true,true
@@ -2915,45 +3193,173 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,Moonshot AI,0.6441,true,true
 2026-10-27,Moonshot AI,0.6627,true,true
 2026-10-28,Moonshot AI,0.6664,true,false
-2026-04-11,Alibaba,0.1232,true,true
-2026-04-12,Alibaba,0.07,true,true
-2026-04-16,Alibaba,0.1182,true,true
-2026-04-17,Alibaba,0.0679,true,true
-2026-04-19,Alibaba,0.0666,true,true
-2026-04-22,Alibaba,0.1406,true,true
-2026-04-24,Alibaba,0.1557,true,true
-2026-04-25,Alibaba,0.1485,true,true
-2026-04-26,Alibaba,0.0652,true,true
-2026-04-28,Alibaba,0.0945,true,true
-2026-04-29,Alibaba,0.1393,true,true
-2026-04-30,Alibaba,0.1559,true,true
-2026-05-05,Alibaba,0.1343,true,true
-2026-05-06,Alibaba,0.1584,true,true
-2026-05-08,Alibaba,0.1625,true,true
+2026-10-29,Moonshot AI,0.6306,true,false
+2025-11-13,Alibaba,0.2861,true,true
+2025-11-14,Alibaba,0.2583,true,true
+2025-11-15,Alibaba,0.2219,true,true
+2025-11-26,Alibaba,0.2313,true,true
+2025-11-27,Alibaba,0.188,true,true
+2025-11-28,Alibaba,0.1978,true,true
+2025-11-29,Alibaba,0.2581,true,true
+2025-11-30,Alibaba,0.2458,true,true
+2025-12-01,Alibaba,0.2534,true,true
+2025-12-02,Alibaba,0.2426,true,true
+2025-12-03,Alibaba,0.2536,true,true
+2025-12-10,Alibaba,0.1929,true,true
+2025-12-16,Alibaba,0.2691,true,true
+2025-12-17,Alibaba,0.2631,true,true
+2025-12-18,Alibaba,0.2789,true,true
+2025-12-19,Alibaba,0.2881,true,true
+2025-12-20,Alibaba,0.274,true,true
+2025-12-21,Alibaba,0.3096,true,true
+2025-12-22,Alibaba,0.3037,true,true
+2025-12-23,Alibaba,0.3299,true,true
+2025-12-24,Alibaba,0.3175,true,true
+2025-12-25,Alibaba,0.2369,true,true
+2025-12-26,Alibaba,0.2369,true,true
+2025-12-27,Alibaba,0.2369,true,true
+2025-12-28,Alibaba,0.2369,true,true
+2025-12-29,Alibaba,0.2704,true,true
+2025-12-30,Alibaba,0.3104,true,true
+2025-12-31,Alibaba,0.3003,true,true
+2026-01-01,Alibaba,0.3098,true,true
+2026-01-02,Alibaba,0.3165,true,true
+2026-01-03,Alibaba,0.2782,true,true
+2026-01-04,Alibaba,0.2188,true,true
+2026-01-05,Alibaba,0.2369,true,true
+2026-01-06,Alibaba,0.2095,true,true
+2026-01-07,Alibaba,0.2594,true,true
+2026-01-08,Alibaba,0.2369,true,true
+2026-01-09,Alibaba,0.198,true,true
+2026-01-10,Alibaba,0.2167,true,true
+2026-01-11,Alibaba,0.2681,true,true
+2026-01-12,Alibaba,0.2755,true,true
+2026-01-13,Alibaba,0.2859,true,true
+2026-01-14,Alibaba,0.2975,true,true
+2026-01-15,Alibaba,0.3102,true,true
+2026-02-12,Alibaba,0.254,true,true
+2026-02-13,Alibaba,0.2178,true,true
+2026-02-14,Alibaba,0.2149,true,true
+2026-02-15,Alibaba,0.2224,true,true
+2026-02-16,Alibaba,0.2369,true,true
+2026-02-17,Alibaba,0.2369,true,true
+2026-02-18,Alibaba,0.2369,true,true
+2026-02-22,Alibaba,0.2813,true,true
+2026-02-28,Alibaba,0.2259,true,true
+2026-03-01,Alibaba,0.2146,true,true
+2026-03-02,Alibaba,0.1914,true,true
+2026-03-03,Alibaba,0.1992,true,true
+2026-03-04,Alibaba,0.2404,true,true
+2026-03-05,Alibaba,0.2065,true,true
+2026-03-06,Alibaba,0.2431,true,true
+2026-03-07,Alibaba,0.2679,true,true
+2026-03-08,Alibaba,0.2271,true,true
+2026-03-09,Alibaba,0.2096,true,true
+2026-03-10,Alibaba,0.2162,true,true
+2026-03-13,Alibaba,0.1643,true,true
+2026-03-14,Alibaba,0.1907,true,true
+2026-03-18,Alibaba,0.1366,true,true
+2026-03-20,Alibaba,0.134,true,true
+2026-03-21,Alibaba,0.1399,true,true
+2026-03-22,Alibaba,0.14,true,true
+2026-03-24,Alibaba,0.19,true,true
+2026-03-26,Alibaba,0.2031,true,true
+2026-03-27,Alibaba,0.1744,true,true
+2026-03-28,Alibaba,0.1313,true,true
+2026-03-31,Alibaba,0.1822,true,true
+2026-04-01,Alibaba,0.1093,true,true
+2026-04-02,Alibaba,0.1804,true,true
+2026-04-04,Alibaba,0.2005,true,true
+2026-04-05,Alibaba,0.2307,true,true
+2026-04-06,Alibaba,0.2249,true,true
+2026-04-10,Alibaba,0.1361,true,true
+2026-04-11,Alibaba,0.1418,true,true
+2026-04-12,Alibaba,0.1034,true,true
+2026-04-13,Alibaba,0.1071,true,true
+2026-04-14,Alibaba,0.1441,true,true
+2026-04-15,Alibaba,0.1378,true,true
+2026-04-16,Alibaba,0.1395,true,true
+2026-04-17,Alibaba,0.0957,true,true
+2026-04-19,Alibaba,0.0952,true,true
+2026-04-20,Alibaba,0.1016,true,true
+2026-04-21,Alibaba,0.1461,true,true
+2026-04-22,Alibaba,0.1581,true,true
+2026-04-23,Alibaba,0.178,true,true
+2026-04-24,Alibaba,0.1703,true,true
+2026-04-25,Alibaba,0.1621,true,true
+2026-04-26,Alibaba,0.0982,true,true
+2026-04-27,Alibaba,0.106,true,true
+2026-04-28,Alibaba,0.1224,true,true
+2026-04-29,Alibaba,0.1568,true,true
+2026-04-30,Alibaba,0.1716,true,true
+2026-05-01,Alibaba,0.1975,true,true
+2026-05-02,Alibaba,0.1921,true,true
+2026-05-03,Alibaba,0.1995,true,true
+2026-05-04,Alibaba,0.0917,true,true
+2026-05-05,Alibaba,0.1516,true,true
+2026-05-06,Alibaba,0.1694,true,true
+2026-05-07,Alibaba,0.2428,true,true
+2026-05-08,Alibaba,0.1736,true,true
 2026-05-09,Alibaba,0.2153,true,true
 2026-05-10,Alibaba,0.1982,true,true
-2026-05-11,Alibaba,0.1968,true,true
-2026-05-13,Alibaba,0.1305,true,true
-2026-05-16,Alibaba,0.1544,true,true
-2026-05-17,Alibaba,0.1615,true,true
-2026-05-21,Alibaba,0.1208,true,true
-2026-05-22,Alibaba,0.0702,true,true
-2026-05-23,Alibaba,0.1429,true,true
-2026-05-25,Alibaba,0.0484,true,true
+2026-05-11,Alibaba,0.2033,true,true
+2026-05-12,Alibaba,0.1939,true,true
+2026-05-13,Alibaba,0.1444,true,true
+2026-05-14,Alibaba,0.1796,true,true
+2026-05-15,Alibaba,0.1645,true,true
+2026-05-16,Alibaba,0.1678,true,true
+2026-05-17,Alibaba,0.1741,true,true
+2026-05-18,Alibaba,0.1164,true,true
+2026-05-19,Alibaba,0.1755,true,true
+2026-05-20,Alibaba,0.1777,true,true
+2026-05-21,Alibaba,0.1437,true,true
+2026-05-22,Alibaba,0.1016,true,true
+2026-05-23,Alibaba,0.159,true,true
+2026-05-24,Alibaba,0.1697,true,true
+2026-05-25,Alibaba,0.0842,true,true
+2026-05-26,Alibaba,0.1655,true,true
+2026-05-27,Alibaba,0.2267,true,true
+2026-05-28,Alibaba,0.2679,true,true
+2026-05-29,Alibaba,0.2639,true,true
+2026-05-30,Alibaba,0.2644,true,true
+2026-05-31,Alibaba,0.2901,true,true
+2026-06-01,Alibaba,0.2011,true,true
+2026-06-02,Alibaba,0.2721,true,true
+2026-06-03,Alibaba,0.2789,true,true
+2026-06-04,Alibaba,0.2766,true,true
+2026-06-05,Alibaba,0.3149,true,true
+2026-06-06,Alibaba,0.3221,true,true
+2026-06-07,Alibaba,0.2922,true,true
+2026-06-08,Alibaba,0.3328,true,true
+2026-06-09,Alibaba,0.2765,true,true
+2026-06-10,Alibaba,0.2846,true,true
+2026-06-11,Alibaba,0.3995,true,true
+2026-06-12,Alibaba,0.289,true,true
+2026-06-13,Alibaba,0.2916,true,true
+2026-06-14,Alibaba,0.2765,true,true
 2026-06-15,Alibaba,0.3266,true,true
+2026-06-16,Alibaba,0.2906,true,true
 2026-06-17,Alibaba,0.2898,true,true
 2026-06-18,Alibaba,0.2221,true,true
+2026-06-19,Alibaba,0.1829,true,true
+2026-06-20,Alibaba,0.2134,true,true
+2026-06-21,Alibaba,0.2275,true,true
+2026-06-22,Alibaba,0.2514,true,true
+2026-06-23,Alibaba,0.275,true,true
+2026-06-24,Alibaba,0.2946,true,true
 2026-06-25,Alibaba,0.3305,true,true
-2026-06-26,Alibaba,0.2518,true,true
+2026-06-26,Alibaba,0.25,true,true
 2026-06-27,Alibaba,0.2586,true,true
-2026-06-28,Alibaba,0.322,true,true
+2026-06-28,Alibaba,0.309,true,true
 2026-06-29,Alibaba,0.3054,true,true
-2026-06-30,Alibaba,0.2362,true,true
+2026-06-30,Alibaba,0.2363,true,true
 2026-07-01,Alibaba,0.3221,true,true
 2026-07-02,Alibaba,0.3209,true,true
 2026-07-03,Alibaba,0.3358,true,true
+2026-07-05,Alibaba,0.2573,true,true
 2026-07-06,Alibaba,0.2549,true,true
 2026-07-07,Alibaba,0.2998,true,true
+2026-07-08,Alibaba,0.2456,true,true
 2026-07-09,Alibaba,0.2399,true,true
 2026-07-10,Alibaba,0.2906,true,true
 2026-07-11,Alibaba,0.2805,true,true
@@ -3060,31 +3466,623 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,Alibaba,0.0889,true,true
 2026-10-27,Alibaba,0.0637,true,true
 2026-10-28,Alibaba,0.0658,true,false
+2026-10-29,Alibaba,0.0696,true,false
+2025-01-01,DeepSeek,0.0318,true,true
+2025-01-02,DeepSeek,0.0318,true,true
+2025-01-03,DeepSeek,0.0318,true,true
+2025-01-04,DeepSeek,0.0318,true,true
+2025-01-05,DeepSeek,0.0318,true,true
+2025-01-06,DeepSeek,0.0318,true,true
+2025-01-07,DeepSeek,0.0318,true,true
+2025-01-08,DeepSeek,0.0318,true,true
+2025-01-09,DeepSeek,0.0318,true,true
+2025-01-10,DeepSeek,0.0318,true,true
+2025-01-11,DeepSeek,0.0318,true,true
+2025-01-12,DeepSeek,0.0318,true,true
+2025-01-13,DeepSeek,0.0318,true,true
+2025-01-14,DeepSeek,0.0318,true,true
+2025-01-15,DeepSeek,0.0318,true,true
+2025-01-16,DeepSeek,0.0318,true,true
+2025-01-17,DeepSeek,0.0318,true,true
+2025-01-18,DeepSeek,0.0318,true,true
+2025-01-19,DeepSeek,0.0318,true,true
+2025-01-20,DeepSeek,0.0663,true,true
+2025-01-21,DeepSeek,0.1417,true,true
+2025-01-22,DeepSeek,0.1225,true,true
+2025-01-23,DeepSeek,0.1024,true,true
+2025-01-24,DeepSeek,0.0821,true,true
+2025-01-25,DeepSeek,0.1059,true,true
+2025-01-26,DeepSeek,0.105,true,true
+2025-01-27,DeepSeek,0.1088,true,true
+2025-01-28,DeepSeek,0.1276,true,true
+2025-01-29,DeepSeek,0.1291,true,true
+2025-01-30,DeepSeek,0.1501,true,true
+2025-01-31,DeepSeek,0.1192,true,true
+2025-02-01,DeepSeek,0.0942,true,true
+2025-02-02,DeepSeek,0.0989,true,true
+2025-02-03,DeepSeek,0.0999,true,true
+2025-02-04,DeepSeek,0.1053,true,true
+2025-02-05,DeepSeek,0.1038,true,true
+2025-02-06,DeepSeek,0.0978,true,true
+2025-02-07,DeepSeek,0.1116,true,true
+2025-02-08,DeepSeek,0.1155,true,true
+2025-02-09,DeepSeek,0.1525,true,true
+2025-02-10,DeepSeek,0.1551,true,true
+2025-02-11,DeepSeek,0.1491,true,true
+2025-02-12,DeepSeek,0.1504,true,true
+2025-02-13,DeepSeek,0.1536,true,true
+2025-02-14,DeepSeek,0.1475,true,true
+2025-02-15,DeepSeek,0.1473,true,true
+2025-02-16,DeepSeek,0.1461,true,true
+2025-02-17,DeepSeek,0.145,true,true
+2025-02-18,DeepSeek,0.1448,true,true
+2025-02-19,DeepSeek,0.1384,true,true
+2025-02-20,DeepSeek,0.1394,true,true
+2025-02-21,DeepSeek,0.1478,true,true
+2025-02-22,DeepSeek,0.1461,true,true
+2025-02-23,DeepSeek,0.1452,true,true
+2025-02-24,DeepSeek,0.15,true,true
+2025-02-25,DeepSeek,0.1426,true,true
+2025-02-26,DeepSeek,0.146,true,true
+2025-02-27,DeepSeek,0.1514,true,true
+2025-02-28,DeepSeek,0.1457,true,true
+2025-03-01,DeepSeek,0.1425,true,true
+2025-03-02,DeepSeek,0.1478,true,true
+2025-03-03,DeepSeek,0.1504,true,true
+2025-03-04,DeepSeek,0.1417,true,true
+2025-03-05,DeepSeek,0.1361,true,true
+2025-03-06,DeepSeek,0.1335,true,true
+2025-03-07,DeepSeek,0.1387,true,true
+2025-03-08,DeepSeek,0.1408,true,true
+2025-03-09,DeepSeek,0.1479,true,true
+2025-03-10,DeepSeek,0.1533,true,true
+2025-03-11,DeepSeek,0.1509,true,true
+2025-03-12,DeepSeek,0.1483,true,true
+2025-03-13,DeepSeek,0.1519,true,true
+2025-03-14,DeepSeek,0.1705,true,true
+2025-03-15,DeepSeek,0.1666,true,true
+2025-03-16,DeepSeek,0.1559,true,true
+2025-03-17,DeepSeek,0.158,true,true
+2025-03-18,DeepSeek,0.1583,true,true
+2025-03-19,DeepSeek,0.1622,true,true
+2025-03-20,DeepSeek,0.1669,true,true
+2025-03-21,DeepSeek,0.1476,true,true
+2025-03-22,DeepSeek,0.1504,true,true
+2025-03-23,DeepSeek,0.1524,true,true
+2025-03-24,DeepSeek,0.1491,true,true
+2025-03-25,DeepSeek,0.1333,true,true
+2025-03-26,DeepSeek,0.1308,true,true
+2025-03-27,DeepSeek,0.1391,true,true
+2025-03-28,DeepSeek,0.1539,true,true
+2025-03-29,DeepSeek,0.1403,true,true
+2025-03-30,DeepSeek,0.1264,true,true
+2025-03-31,DeepSeek,0.1286,true,true
+2025-04-01,DeepSeek,0.1259,true,true
+2025-04-02,DeepSeek,0.1305,true,true
+2025-04-03,DeepSeek,0.1292,true,true
+2025-04-04,DeepSeek,0.1716,true,true
+2025-04-05,DeepSeek,0.1428,true,true
+2025-04-06,DeepSeek,0.1293,true,true
+2025-04-07,DeepSeek,0.1276,true,true
+2025-04-08,DeepSeek,0.1234,true,true
+2025-04-09,DeepSeek,0.1232,true,true
+2025-04-10,DeepSeek,0.1234,true,true
+2025-04-11,DeepSeek,0.1224,true,true
+2025-04-12,DeepSeek,0.1194,true,true
+2025-04-13,DeepSeek,0.1174,true,true
+2025-04-14,DeepSeek,0.117,true,true
+2025-04-15,DeepSeek,0.1183,true,true
+2025-04-16,DeepSeek,0.123,true,true
+2025-04-17,DeepSeek,0.1219,true,true
+2025-04-18,DeepSeek,0.1189,true,true
+2025-04-19,DeepSeek,0.1184,true,true
+2025-04-20,DeepSeek,0.1199,true,true
+2025-04-21,DeepSeek,0.1182,true,true
+2025-04-22,DeepSeek,0.1194,true,true
+2025-04-23,DeepSeek,0.1197,true,true
+2025-04-24,DeepSeek,0.1205,true,true
+2025-04-25,DeepSeek,0.118,true,true
+2025-04-26,DeepSeek,0.1185,true,true
+2025-04-27,DeepSeek,0.1187,true,true
+2025-04-28,DeepSeek,0.1187,true,true
+2025-04-29,DeepSeek,0.1184,true,true
+2025-04-30,DeepSeek,0.1188,true,true
+2025-05-01,DeepSeek,0.116,true,true
+2025-05-02,DeepSeek,0.117,true,true
+2025-05-03,DeepSeek,0.1162,true,true
+2025-05-04,DeepSeek,0.1151,true,true
+2025-05-05,DeepSeek,0.1166,true,true
+2025-05-06,DeepSeek,0.1161,true,true
+2025-05-07,DeepSeek,0.1135,true,true
+2025-05-08,DeepSeek,0.1164,true,true
+2025-05-09,DeepSeek,0.1145,true,true
+2025-05-10,DeepSeek,0.1122,true,true
+2025-05-11,DeepSeek,0.1136,true,true
+2025-05-12,DeepSeek,0.1152,true,true
+2025-05-13,DeepSeek,0.1147,true,true
+2025-05-14,DeepSeek,0.1154,true,true
+2025-05-15,DeepSeek,0.1144,true,true
+2025-05-16,DeepSeek,0.1133,true,true
+2025-05-17,DeepSeek,0.1122,true,true
+2025-05-18,DeepSeek,0.1143,true,true
+2025-05-19,DeepSeek,0.1159,true,true
+2025-05-20,DeepSeek,0.116,true,true
+2025-05-21,DeepSeek,0.115,true,true
+2025-05-22,DeepSeek,0.1143,true,true
+2025-05-23,DeepSeek,0.1132,true,true
+2025-05-24,DeepSeek,0.1148,true,true
+2025-05-25,DeepSeek,0.1125,true,true
+2025-05-26,DeepSeek,0.1146,true,true
+2025-05-27,DeepSeek,0.1168,true,true
+2025-05-28,DeepSeek,0.1182,true,true
+2025-05-29,DeepSeek,0.1189,true,true
+2025-05-30,DeepSeek,0.1211,true,true
+2025-05-31,DeepSeek,0.1178,true,true
+2025-06-01,DeepSeek,0.1155,true,true
+2025-06-02,DeepSeek,0.1138,true,true
+2025-06-03,DeepSeek,0.117,true,true
+2025-06-04,DeepSeek,0.1164,true,true
+2025-06-05,DeepSeek,0.1144,true,true
+2025-06-06,DeepSeek,0.1159,true,true
+2025-06-07,DeepSeek,0.1261,true,true
+2025-06-08,DeepSeek,0.1216,true,true
+2025-06-09,DeepSeek,0.1144,true,true
+2025-06-10,DeepSeek,0.1186,true,true
+2025-06-11,DeepSeek,0.1248,true,true
+2025-06-12,DeepSeek,0.1238,true,true
+2025-06-13,DeepSeek,0.1227,true,true
+2025-06-14,DeepSeek,0.1155,true,true
+2025-06-16,DeepSeek,0.1161,true,true
+2025-06-17,DeepSeek,0.1157,true,true
+2025-06-18,DeepSeek,0.1273,true,true
+2025-06-19,DeepSeek,0.1139,true,true
+2025-06-20,DeepSeek,0.1133,true,true
+2025-06-21,DeepSeek,0.1141,true,true
+2025-06-22,DeepSeek,0.1137,true,true
+2025-06-23,DeepSeek,0.1139,true,true
+2025-06-24,DeepSeek,0.1142,true,true
+2025-06-25,DeepSeek,0.1133,true,true
+2025-06-26,DeepSeek,0.113,true,true
+2025-06-27,DeepSeek,0.1128,true,true
+2025-06-28,DeepSeek,0.1123,true,true
+2025-06-29,DeepSeek,0.1128,true,true
+2025-06-30,DeepSeek,0.1132,true,true
+2025-07-01,DeepSeek,0.1135,true,true
+2025-07-02,DeepSeek,0.1143,true,true
+2025-07-03,DeepSeek,0.1144,true,true
+2025-07-04,DeepSeek,0.1166,true,true
+2025-07-05,DeepSeek,0.1184,true,true
+2025-07-06,DeepSeek,0.1138,true,true
+2025-07-07,DeepSeek,0.114,true,true
+2025-07-08,DeepSeek,0.1148,true,true
+2025-07-09,DeepSeek,0.1135,true,true
+2025-07-10,DeepSeek,0.1135,true,true
+2025-07-11,DeepSeek,0.1138,true,true
+2025-07-12,DeepSeek,0.1145,true,true
+2025-07-13,DeepSeek,0.1129,true,true
+2025-07-14,DeepSeek,0.1147,true,true
+2025-07-16,DeepSeek,0.1141,true,true
+2025-07-17,DeepSeek,0.1143,true,true
+2025-07-18,DeepSeek,0.1132,true,true
+2025-07-19,DeepSeek,0.113,true,true
+2025-07-20,DeepSeek,0.1123,true,true
+2025-07-21,DeepSeek,0.1132,true,true
+2025-07-22,DeepSeek,0.1139,true,true
+2025-07-23,DeepSeek,0.1136,true,true
+2025-07-24,DeepSeek,0.1146,true,true
+2025-07-25,DeepSeek,0.1131,true,true
+2025-07-26,DeepSeek,0.1133,true,true
+2025-07-27,DeepSeek,0.1122,true,true
+2025-07-28,DeepSeek,0.1168,true,true
+2025-07-29,DeepSeek,0.1138,true,true
+2025-07-30,DeepSeek,0.1132,true,true
+2025-07-31,DeepSeek,0.1136,true,true
+2025-08-01,DeepSeek,0.1147,true,true
+2025-08-02,DeepSeek,0.1138,true,true
+2025-08-03,DeepSeek,0.112,true,true
+2025-08-04,DeepSeek,0.1129,true,true
+2025-08-05,DeepSeek,0.1135,true,true
+2025-08-06,DeepSeek,0.1123,true,true
+2025-08-07,DeepSeek,0.1135,true,true
+2025-08-08,DeepSeek,0.1145,true,true
+2025-08-09,DeepSeek,0.1142,true,true
+2025-08-10,DeepSeek,0.1131,true,true
+2025-08-11,DeepSeek,0.1143,true,true
+2025-08-12,DeepSeek,0.1139,true,true
+2025-08-13,DeepSeek,0.1142,true,true
+2025-08-14,DeepSeek,0.1143,true,true
+2025-08-15,DeepSeek,0.1165,true,true
+2025-08-16,DeepSeek,0.1145,true,true
+2025-08-17,DeepSeek,0.114,true,true
+2025-08-18,DeepSeek,0.1138,true,true
+2025-08-19,DeepSeek,0.114,true,true
+2025-08-20,DeepSeek,0.1143,true,true
+2025-08-21,DeepSeek,0.1133,true,true
+2025-08-22,DeepSeek,0.1043,true,true
+2025-08-23,DeepSeek,0.1043,true,true
+2025-08-24,DeepSeek,0.1043,true,true
+2025-08-25,DeepSeek,0.1043,true,true
+2025-08-26,DeepSeek,0.1043,true,true
+2025-08-27,DeepSeek,0.1043,true,true
+2025-08-28,DeepSeek,0.1043,true,true
+2025-08-29,DeepSeek,0.1043,true,true
+2025-08-30,DeepSeek,0.1043,true,true
+2025-08-31,DeepSeek,0.1043,true,true
+2025-09-01,DeepSeek,0.1043,true,true
+2025-09-02,DeepSeek,0.1043,true,true
+2025-09-03,DeepSeek,0.1043,true,true
+2025-09-04,DeepSeek,0.1043,true,true
+2025-09-05,DeepSeek,0.1043,true,true
+2025-09-06,DeepSeek,0.1449,true,true
+2025-09-07,DeepSeek,0.1449,true,true
+2025-09-08,DeepSeek,0.1449,true,true
+2025-09-09,DeepSeek,0.1449,true,true
+2025-09-10,DeepSeek,0.1449,true,true
+2025-09-11,DeepSeek,0.1449,true,true
+2025-09-12,DeepSeek,0.1449,true,true
+2025-09-13,DeepSeek,0.1449,true,true
+2025-09-14,DeepSeek,0.1449,true,true
+2025-09-15,DeepSeek,0.1449,true,true
+2025-09-16,DeepSeek,0.1449,true,true
+2025-09-17,DeepSeek,0.1449,true,true
+2025-09-18,DeepSeek,0.1449,true,true
+2025-09-19,DeepSeek,0.1449,true,true
+2025-09-20,DeepSeek,0.1449,true,true
+2025-09-21,DeepSeek,0.1449,true,true
+2025-09-22,DeepSeek,0.1449,true,true
+2025-09-23,DeepSeek,0.1449,true,true
+2025-09-24,DeepSeek,0.1449,true,true
+2025-09-25,DeepSeek,0.1449,true,true
+2025-09-26,DeepSeek,0.1449,true,true
+2025-09-27,DeepSeek,0.1449,true,true
+2025-09-28,DeepSeek,0.1449,true,true
+2025-09-29,DeepSeek,0.0622,true,true
+2025-09-30,DeepSeek,0.0622,true,true
+2025-10-01,DeepSeek,0.0622,true,true
+2025-10-02,DeepSeek,0.0622,true,true
+2025-10-03,DeepSeek,0.0622,true,true
+2025-10-04,DeepSeek,0.0622,true,true
+2025-10-05,DeepSeek,0.0622,true,true
+2025-10-06,DeepSeek,0.0622,true,true
+2025-10-07,DeepSeek,0.0622,true,true
+2025-10-08,DeepSeek,0.0622,true,true
+2025-10-09,DeepSeek,0.0622,true,true
+2025-10-10,DeepSeek,0.0622,true,true
+2025-10-11,DeepSeek,0.0622,true,true
+2025-10-12,DeepSeek,0.0622,true,true
+2025-10-13,DeepSeek,0.0622,true,true
+2025-10-14,DeepSeek,0.0622,true,true
+2025-10-15,DeepSeek,0.0622,true,true
+2025-10-16,DeepSeek,0.0622,true,true
+2025-10-17,DeepSeek,0.0622,true,true
+2025-10-18,DeepSeek,0.0622,true,true
+2025-10-19,DeepSeek,0.0622,true,true
+2025-10-20,DeepSeek,0.0622,true,true
+2025-10-21,DeepSeek,0.0622,true,true
+2025-10-22,DeepSeek,0.0622,true,true
+2025-10-23,DeepSeek,0.0622,true,true
+2025-10-24,DeepSeek,0.0622,true,true
+2025-10-25,DeepSeek,0.0622,true,true
+2025-10-26,DeepSeek,0.0622,true,true
+2025-10-27,DeepSeek,0.0622,true,true
+2025-10-28,DeepSeek,0.0622,true,true
+2025-10-29,DeepSeek,0.0622,true,true
+2025-10-30,DeepSeek,0.0622,true,true
+2025-10-31,DeepSeek,0.0622,true,true
+2025-11-01,DeepSeek,0.0622,true,true
+2025-11-02,DeepSeek,0.0622,true,true
+2025-11-03,DeepSeek,0.0622,true,true
+2025-11-04,DeepSeek,0.0622,true,true
+2025-11-05,DeepSeek,0.0622,true,true
+2025-11-06,DeepSeek,0.0622,true,true
+2025-11-07,DeepSeek,0.0622,true,true
+2025-11-08,DeepSeek,0.0622,true,true
+2025-11-09,DeepSeek,0.0622,true,true
+2025-11-10,DeepSeek,0.0622,true,true
+2025-11-11,DeepSeek,0.0622,true,true
+2025-11-12,DeepSeek,0.0622,true,true
+2025-11-13,DeepSeek,0.0622,true,true
+2025-11-14,DeepSeek,0.0622,true,true
+2025-11-15,DeepSeek,0.0622,true,true
+2025-11-16,DeepSeek,0.0622,true,true
+2025-11-17,DeepSeek,0.0622,true,true
+2025-11-18,DeepSeek,0.0622,true,true
+2025-11-19,DeepSeek,0.0622,true,true
+2025-11-20,DeepSeek,0.0622,true,true
+2025-11-21,DeepSeek,0.0622,true,true
+2025-11-22,DeepSeek,0.0622,true,true
+2025-11-23,DeepSeek,0.0622,true,true
+2025-11-24,DeepSeek,0.0622,true,true
+2025-11-25,DeepSeek,0.0622,true,true
+2025-11-26,DeepSeek,0.0622,true,true
+2025-11-27,DeepSeek,0.0622,true,true
+2025-11-28,DeepSeek,0.0622,true,true
+2025-11-29,DeepSeek,0.0622,true,true
+2025-11-30,DeepSeek,0.0622,true,true
+2025-12-01,DeepSeek,0.0622,true,true
+2025-12-02,DeepSeek,0.0622,true,true
+2025-12-03,DeepSeek,0.0622,true,true
+2025-12-04,DeepSeek,0.0622,true,true
+2025-12-05,DeepSeek,0.0622,true,true
+2025-12-06,DeepSeek,0.0622,true,true
+2025-12-07,DeepSeek,0.0622,true,true
+2025-12-08,DeepSeek,0.0622,true,true
+2025-12-09,DeepSeek,0.0622,true,true
+2025-12-10,DeepSeek,0.0622,true,true
+2025-12-11,DeepSeek,0.0622,true,true
+2025-12-12,DeepSeek,0.0622,true,true
+2025-12-13,DeepSeek,0.0622,true,true
+2025-12-14,DeepSeek,0.0622,true,true
+2025-12-15,DeepSeek,0.0622,true,true
+2025-12-16,DeepSeek,0.0622,true,true
+2025-12-17,DeepSeek,0.0622,true,true
+2025-12-18,DeepSeek,0.0622,true,true
+2025-12-19,DeepSeek,0.0622,true,true
+2025-12-20,DeepSeek,0.0622,true,true
+2025-12-21,DeepSeek,0.0622,true,true
+2025-12-22,DeepSeek,0.0622,true,true
+2025-12-23,DeepSeek,0.0622,true,true
+2025-12-24,DeepSeek,0.0622,true,true
+2025-12-25,DeepSeek,0.0622,true,true
+2025-12-26,DeepSeek,0.0622,true,true
+2025-12-27,DeepSeek,0.0622,true,true
+2025-12-28,DeepSeek,0.0622,true,true
+2025-12-29,DeepSeek,0.0622,true,true
+2025-12-30,DeepSeek,0.0622,true,true
+2025-12-31,DeepSeek,0.0622,true,true
+2026-01-01,DeepSeek,0.0622,true,true
+2026-01-02,DeepSeek,0.0622,true,true
+2026-01-03,DeepSeek,0.0622,true,true
+2026-01-04,DeepSeek,0.0622,true,true
+2026-01-05,DeepSeek,0.0622,true,true
+2026-01-06,DeepSeek,0.0622,true,true
+2026-01-07,DeepSeek,0.0622,true,true
+2026-01-08,DeepSeek,0.0622,true,true
+2026-01-09,DeepSeek,0.0622,true,true
+2026-01-10,DeepSeek,0.0622,true,true
+2026-01-11,DeepSeek,0.0622,true,true
+2026-01-12,DeepSeek,0.0622,true,true
+2026-01-13,DeepSeek,0.0622,true,true
+2026-01-14,DeepSeek,0.0622,true,true
+2026-01-15,DeepSeek,0.0622,true,true
+2026-01-16,DeepSeek,0.0622,true,true
+2026-01-17,DeepSeek,0.0622,true,true
+2026-01-18,DeepSeek,0.0622,true,true
+2026-01-19,DeepSeek,0.0622,true,true
+2026-01-20,DeepSeek,0.0622,true,true
+2026-01-21,DeepSeek,0.0622,true,true
+2026-01-22,DeepSeek,0.0622,true,true
+2026-01-23,DeepSeek,0.0622,true,true
+2026-01-24,DeepSeek,0.0622,true,true
+2026-01-25,DeepSeek,0.0622,true,true
+2026-01-26,DeepSeek,0.0622,true,true
+2026-01-27,DeepSeek,0.0622,true,true
+2026-01-28,DeepSeek,0.0622,true,true
+2026-01-29,DeepSeek,0.0622,true,true
+2026-01-30,DeepSeek,0.0622,true,true
+2026-01-31,DeepSeek,0.0622,true,true
+2026-02-01,DeepSeek,0.0622,true,true
+2026-02-02,DeepSeek,0.0622,true,true
+2026-02-03,DeepSeek,0.0622,true,true
+2026-02-04,DeepSeek,0.0622,true,true
+2026-02-05,DeepSeek,0.0622,true,true
+2026-02-06,DeepSeek,0.0622,true,true
+2026-02-07,DeepSeek,0.0622,true,true
+2026-02-08,DeepSeek,0.0622,true,true
+2026-02-09,DeepSeek,0.0622,true,true
+2026-02-10,DeepSeek,0.0622,true,true
+2026-02-11,DeepSeek,0.0622,true,true
+2026-02-12,DeepSeek,0.0622,true,true
+2026-02-13,DeepSeek,0.0622,true,true
+2026-02-14,DeepSeek,0.0622,true,true
+2026-02-15,DeepSeek,0.0622,true,true
+2026-02-16,DeepSeek,0.0622,true,true
+2026-02-17,DeepSeek,0.0622,true,true
+2026-02-18,DeepSeek,0.0622,true,true
+2026-02-19,DeepSeek,0.0622,true,true
+2026-02-20,DeepSeek,0.0622,true,true
+2026-02-21,DeepSeek,0.0622,true,true
+2026-02-22,DeepSeek,0.0622,true,true
+2026-02-23,DeepSeek,0.0622,true,true
+2026-02-24,DeepSeek,0.0622,true,true
+2026-02-25,DeepSeek,0.0622,true,true
+2026-02-26,DeepSeek,0.0622,true,true
+2026-02-27,DeepSeek,0.0622,true,true
+2026-02-28,DeepSeek,0.0622,true,true
+2026-03-01,DeepSeek,0.0622,true,true
+2026-03-02,DeepSeek,0.0622,true,true
+2026-03-03,DeepSeek,0.0622,true,true
+2026-03-04,DeepSeek,0.0622,true,true
+2026-03-05,DeepSeek,0.0622,true,true
+2026-03-06,DeepSeek,0.0622,true,true
+2026-03-07,DeepSeek,0.0622,true,true
+2026-03-08,DeepSeek,0.0622,true,true
+2026-03-09,DeepSeek,0.0622,true,true
+2026-03-10,DeepSeek,0.0622,true,true
+2026-03-11,DeepSeek,0.0622,true,true
+2026-03-12,DeepSeek,0.0622,true,true
+2026-03-13,DeepSeek,0.0622,true,true
+2026-03-14,DeepSeek,0.0622,true,true
+2026-03-15,DeepSeek,0.0622,true,true
+2026-03-16,DeepSeek,0.0622,true,true
+2026-03-17,DeepSeek,0.0622,true,true
+2026-03-18,DeepSeek,0.0622,true,true
+2026-03-19,DeepSeek,0.0622,true,true
+2026-03-20,DeepSeek,0.0622,true,true
+2026-03-21,DeepSeek,0.0622,true,true
+2026-03-22,DeepSeek,0.0622,true,true
+2026-03-23,DeepSeek,0.0622,true,true
+2026-03-24,DeepSeek,0.0622,true,true
+2026-03-25,DeepSeek,0.0622,true,true
+2026-03-26,DeepSeek,0.0622,true,true
+2026-03-27,DeepSeek,0.0622,true,true
+2026-03-28,DeepSeek,0.0622,true,true
+2026-03-29,DeepSeek,0.0622,true,true
+2026-03-30,DeepSeek,0.0622,true,true
+2026-03-31,DeepSeek,0.0622,true,true
+2026-04-01,DeepSeek,0.0622,true,true
+2026-04-02,DeepSeek,0.0622,true,true
+2026-04-03,DeepSeek,0.0622,true,true
+2026-04-04,DeepSeek,0.0622,true,true
+2026-04-05,DeepSeek,0.0622,true,true
+2026-04-06,DeepSeek,0.0622,true,true
+2026-04-07,DeepSeek,0.0622,true,true
+2026-04-08,DeepSeek,0.0622,true,true
+2026-04-09,DeepSeek,0.0622,true,true
+2026-04-10,DeepSeek,0.0622,true,true
+2026-04-11,DeepSeek,0.0622,true,true
+2026-04-12,DeepSeek,0.0622,true,true
+2026-04-13,DeepSeek,0.0622,true,true
+2026-04-14,DeepSeek,0.0622,true,true
+2026-04-15,DeepSeek,0.0622,true,true
+2026-04-16,DeepSeek,0.0622,true,true
+2026-04-17,DeepSeek,0.0622,true,true
+2026-04-18,DeepSeek,0.0622,true,true
+2026-04-19,DeepSeek,0.0622,true,true
+2026-04-20,DeepSeek,0.0622,true,true
+2026-04-21,DeepSeek,0.0622,true,true
+2026-04-22,DeepSeek,0.0622,true,true
+2026-04-23,DeepSeek,0.0622,true,true
+2026-04-24,DeepSeek,0.0597,true,true
+2026-04-25,DeepSeek,0.1134,true,true
+2026-04-26,DeepSeek,0.0783,true,true
+2026-04-27,DeepSeek,0.1096,true,true
+2026-04-28,DeepSeek,0.1362,true,true
+2026-04-29,DeepSeek,0.1523,true,true
+2026-04-30,DeepSeek,0.1666,true,true
+2026-05-01,DeepSeek,0.1696,true,true
+2026-05-02,DeepSeek,0.1846,true,true
+2026-05-03,DeepSeek,0.1859,true,true
+2026-05-04,DeepSeek,0.1882,true,true
+2026-05-05,DeepSeek,0.1894,true,true
+2026-05-06,DeepSeek,0.1924,true,true
+2026-05-07,DeepSeek,0.1885,true,true
+2026-05-08,DeepSeek,0.1797,true,true
+2026-05-09,DeepSeek,0.1693,true,true
+2026-05-10,DeepSeek,0.1685,true,true
+2026-05-11,DeepSeek,0.1688,true,true
+2026-05-12,DeepSeek,0.1651,true,true
+2026-05-13,DeepSeek,0.1625,true,true
+2026-05-14,DeepSeek,0.1596,true,true
+2026-05-15,DeepSeek,0.1251,true,true
+2026-05-16,DeepSeek,0.1176,true,true
+2026-05-17,DeepSeek,0.1223,true,true
+2026-05-18,DeepSeek,0.1222,true,true
+2026-05-19,DeepSeek,0.1275,true,true
+2026-05-20,DeepSeek,0.126,true,true
+2026-05-21,DeepSeek,0.1214,true,true
+2026-05-22,DeepSeek,0.1101,true,true
+2026-05-23,DeepSeek,0.1431,true,true
+2026-05-24,DeepSeek,0.114,true,true
+2026-05-25,DeepSeek,0.1225,true,true
+2026-05-26,DeepSeek,0.1231,true,true
+2026-05-27,DeepSeek,0.1439,true,true
+2026-05-28,DeepSeek,0.1487,true,true
+2026-05-29,DeepSeek,0.1481,true,true
+2026-05-30,DeepSeek,0.1489,true,true
+2026-05-31,DeepSeek,0.1396,true,true
+2026-06-01,DeepSeek,0.1553,true,true
+2026-06-02,DeepSeek,0.1504,true,true
+2026-06-03,DeepSeek,0.1417,true,true
+2026-06-04,DeepSeek,0.1473,true,true
+2026-06-05,DeepSeek,0.1503,true,true
+2026-06-06,DeepSeek,0.146,true,true
+2026-06-07,DeepSeek,0.14,true,true
+2026-06-08,DeepSeek,0.1487,true,true
+2026-06-09,DeepSeek,0.1713,true,true
+2026-06-10,DeepSeek,0.1358,true,true
+2026-06-11,DeepSeek,0.1328,true,true
+2026-06-12,DeepSeek,0.1314,true,true
+2026-06-13,DeepSeek,0.1427,true,true
+2026-06-14,DeepSeek,0.1412,true,true
+2026-06-15,DeepSeek,0.1493,true,true
+2026-06-16,DeepSeek,0.1702,true,true
+2026-06-17,DeepSeek,0.1702,true,true
+2026-06-18,DeepSeek,0.1637,true,true
+2026-06-19,DeepSeek,0.1533,true,true
+2026-06-20,DeepSeek,0.1348,true,true
+2026-06-21,DeepSeek,0.1335,true,true
+2026-06-22,DeepSeek,0.1391,true,true
+2026-06-23,DeepSeek,0.1383,true,true
+2026-06-24,DeepSeek,0.139,true,true
+2026-06-25,DeepSeek,0.1466,true,true
+2026-06-26,DeepSeek,0.1602,true,true
+2026-06-27,DeepSeek,0.1427,true,true
+2026-06-28,DeepSeek,0.1356,true,true
+2026-06-29,DeepSeek,0.1415,true,true
+2026-06-30,DeepSeek,0.1504,true,true
+2026-07-01,DeepSeek,0.1384,true,true
+2026-07-02,DeepSeek,0.1327,true,true
+2026-07-03,DeepSeek,0.1443,true,true
+2026-07-04,DeepSeek,0.1389,true,true
+2026-07-05,DeepSeek,0.1637,true,true
+2026-07-06,DeepSeek,0.1715,true,true
+2026-07-07,DeepSeek,0.1733,true,true
+2026-07-08,DeepSeek,0.1494,true,true
+2026-07-09,DeepSeek,0.1663,true,true
+2026-07-10,DeepSeek,0.1444,true,true
+2026-07-11,DeepSeek,0.1551,true,true
+2026-07-12,DeepSeek,0.1397,true,true
+2026-07-13,DeepSeek,0.15,true,true
+2026-07-14,DeepSeek,0.1481,true,true
+2026-07-15,DeepSeek,0.1466,true,true
+2026-07-16,DeepSeek,0.1533,true,true
+2026-07-17,DeepSeek,0.1606,true,true
+2026-07-18,DeepSeek,0.15,true,true
+2026-07-19,DeepSeek,0.1631,true,true
+2026-07-20,DeepSeek,0.1669,true,true
+2026-07-21,DeepSeek,0.1497,true,true
+2026-07-22,DeepSeek,0.1579,true,true
+2026-07-23,DeepSeek,0.1575,true,true
+2026-07-24,DeepSeek,0.1439,true,true
+2026-07-25,DeepSeek,0.1432,true,true
+2026-07-26,DeepSeek,0.1495,true,true
+2026-07-27,DeepSeek,0.1604,true,true
+2026-07-28,DeepSeek,0.1533,true,true
+2026-07-29,DeepSeek,0.1458,true,true
+2026-07-30,DeepSeek,0.1443,true,true
+2026-07-31,DeepSeek,0.1381,true,true
+2026-08-01,DeepSeek,0.1718,true,true
+2026-08-02,DeepSeek,0.1332,true,true
+2026-08-03,DeepSeek,0.1402,true,true
+2026-08-04,DeepSeek,0.1348,true,true
+2026-08-05,DeepSeek,0.1212,true,true
+2026-08-06,DeepSeek,0.1069,true,true
+2026-08-07,DeepSeek,0.1047,true,true
+2026-08-08,DeepSeek,0.1178,true,true
+2026-08-09,DeepSeek,0.1083,true,true
+2026-08-10,DeepSeek,0.1096,true,true
+2026-08-11,DeepSeek,0.1047,true,true
+2026-08-12,DeepSeek,0.1172,true,true
+2026-08-13,DeepSeek,0.1298,true,true
+2026-08-14,DeepSeek,0.075,true,true
+2026-08-15,DeepSeek,0.0773,true,true
+2026-08-16,DeepSeek,0.073,true,true
 2026-08-17,DeepSeek,0.0459,true,true
 2026-08-18,DeepSeek,0.0454,true,true
 2026-08-19,DeepSeek,0.0453,true,true
 2026-08-20,DeepSeek,0.0453,true,true
 2026-08-21,DeepSeek,0.0453,true,true
 2026-08-22,DeepSeek,0.0453,true,true
-2026-08-23,DeepSeek,0.0448,true,true
+2026-08-23,DeepSeek,0.0447,true,true
 2026-08-24,DeepSeek,0.0455,true,true
-2026-08-25,DeepSeek,0.0462,true,true
-2026-08-26,DeepSeek,0.044,true,true
-2026-08-27,DeepSeek,0.0449,true,true
-2026-08-28,DeepSeek,0.0463,true,true
-2026-08-29,DeepSeek,0.0465,true,true
-2026-08-30,DeepSeek,0.0461,true,true
-2026-08-31,DeepSeek,0.0462,true,true
-2026-09-01,DeepSeek,0.0464,true,true
-2026-09-02,DeepSeek,0.0459,true,true
-2026-09-03,DeepSeek,0.0449,true,true
-2026-09-04,DeepSeek,0.0441,true,true
-2026-09-05,DeepSeek,0.0443,true,true
-2026-09-06,DeepSeek,0.0452,true,true
-2026-09-07,DeepSeek,0.0466,true,true
-2026-09-08,DeepSeek,0.0472,true,true
-2026-09-09,DeepSeek,0.0473,true,true
-2026-09-10,DeepSeek,0.0322,true,true
+2026-08-25,DeepSeek,0.0461,true,true
+2026-08-26,DeepSeek,0.0439,true,true
+2026-08-27,DeepSeek,0.0448,true,true
+2026-08-28,DeepSeek,0.0462,true,true
+2026-08-29,DeepSeek,0.0464,true,true
+2026-08-30,DeepSeek,0.046,true,true
+2026-08-31,DeepSeek,0.0461,true,true
+2026-09-01,DeepSeek,0.0462,true,true
+2026-09-02,DeepSeek,0.0456,true,true
+2026-09-03,DeepSeek,0.0447,true,true
+2026-09-04,DeepSeek,0.0439,true,true
+2026-09-05,DeepSeek,0.0441,true,true
+2026-09-06,DeepSeek,0.0449,true,true
+2026-09-07,DeepSeek,0.0462,true,true
+2026-09-08,DeepSeek,0.0469,true,true
+2026-09-09,DeepSeek,0.047,true,true
+2026-09-10,DeepSeek,0.032,true,true
 2026-09-11,DeepSeek,0.0343,true,true
 2026-09-12,DeepSeek,0.0325,true,true
 2026-09-13,DeepSeek,0.033,true,true
@@ -3133,6 +4131,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,DeepSeek,0.0285,true,true
 2026-10-27,DeepSeek,0.0284,true,true
 2026-10-28,DeepSeek,0.0283,true,false
+2026-10-29,DeepSeek,0.028,true,false
 2025-07-29,Z.ai,0.1897,true,true
 2025-07-30,Z.ai,0.1897,true,true
 2025-07-31,Z.ai,0.1897,true,true
@@ -3590,6 +4589,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,Z.ai,0.1705,true,true
 2026-10-27,Z.ai,0.1702,true,true
 2026-10-28,Z.ai,0.1461,true,false
+2026-10-29,Z.ai,0.1438,true,false
 2026-01-26,Xiaomi,0.0237,true,true
 2026-01-27,Xiaomi,0.0237,true,true
 2026-01-28,Xiaomi,0.0237,true,true
@@ -3866,6 +4866,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,Xiaomi,0.035,true,true
 2026-10-27,Xiaomi,0.0354,true,true
 2026-10-28,Xiaomi,0.0345,true,false
+2026-10-29,Xiaomi,0.0344,true,false
 2026-03-15,StepFun,0.0324,true,true
 2026-03-16,StepFun,0.0324,true,true
 2026-03-17,StepFun,0.0324,true,true
@@ -4094,6 +5095,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,StepFun,0.2234,true,true
 2026-10-27,StepFun,0.2208,true,true
 2026-10-28,StepFun,0.2221,true,false
+2026-10-29,StepFun,0.2244,true,false
 2025-01-15,MiniMax,0.209,true,true
 2025-01-16,MiniMax,0.209,true,true
 2025-01-17,MiniMax,0.209,true,true
@@ -4743,6 +5745,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,MiniMax,0.0525,true,true
 2026-10-27,MiniMax,0.0417,true,true
 2026-10-28,MiniMax,0.041,true,false
+2026-10-29,MiniMax,0.0406,true,false
 2025-01-01,Mistral,0.1971,true,true
 2025-01-02,Mistral,0.1953,true,true
 2025-01-03,Mistral,0.1947,true,true
@@ -5335,6 +6338,7 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,Mistral,0.3268,true,true
 2026-10-27,Mistral,0.3268,true,true
 2026-10-28,Mistral,0.3268,true,false
+2026-10-29,Mistral,0.1659,true,false
 2026-02-18,NVIDIA,0.02,true,true
 2026-02-19,NVIDIA,0.02,true,true
 2026-02-20,NVIDIA,0.02,true,true
@@ -5588,3 +6592,4 @@ date,company,usd_per_1m_tokens,final,rebuilt_history
 2026-10-26,NVIDIA,0.2004,true,true
 2026-10-27,NVIDIA,0.2004,true,true
 2026-10-28,NVIDIA,0.2004,true,false
+2026-10-29,NVIDIA,0.2004,true,false
