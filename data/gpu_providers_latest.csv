@@ -1,73 +1,74 @@
 gpu,provider,average_usd_per_gpu_hour,prices,status,read_at
-H100,Lium,2.2335,9,observed,2026-10-30T14:14:03Z
-H100,Latitude.sh,2.3978,0,imputed: no capacity at any collection,
-H100,Denvr via Shadeform,2.5016,0,imputed: no capacity at any collection,
-H100,Akash,2.58,1,observed,2026-10-30T14:14:03Z
-H100,Civo,2.99,2,observed,2026-10-30T13:59:04Z
-H100,Vast.ai,3.0442,30,observed,2026-10-30T14:14:03Z
-H100,RunPod,3.0912,6,observed,2026-10-30T14:14:03Z
-H100,Hyperstack,3.1999,3,observed,2026-10-30T13:59:04Z
-H100,Massed Compute,3.2821,8,observed,2026-10-30T14:14:03Z
-H100,Jarvis Labs,3.49,1,observed,2026-10-30T13:59:04Z
-H100,Scaleway,3.8459,7,observed,2026-10-30T14:14:03Z
-H100,OVHcloud,3.9107,3,observed,2026-10-30T13:59:04Z
-H100,Together AI,3.99,1,observed,2026-10-30T13:59:04Z
-H100,Lambda,4.1377,5,observed,2026-10-30T13:59:04Z
-H100,Nebius,4.5,1,observed,2026-10-30T13:59:04Z
-H100,Verda (DataCrunch),4.7776,5,observed,2026-10-30T14:14:03Z
-H100,DigitalOcean,5.4455,3,observed,2026-10-30T14:14:03Z
-H100,CoreWeave,6.155,1,observed,2026-10-30T12:59:32Z
-H200,Civo,3.49,2,observed,2026-10-30T13:59:04Z
-H200,Hyperstack,3.99,1,observed,2026-10-30T13:59:04Z
-H200,Excess Supply via Shadeform,4.0904,7,observed,2026-10-30T14:14:03Z
-H200,Lium,4.2739,15,observed,2026-10-30T14:14:03Z
-H200,Jarvis Labs,4.59,1,observed,2026-10-30T13:59:04Z
-H200,RunPod,4.6422,3,observed,2026-10-30T14:14:03Z
-H200,Massed Compute,4.909,6,observed,2026-10-30T13:59:04Z
-H200,Nebius,5.4,1,observed,2026-10-30T13:59:04Z
-H200,Vast.ai,5.4824,36,observed,2026-10-30T14:14:03Z
-H200,Akash,5.9412,0,imputed: no price collected,
-H200,Together AI,5.99,1,observed,2026-10-30T13:59:04Z
-H200,Verda (DataCrunch),6.23,4,observed,2026-10-30T14:14:03Z
-H200,CoreWeave,6.305,1,observed,2026-10-30T12:59:32Z
-A100,Vast.ai,1.1529,54,observed,2026-10-30T14:14:03Z
-A100,Massed Compute,1.4662,8,observed,2026-10-30T14:14:03Z
-A100,Akash,1.49,1,observed,2026-10-30T14:14:03Z
-A100,Hyperstack,1.5875,3,observed,2026-10-30T13:59:04Z
-A100,RunPod,1.6006,5,observed,2026-10-30T14:14:03Z
-A100,Denvr via Shadeform,1.7807,4,observed,2026-10-30T14:14:03Z
-A100,Excess Supply via Shadeform,1.9,3,observed,2026-10-30T14:14:03Z
-A100,Crusoe via Shadeform,2.237,9,observed,2026-10-30T14:14:03Z
-A100,Verda (DataCrunch),2.2402,6,observed,2026-10-30T14:14:03Z
-A100,Lambda,2.8722,6,observed,2026-10-30T13:59:04Z
-A100,DigitalOcean,3.9533,8,observed,2026-10-30T14:14:03Z
-B200,Massed Compute,5.4325,1,observed,2026-10-30T13:59:04Z
-B200,Lium,5.9918,10,observed,2026-10-30T14:14:03Z
-B200,Hyperstack,6.0,1,observed,2026-10-30T13:59:04Z
-B200,Lambda,6.84,4,observed,2026-10-30T13:59:04Z
-B200,RunPod,6.985,2,observed,2026-10-30T14:14:03Z
-B200,Together AI,8.19,1,observed,2026-10-30T13:59:04Z
-B200,Nebius,8.5,1,observed,2026-10-30T13:59:04Z
-B200,CoreWeave,8.6,1,observed,2026-10-30T12:59:32Z
-B200,Verda (DataCrunch),8.8407,4,observed,2026-10-30T14:14:03Z
-B200,Vast.ai,9.3011,17,observed,2026-10-30T14:14:03Z
-B300,Massed Compute,6.6,1,observed,2026-10-30T13:59:04Z
-B300,Hyperstack,7.4,1,observed,2026-10-30T13:59:04Z
-B300,Lium,7.7872,7,observed,2026-10-30T14:14:03Z
-B300,RunPod,7.965,2,observed,2026-10-30T14:14:03Z
-B300,Latitude.sh,8.0,1,observed,2026-10-30T13:59:04Z
-B300,Scaleway,8.2402,0,imputed: no capacity at any collection,
-B300,Excess Supply via Shadeform,8.3431,0,imputed: no capacity at any collection,
-B300,Vast.ai,9.0464,4,observed,2026-10-30T14:14:03Z
-B300,Nebius,9.5,1,observed,2026-10-30T13:59:04Z
-B300,Together AI,9.99,1,observed,2026-10-30T13:59:04Z
-B300,Verda (DataCrunch),11.3144,4,observed,2026-10-30T14:14:03Z
-RTX PRO 6000,Vast.ai,1.617,281,observed,2026-10-30T14:14:03Z
-RTX PRO 6000,Akash,1.68,2,observed,2026-10-30T14:14:03Z
-RTX PRO 6000,Lium,1.781,13,observed,2026-10-30T14:14:03Z
-RTX PRO 6000,Nebius,1.8,1,observed,2026-10-30T13:59:04Z
-RTX PRO 6000,Hyperstack,1.85,1,observed,2026-10-30T13:59:04Z
-RTX PRO 6000,RunPod,2.041,5,observed,2026-10-30T14:14:03Z
-RTX PRO 6000,Jarvis Labs,2.19,1,observed,2026-10-30T13:59:04Z
-RTX PRO 6000,CoreWeave,2.5,1,observed,2026-10-30T12:59:32Z
-RTX PRO 6000,Verda (DataCrunch),2.6367,4,observed,2026-10-30T14:14:03Z
+H100,Latitude.sh,2.4177,0,imputed: no capacity at any collection,
+H100,Denvr via Shadeform,2.4964,0,imputed: no capacity at any collection,
+H100,Akash,2.58,1,observed,2026-10-31T13:39:01Z
+H100,Lium,2.6174,6,observed,2026-10-31T12:59:02Z
+H100,Vast.ai,2.9326,32,observed,2026-10-31T13:39:01Z
+H100,Civo,2.99,2,observed,2026-10-31T13:31:02Z
+H100,RunPod,3.0912,6,observed,2026-10-31T13:39:01Z
+H100,Hyperstack,3.1999,3,observed,2026-10-31T13:31:02Z
+H100,Massed Compute,3.2821,8,observed,2026-10-31T13:39:01Z
+H100,Jarvis Labs,3.49,1,observed,2026-10-31T13:31:02Z
+H100,Scaleway,3.8604,7,observed,2026-10-31T13:35:02Z
+H100,OVHcloud,3.9254,3,observed,2026-10-31T13:31:02Z
+H100,Together AI,3.99,1,observed,2026-10-31T13:31:02Z
+H100,Excess Supply via Shadeform,4.0,1,observed,2026-10-31T13:39:01Z
+H100,Lambda,4.1377,5,observed,2026-10-31T13:31:02Z
+H100,Nebius,4.5,1,observed,2026-10-31T13:31:02Z
+H100,Verda (DataCrunch),4.7928,5,observed,2026-10-31T13:35:02Z
+H100,DigitalOcean,5.4455,3,observed,2026-10-31T13:39:01Z
+H100,CoreWeave,6.155,1,observed,2026-10-31T12:35:54Z
+H200,Civo,3.49,2,observed,2026-10-31T13:31:02Z
+H200,Hyperstack,3.99,1,observed,2026-10-31T13:31:02Z
+H200,Lium,4.0855,28,observed,2026-10-31T13:39:01Z
+H200,Excess Supply via Shadeform,4.3761,7,observed,2026-10-31T13:39:01Z
+H200,Jarvis Labs,4.59,1,observed,2026-10-31T13:31:02Z
+H200,RunPod,4.6422,3,observed,2026-10-31T13:39:01Z
+H200,Massed Compute,4.909,6,observed,2026-10-31T13:31:02Z
+H200,Nebius,5.4,1,observed,2026-10-31T13:31:02Z
+H200,Vast.ai,5.4502,50,observed,2026-10-31T13:39:01Z
+H200,Akash,5.9518,0,imputed: no price collected,
+H200,Together AI,5.99,1,observed,2026-10-31T13:31:02Z
+H200,Verda (DataCrunch),6.25,4,observed,2026-10-31T13:35:02Z
+H200,CoreWeave,6.305,1,observed,2026-10-31T12:35:54Z
+A100,Vast.ai,1.1759,58,observed,2026-10-31T13:39:01Z
+A100,Massed Compute,1.4662,8,observed,2026-10-31T13:39:01Z
+A100,Akash,1.49,1,observed,2026-10-31T13:39:01Z
+A100,Hyperstack,1.5875,3,observed,2026-10-31T13:31:02Z
+A100,RunPod,1.6006,5,observed,2026-10-31T13:39:01Z
+A100,Denvr via Shadeform,1.7807,4,observed,2026-10-31T13:39:01Z
+A100,Excess Supply via Shadeform,1.9,3,observed,2026-10-31T13:39:01Z
+A100,Crusoe via Shadeform,2.237,9,observed,2026-10-31T13:39:01Z
+A100,Verda (DataCrunch),2.2473,6,observed,2026-10-31T13:35:02Z
+A100,Lambda,2.8722,6,observed,2026-10-31T13:31:02Z
+A100,DigitalOcean,3.9533,8,observed,2026-10-31T13:39:01Z
+B200,Massed Compute,5.4325,1,observed,2026-10-31T13:31:02Z
+B200,Hyperstack,6.0,1,observed,2026-10-31T13:31:02Z
+B200,Lium,6.0571,9,observed,2026-10-31T13:39:01Z
+B200,Lambda,6.84,4,observed,2026-10-31T13:31:02Z
+B200,RunPod,6.985,2,observed,2026-10-31T13:39:01Z
+B200,Together AI,8.19,1,observed,2026-10-31T13:31:02Z
+B200,Nebius,8.5,1,observed,2026-10-31T13:31:02Z
+B200,CoreWeave,8.6,1,observed,2026-10-31T12:35:54Z
+B200,Verda (DataCrunch),8.8694,4,observed,2026-10-31T13:35:02Z
+B200,Vast.ai,8.909,23,observed,2026-10-31T13:39:01Z
+B300,Massed Compute,6.6,1,observed,2026-10-31T13:31:02Z
+B300,Hyperstack,7.4,1,observed,2026-10-31T13:31:02Z
+B300,RunPod,7.965,2,observed,2026-10-31T13:39:01Z
+B300,Latitude.sh,8.0,1,observed,2026-10-31T13:31:02Z
+B300,Scaleway,8.578,0,imputed: no capacity at any collection,
+B300,Excess Supply via Shadeform,8.6852,0,imputed: no capacity at any collection,
+B300,Nebius,9.5,1,observed,2026-10-31T13:31:02Z
+B300,Vast.ai,9.866,4,observed,2026-10-31T13:39:01Z
+B300,Together AI,9.99,1,observed,2026-10-31T13:31:02Z
+B300,Lium,10.2187,6,observed,2026-10-31T13:39:01Z
+B300,Verda (DataCrunch),11.35,4,observed,2026-10-31T13:35:02Z
+RTX PRO 6000,Vast.ai,1.6276,280,observed,2026-10-31T13:39:01Z
+RTX PRO 6000,Akash,1.68,2,observed,2026-10-31T13:39:01Z
+RTX PRO 6000,Nebius,1.8,1,observed,2026-10-31T13:31:02Z
+RTX PRO 6000,Hyperstack,1.85,1,observed,2026-10-31T13:31:02Z
+RTX PRO 6000,Lium,1.9223,11,observed,2026-10-31T13:39:01Z
+RTX PRO 6000,RunPod,2.041,5,observed,2026-10-31T13:39:01Z
+RTX PRO 6000,Jarvis Labs,2.19,1,observed,2026-10-31T13:31:02Z
+RTX PRO 6000,CoreWeave,2.5,1,observed,2026-10-31T12:35:54Z
+RTX PRO 6000,Verda (DataCrunch),2.645,4,observed,2026-10-31T13:35:02Z
