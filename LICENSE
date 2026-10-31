@@ -3,7 +3,9 @@ Copyright (c) 2026 Compute Screener (computescreener.com). All rights reserved.
 The code in this repository, including the minified files in dist/, is proprietary. No licence is
 granted to use, copy, modify, merge, publish, distribute, sublicense or sell it, in whole or in part,
 without written permission from Compute Screener. The code in verify/ is licensed separately, for checking
-and reproducing Compute Screener's published values: see verify/LICENSE.
+and reproducing Compute Screener's published values: see verify/LICENSE. The install files
+(gemini-extension.json, GEMINI.md, .claude-plugin/ and plugins/) may be copied and used to install and use
+the Compute Screener connector (https://computescreener.com/mcp) in any app.
 
 The Compute Screener name and raccoon logo are not licensed for reuse.
 

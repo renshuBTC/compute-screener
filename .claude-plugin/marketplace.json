@@ -1,0 +1,17 @@
+{
+  "name": "compute-screener",
+  "owner": {
+    "name": "Compute Screener",
+    "email": "support@computescreener.com",
+    "url": "https://computescreener.com"
+  },
+  "description": "Compute Screener's connector for Claude Code: GPU rental prices per hour and AI model API prices per 1M tokens.",
+  "plugins": [
+    {
+      "name": "compute-screener",
+      "source": "./plugins/compute-screener",
+      "category": "data",
+      "tags": ["gpu", "gpu-pricing", "ai-api-pricing", "mcp"]
+    }
+  ]
+}

@@ -42,22 +42,30 @@ No account or key.
 | | How |
 | --- | --- |
 | MCP (Claude, ChatGPT and other AI apps) | Add the connector `https://computescreener.com/mcp`. Setup: [computescreener.com/connect](https://computescreener.com/connect) |
+| Claude Code | `/plugin install compute-screener --marketplace renshuBTC/compute-screener` (or `/plugin marketplace add renshuBTC/compute-screener`, then `/plugin install compute-screener@compute-screener`) |
+| Gemini CLI | `gemini extensions install https://github.com/renshuBTC/compute-screener` |
 | API (JSON) | Docs: [computescreener.com/api](https://computescreener.com/api) · [index.json](https://computescreener.com/data/index.json) (latest GPU prices) · [series.json](https://computescreener.com/data/series.json) (GPU history) · [tokens.json](https://computescreener.com/data/tokens.json) · [token_series.json](https://computescreener.com/data/token_series.json) · [models.json](https://computescreener.com/data/models.json) (model prices and history) · [token_market.json](https://computescreener.com/data/token_market.json) (every AI model's price) · [gpu_market.json](https://computescreener.com/data/gpu_market.json) (every other GPU's posted prices) |
 | CSV (this repo) | [data/](data): every GPU's and company's daily index, provider averages, and each model's daily input and output prices, updated every day |
 
 The connector is listed in Claude's connector directory and in the official MCP Registry as `com.computescreener/compute-screener`.
+Its [MCP Server Card](https://computescreener.com/mcp/server-card) is listed in the site's
+[AI Catalog](https://computescreener.com/.well-known/ai-catalog.json).
 
 ## This repository
 
 `data/` holds the daily CSV copies (see [data/README.md](data/README.md)), refreshed by a scheduled workflow.
 `verify/` holds the GPU index's calculation code and the verifier. `dist/` holds a minified build of the website's
-pages, for reference. The price collectors and the connector are not published.
+pages, for reference. `gemini-extension.json` and `GEMINI.md` make this repository a Gemini CLI extension, and
+`.claude-plugin/` with `plugins/` a Claude Code plugin marketplace: each only points the app to the hosted connector at
+`https://computescreener.com/mcp`. The price collectors and the connector's code are not published.
 
 ## Licence
 
 - **Data:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse it, including commercially, with credit to "Compute Screener (computescreener.com)". See the [terms](https://computescreener.com/terms).
 - **Code:** © 2026 Compute Screener. All rights reserved: no licence is granted to copy, modify or redistribute it. See [LICENSE](LICENSE).
   The code in `verify/` may be read, copied and run to check or reproduce the published values: see [verify/LICENSE](verify/LICENSE).
+  The install files (`gemini-extension.json`, `GEMINI.md`, `.claude-plugin/` and `plugins/`) may be copied and used to
+  install and use the connector.
 
 Prices are information about posted prices.
 

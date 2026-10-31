@@ -1,0 +1,11 @@
+{
+  "name": "compute-screener",
+  "version": "1.19.0",
+  "description": "GPU cloud pricing (H100, H200, B200 per hour) and AI model API pricing per 1M tokens, with history. Free, no account.",
+  "mcpServers": {
+    "compute-screener": {
+      "httpUrl": "https://computescreener.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

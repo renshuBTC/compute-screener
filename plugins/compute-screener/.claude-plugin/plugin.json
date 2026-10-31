@@ -1,0 +1,13 @@
+{
+  "name": "compute-screener",
+  "displayName": "Compute Screener",
+  "version": "1.19.0",
+  "description": "GPU cloud pricing (H100, H200, B200 per hour) and AI model API pricing per 1M tokens, with history. Free, no account.",
+  "author": {
+    "name": "Compute Screener",
+    "url": "https://computescreener.com"
+  },
+  "homepage": "https://computescreener.com/connect",
+  "repository": "https://github.com/renshuBTC/compute-screener",
+  "keywords": ["gpu", "gpu-pricing", "h100", "b200", "ai-api-pricing", "tokens", "mcp"]
+}
