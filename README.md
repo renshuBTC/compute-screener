@@ -56,15 +56,15 @@ Its [MCP Server Card](https://computescreener.com/mcp/server-card) is listed in 
 `data/` holds the daily CSV copies (see [data/README.md](data/README.md)), refreshed by a scheduled workflow.
 `verify/` holds the GPU index's calculation code and the verifier. `dist/` holds a minified build of the website's
 pages, for reference. `gemini-extension.json` and `GEMINI.md` make this repository a Gemini CLI extension, and
-`.claude-plugin/` with `plugins/` a Claude Code plugin marketplace: each only points the app to the hosted connector at
-`https://computescreener.com/mcp`. The price collectors and the connector's code are not published.
+`.claude-plugin/` with `plugins/` a Claude Code plugin marketplace, and [llms-install.md](llms-install.md) tells an AI agent
+how to add the connector: each only points the app to the hosted connector at `https://computescreener.com/mcp`. The price collectors and the connector's code are not published.
 
 ## Licence
 
 - **Data:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse it, including commercially, with credit to "Compute Screener (computescreener.com)". See the [terms](https://computescreener.com/terms).
 - **Code:** © 2026 Compute Screener. All rights reserved: no licence is granted to copy, modify or redistribute it. See [LICENSE](LICENSE).
   The code in `verify/` may be read, copied and run to check or reproduce the published values: see [verify/LICENSE](verify/LICENSE).
-  The install files (`gemini-extension.json`, `GEMINI.md`, `.claude-plugin/` and `plugins/`) may be copied and used to
+  The install files (`gemini-extension.json`, `GEMINI.md`, `llms-install.md`, `.claude-plugin/` and `plugins/`) may be copied and used to
   install and use the connector.
 
 Prices are information about posted prices.
